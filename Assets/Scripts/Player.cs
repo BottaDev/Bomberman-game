@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float bombTimeToExplode = 3f;
     [Range(min: 2, max: 8)]
     public int bombRange = 2;   // Valor expresado en bloques del mapa
+    public float speed;
 
 
     // Update is called once per frame

@@ -95,7 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToExplode: 3
   explosionRange: 2
-  explosionPrefab: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
+  explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
     type: 3}
   levelMask:
     serializedVersion: 2

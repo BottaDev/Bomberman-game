@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DroppableBombController : MonoBehaviour
 {
-    public GameObject bombPrefab;
+    public GameObject bombGO;
 
     private Player player;
     private float currentBombCd = 0;
@@ -26,7 +26,7 @@ public class DroppableBombController : MonoBehaviour
 
     private void DropBomb()
     {
-        GameObject bomb = Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y), bombPrefab.transform.position.z), bombPrefab.transform.rotation);
+        GameObject bomb = Instantiate(bombGO, new Vector3(Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y), bombGO.transform.position.z), bombGO.transform.rotation);
         BombController bombController = bomb.GetComponent<BombController>();
         bombController.timeToExplode = player.bombTimeToExplode;
         bombController.explosionRange = player.bombRange;
