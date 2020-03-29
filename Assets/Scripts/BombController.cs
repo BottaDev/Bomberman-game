@@ -6,7 +6,7 @@ public class BombController : MonoBehaviour
 {
     public float timeToExplode = 3;
     public int explosionRange = 2;
-    public GameObject explosionPrefab;
+    public GameObject explosionGO;
     public LayerMask levelMask;
 
     private void Start()
@@ -32,7 +32,7 @@ public class BombController : MonoBehaviour
             Physics.Raycast(transform.position + new Vector3(0, 0.5f, 0), direction, out hit, i, levelMask);  // i define la distancia (en bloques) que el raycast deberia viajar
 
             if (!hit.collider)
-                Instantiate(explosionPrefab, transform.position + (i * direction), explosionPrefab.transform.rotation);
+                Instantiate(explosionGO, transform.position + (i * direction), explosionGO.transform.rotation);
             else
                 break;
 
