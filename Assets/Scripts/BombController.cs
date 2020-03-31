@@ -28,8 +28,7 @@ public class BombController : MonoBehaviour
     {
         for (int i = 1; i < explosionRange + 1; i++)
         {
-            RaycastHit hit;
-            Physics.Raycast(transform.position + new Vector3(0, 0.5f, 0), direction, out hit, i, levelMask);  // i define la distancia (en bloques) que el raycast deberia viajar
+            RaycastHit2D hit = Physics2D.Raycast(transform.position + new Vector3(0, 0.5f, 0), direction, i, levelMask);    // i define la distancia (en bloques) que el raycast deberia viajar
 
             if (!hit.collider)
                 Instantiate(explosionGO, transform.position + (i * direction), explosionGO.transform.rotation);
