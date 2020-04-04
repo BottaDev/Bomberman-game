@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class DroppableBombController : MonoBehaviour
 {
@@ -8,10 +9,12 @@ public class DroppableBombController : MonoBehaviour
 
     private Player player;
     private float currentBombCd = 0;
+    private Tilemap tilemap;
 
     private void Start()
     {
         player = GetComponent<Player>();
+        tilemap = GameObject.Find("Blocks").GetComponent<Tilemap>();
     }
 
     private void Update()
@@ -26,10 +29,14 @@ public class DroppableBombController : MonoBehaviour
 
     private void DropBomb()
     {
-        GameObject bomb = Instantiate(bombGO, new Vector3(Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y), bombGO.transform.position.z), bombGO.transform.rotation);
+        Vector3Int cell = tilemap.WorldToCell(transform.position);
+        Vector3 cellCenterPos = tilemap.GetCellCenterWorld(cell);
+
+        GameObject bomb = Instantiate(bombGO, cellCenterPos, Quaternion.identity);
         BombController bombController = bomb.GetComponent<BombController>();
         bombController.timeToExplode = player.bombTimeToExplode;
         bombController.explosionRange = player.bombRange;
+        bombController.StartCoroutine("Explode", true);
 
         currentBombCd = player.bombCd;
     }
