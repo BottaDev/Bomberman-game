@@ -4,24 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Player Settings")]
+    public float life = 2;
+    public float speed = 5;
+
+    [Header("Bomb Settings")]
+    [Range(min: 0.5f, max: 3f)]
     public float bombCd;
     [Range(min: 0.5f, max: 3f)]
     public float bombTimeToExplode = 3f;
-    [Range(min: 2, max: 8)]
+    [Range(min: 2, max: 5)]
     public int bombRange = 2;   // Valor expresado en bloques del mapa
-    public float speed;
-    public float life = 2;
-    public BoxCollider2D boxCollider;
+
+    private CircleCollider2D collider;
 
     private void Start()
     {
-        boxCollider = this.GetComponent<BoxCollider2D>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        collider = this.GetComponent<CircleCollider2D>();
     }
 
     public void TakeDamage(float damage)
@@ -31,15 +30,14 @@ public class Player : MonoBehaviour
         if (life <= 0)
         {
             Destroy(gameObject);
-            //SceneManager.LoadScene("");
         }
-        StartCoroutine("SetInvunerable");
+        StartCoroutine("SetInvulnerable");
     }
 
-    IEnumerator SetInvunerable()
+    IEnumerator SetInvulnerable()
     {
-        boxCollider.enabled = false; 
+        collider.enabled = false; 
         yield return new WaitForSeconds(2);
-        boxCollider.enabled = true;
+        collider.enabled = true;
     }
 }

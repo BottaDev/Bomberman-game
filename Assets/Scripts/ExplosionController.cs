@@ -14,6 +14,7 @@ public class ExplosionController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Player collision
         if (collision.gameObject.layer == 9)
         {
             Player player = collision.gameObject.GetComponent<Player>();
