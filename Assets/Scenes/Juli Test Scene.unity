@@ -3713,6 +3713,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1708248516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1537039692470931475, guid: 5f99f4ddb4e08c64f965161d8e8ea836,
+    type: 3}
+  m_PrefabInstance: {fileID: 6156193742641837938}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1765968253
 GameObject:
   m_ObjectHideFlags: 0
@@ -6023,7 +6029,17 @@ PrefabInstance:
     - target: {fileID: 1765279681243824766, guid: 5f99f4ddb4e08c64f965161d8e8ea836,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322083252886674664, guid: 5f99f4ddb4e08c64f965161d8e8ea836,
+        type: 3}
+      propertyPath: direction
+      value: 
+      objectReference: {fileID: 1708248516}
+    - target: {fileID: 2772025898036819098, guid: 5f99f4ddb4e08c64f965161d8e8ea836,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6156193743334003312, guid: 5f99f4ddb4e08c64f965161d8e8ea836,
         type: 3}

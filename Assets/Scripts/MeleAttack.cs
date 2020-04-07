@@ -5,16 +5,20 @@ using UnityEngine;
 public class MeleAttack : MonoBehaviour
 {
     public Transform positionAttack;
+    public GameObject direction;
     public float rangeAttack = 0.5f;
     public LayerMask allLayers;
     public float damage;
+    public PlayerMovement player;
 
     private void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             Attack();
         }
+        direction.transform.localPosition = direction.transform.localPosition - new Vector3(5, 0, 0);
     }
 
     void Attack()
