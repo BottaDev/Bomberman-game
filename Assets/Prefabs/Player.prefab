@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 2323990091454848041}
   - component: {fileID: 3786846090507827629}
   - component: {fileID: 6541275013504766113}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,12 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb6ad28f4252c54b80c5fba830b8c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  life: 2
+  speed: 5
   bombCd: 1
   bombTimeToExplode: 3
   bombRange: 2
-  speed: 5
-  life: 2
-  boxCollider: {fileID: 0}
 --- !u!114 &6156193743334003318
 MonoBehaviour:
   m_ObjectHideFlags: 0
