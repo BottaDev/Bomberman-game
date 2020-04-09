@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public int bombRange = 2;   // Valor expresado en bloques del mapa
 
     private CircleCollider2D collider;
+    private bool canBeDamaged = true;
 
     private void Start()
     {
@@ -25,19 +26,24 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        life -= damage;
-
-        if (life <= 0)
+        if (canBeDamaged)
         {
-            Destroy(gameObject);
+            life -= damage;
+
+            if (life <= 0)
+            {
+                Destroy(gameObject);
+            }
+            StartCoroutine("SetInvulnerable");
         }
-        StartCoroutine("SetInvulnerable");
     }
 
     IEnumerator SetInvulnerable()
     {
-        collider.enabled = false; 
-        yield return new WaitForSeconds(2);
-        collider.enabled = true;
+        canBeDamaged = false;
+
+        yield return new WaitForSeconds(1.5f);
+
+        canBeDamaged = true;
     }
 }
