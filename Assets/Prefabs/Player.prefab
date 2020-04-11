@@ -132,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 2
   speed: 5
+  bombStack: 3
   bombCd: 1
   bombTimeToExplode: 3
   bombRange: 2
@@ -148,7 +149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombGO: {fileID: 1962719680707978622, guid: f603e6a2a5930b346bbc3b3002a08232, type: 3}
-  bombStack: 3
 --- !u!114 &2323990091454848041
 MonoBehaviour:
   m_ObjectHideFlags: 0

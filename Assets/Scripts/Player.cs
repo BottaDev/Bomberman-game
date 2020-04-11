@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     [Header("Player Settings")]
     public float life = 2;
     public float speed = 5;
+    public int bombStack = 3;
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]
@@ -16,13 +17,7 @@ public class Player : MonoBehaviour
     [Range(min: 2, max: 5)]
     public int bombRange = 2;   // Valor expresado en bloques del mapa
 
-    private CircleCollider2D collider;
     private bool canBeDamaged = true;
-
-    private void Start()
-    {
-        collider = this.GetComponent<CircleCollider2D>();
-    }
 
     public void TakeDamage(float damage)
     {
@@ -31,14 +26,13 @@ public class Player : MonoBehaviour
             life -= damage;
 
             if (life <= 0)
-            {
                 Destroy(gameObject);
-            }
+
             StartCoroutine("SetInvulnerable");
         }
     }
 
-    IEnumerator SetInvulnerable()
+    private IEnumerator SetInvulnerable()
     {
         canBeDamaged = false;
 

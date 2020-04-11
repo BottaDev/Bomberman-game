@@ -8,13 +8,13 @@ public class BombController : MonoBehaviour
     public int explosionRange = 2;
     public GameObject explosionGO;
 
-    private CircleCollider2D collider;
+    private CircleCollider2D bombCollider;
     private bool exploded = false;
 
     private void Awake()
     {
-        collider = GetComponent<CircleCollider2D>();
-        collider.enabled = false;
+        bombCollider = GetComponent<CircleCollider2D>();
+        bombCollider.enabled = false;
 
         StartCoroutine("ActivateCollider");
     }
@@ -22,7 +22,7 @@ public class BombController : MonoBehaviour
     private IEnumerator ActivateCollider()
     {
         yield return new WaitForSeconds(0.5f);
-        collider.enabled = true;
+        bombCollider.enabled = true;
         yield return null;
     }
 

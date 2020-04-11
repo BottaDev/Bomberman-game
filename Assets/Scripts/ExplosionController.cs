@@ -20,5 +20,12 @@ public class ExplosionController : MonoBehaviour
             Player player = collision.gameObject.GetComponent<Player>();
             player.TakeDamage(damage);
         }
+
+        // Enemy collision
+        if (collision.gameObject.layer == 11)
+        {
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            enemy.TakeDamage(damage);
+        } 
     }
 }
