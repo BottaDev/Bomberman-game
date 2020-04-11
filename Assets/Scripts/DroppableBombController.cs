@@ -10,7 +10,6 @@ public class DroppableBombController : MonoBehaviour
     private Player player;
     private float currentBombCd = 0;
     private Tilemap tilemap;
-    public int bombStack = 3;
 
     private void Start()
     {
@@ -24,14 +23,10 @@ public class DroppableBombController : MonoBehaviour
         if (currentBombCd <= 0)
             currentBombCd = 0;
 
-        if (Input.GetKeyDown(KeyCode.Space) && currentBombCd <= 0)
+        if (Input.GetKeyDown(KeyCode.Space) && currentBombCd <= 0 && player.bombStack > 0)
         {
-            if (bombStack > 0)
-            {
                 DropBomb();
-                bombStack = bombStack - 1;
-            }
-
+                player.bombStack -= 1;
         }
     }
 

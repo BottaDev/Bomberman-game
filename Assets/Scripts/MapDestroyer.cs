@@ -39,11 +39,14 @@ public class MapDestroyer : MonoBehaviour
 			if (tile == indestructibleTile && direction != -1)
 			{
 				this.canExplode[direction] = false;
-					return;
+				return;
 			}
 				
 			if (tile == destructibleTile)
+			{
 				tilemap.SetTile(cell, null);
+				this.canExplode[direction] = false;
+			}
 
 			Vector3 pos = tilemap.GetCellCenterWorld(cell);
 			Instantiate(explosionGO, pos, Quaternion.identity);
