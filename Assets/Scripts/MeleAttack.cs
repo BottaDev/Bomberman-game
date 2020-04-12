@@ -18,7 +18,14 @@ public class MeleAttack : MonoBehaviour
         {
             Attack();
         }
-        direction.transform.localPosition = direction.transform.localPosition - new Vector3(5, 0, 0);
+        if (player.moveUp == true)
+            direction.transform.localPosition = new Vector3(0, 0.1f, 0);
+        if (player.moveDown == true)
+            direction.transform.localPosition = new Vector3(0, -0.1f, 0);
+        if (player.moveRight == true)
+            direction.transform.localPosition = new Vector3(0.1f, 0, 0);
+        if (player.moveLeft == true)
+            direction.transform.localPosition = new Vector3(-0.1f, 0, 0);
     }
 
     void Attack()
