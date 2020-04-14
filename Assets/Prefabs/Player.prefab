@@ -134,7 +134,7 @@ MonoBehaviour:
   speed: 5
   bombStack: 3
   bombCd: 1
-  bombTimeToExplode: 3
+  bombTimeToExplode: 1.75
   bombRange: 2
 --- !u!114 &6156193743334003318
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   rangeAttack: 0.32
   allLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 2304
   damage: 0
   player: {fileID: 2323990091454848041}
 --- !u!1 &6224583737534817846

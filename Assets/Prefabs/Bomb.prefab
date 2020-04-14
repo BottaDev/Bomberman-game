@@ -116,6 +116,12 @@ MonoBehaviour:
   destructibleTile: {fileID: 11400000, guid: 9881b0dc18cb31147a651fbed21195dc, type: 2}
   explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
     type: 3}
+  bombPlusGO: {fileID: 5286626215448112834, guid: e9fc3c8b7420045e3b17da2ef5bce2e9,
+    type: 3}
+  moreRangeGO: {fileID: 736808080049414640, guid: a4817502901884478a9deed666025c11,
+    type: 3}
+  moreSpeedGO: {fileID: 1567099483808209087, guid: 7be5222783db14df2806830d7c3d9ccd,
+    type: 3}
   tilemap: {fileID: 0}
 --- !u!58 &-3957711584753198733
 CircleCollider2D:
