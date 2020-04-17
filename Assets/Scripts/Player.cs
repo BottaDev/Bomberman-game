@@ -40,4 +40,19 @@ public class Player : MonoBehaviour
 
         canBeDamaged = true;
     }
+
+    public void ApplyPowerUp(int extraBomb)
+    {
+        bombStack = bombStack + extraBomb;
+    }
+
+    public void ApplyPowerUp2(int extraRange)
+    {
+        bombRange = bombRange + extraRange;
+    }
+
+    public void ApplyPowerUp3(float extraSpeed)
+    {
+        speed = speed * extraSpeed;
+    }
 }

@@ -8,6 +8,11 @@ public class MapDestroyer : MonoBehaviour
 	public Tile indestructibleTile;
 	public Tile destructibleTile;
 	public GameObject explosionGO;
+	int randomProbability;
+	int randomProbabilityPowerUp;
+	public GameObject bombPlusGO;
+	public GameObject moreRangeGO;
+	public GameObject moreSpeedGO;
 
 	[SerializeField]
 	private Tilemap tilemap;
@@ -46,10 +51,61 @@ public class MapDestroyer : MonoBehaviour
 			{
 				tilemap.SetTile(cell, null);
 				this.canExplode[direction] = false;
+				DropPowerUp(cell);
 			}
 
 			Vector3 pos = tilemap.GetCellCenterWorld(cell);
 			Instantiate(explosionGO, pos, Quaternion.identity);
 		}
 	}
+
+    void DropPowerUp(Vector3Int cell)
+    {
+        switch (randomProbability = Random.Range(1,11))
+        {
+			case 6:
+				Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();
+				Vector3 cellPosition = grid.GetCellCenterWorld(cell);
+				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
+				break;
+
+			case 7:
+				grid = GameObject.Find("Grid Map").GetComponent<Grid>();
+				cellPosition = grid.GetCellCenterWorld(cell);
+				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
+				break;
+
+			case 8:
+				grid = GameObject.Find("Grid Map").GetComponent<Grid>();
+				cellPosition = grid.GetCellCenterWorld(cell);
+				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
+				break;
+
+			case 9:
+				PowerUpType(cell);
+				break;
+                
+			case 10:
+				PowerUpType(cell);
+				break;
+		}
+	}
+    
+    void PowerUpType(Vector3Int cell)
+    {
+        switch (randomProbabilityPowerUp = Random.Range(1,3))
+        {
+			case 1:
+				Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();
+				Vector3 cellPosition = grid.GetCellCenterWorld(cell);
+				Instantiate(moreRangeGO, cellPosition, Quaternion.identity);
+				break;
+
+			case 2:
+				grid = GameObject.Find("Grid Map").GetComponent<Grid>();
+				cellPosition = grid.GetCellCenterWorld(cell);
+				Instantiate(moreSpeedGO, cellPosition, Quaternion.identity);
+				break;
+        }
+    }
 }
