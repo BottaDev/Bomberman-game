@@ -8,7 +8,7 @@ public class MeleAttack : MonoBehaviour
     public GameObject direction;
     public float rangeAttack = 0.5f;
     public LayerMask allLayers;
-    public float damage = 0.5f;
+    public float damage;
     public PlayerMovement player;
 
     private void Update()
