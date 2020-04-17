@@ -219,8 +219,8 @@ MonoBehaviour:
   rangeAttack: 0.32
   allLayers:
     serializedVersion: 2
-    m_Bits: 256
-  damage: 0
+    m_Bits: 2304
+  damage: 0.5
   player: {fileID: 2323990091454848041}
 --- !u!1 &6224583737534817846
 GameObject:

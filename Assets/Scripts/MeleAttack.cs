@@ -8,7 +8,7 @@ public class MeleAttack : MonoBehaviour
     public GameObject direction;
     public float rangeAttack = 0.5f;
     public LayerMask allLayers;
-    public float damage;
+    public float damage = 0.5f;
     public PlayerMovement player;
 
     private void Update()
@@ -30,11 +30,19 @@ public class MeleAttack : MonoBehaviour
 
     void Attack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
+        Collider2D[] hitSomething = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
 
-        foreach(Collider2D enemy in hitEnemies)
+        foreach(Collider2D objects in hitSomething)
         {
             Debug.Log("Le di");
+            Enemy enemy;
+            //MapDestroyer box;
+
+            if (enemy = objects.gameObject.GetComponent<Enemy>())
+                enemy.TakeDamage(damage);
+
+            //else if (box = objects.gameObject.GetComponent<MapDestroyer>())
+              //  box.TakeDamage(damage);
         }
     }
 
