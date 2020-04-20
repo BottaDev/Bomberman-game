@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
             life -= damage;
 
             if (life <= 0)
-                Destroy(gameObject);
+                KillEnemy();
 
             StartCoroutine("SetInvulnerable");
         }
@@ -114,10 +114,8 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Bloques
-        //if (collision.gameObject.layer == 8)
-        //    ChangeDirection();
         ChangeDirection();
+
         // Player
         if (collision.gameObject.layer == 9)
         {
@@ -125,6 +123,14 @@ public class Enemy : MonoBehaviour
             player.TakeDamage(damage);
         }
             
+    }
+
+    private void KillEnemy()
+    {
+        LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
+        levelManager.AddEnemyDeath();
+
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()

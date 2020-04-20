@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float life = 2;
     public float speed = 5;
     public int bombStack = 3;
+    public PlayerNum playerNum;
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]
@@ -26,7 +27,7 @@ public class Player : MonoBehaviour
             life -= damage;
 
             if (life <= 0)
-                Destroy(gameObject);
+                KillPlayer();
 
             StartCoroutine("SetInvulnerable");
         }
@@ -55,4 +56,17 @@ public class Player : MonoBehaviour
     {
         speed = speed * extraSpeed;
     }
+
+    private void KillPlayer()
+    {
+        GameManager.instance.AddPlayerDeath(playerNum, this.gameObject);
+        Destroy(gameObject);
+    }
+
+    public enum PlayerNum
+    {
+        Player1,
+        Player2,
+    }
+
 }

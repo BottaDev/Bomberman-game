@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public string inputAxisX;
+    public string inputAxisY;
+
     Player player;
     Rigidbody2D rb;
+
+    [HideInInspector]
     public bool moveUp;
+    [HideInInspector]
     public bool moveDown;
+    [HideInInspector]
     public bool moveLeft;
+    [HideInInspector]
     public bool moveRight;
+
+    private float auxAxisX;
+    private float auxAxisY;
 
     private void Start()
     {
@@ -17,14 +28,17 @@ public class PlayerMovement : MonoBehaviour
         player = GetComponent<Player>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
+        auxAxisX = Input.GetAxis(inputAxisX);
+        auxAxisY = Input.GetAxis(inputAxisY);
+
         Move();
     }
 
     void Move()
     {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if (auxAxisY > 0)
         {
             rb.MovePosition(transform.position + new Vector3(0, 1, 0) * player.speed * Time.deltaTime);
             moveUp = true;
@@ -32,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
             moveLeft = false;
             moveRight = false;
         }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        if (auxAxisY < 0)
         {
             rb.MovePosition(transform.position + new Vector3(0, -1, 0) * player.speed * Time.deltaTime);
             moveUp = false;
@@ -40,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
             moveLeft = false;
             moveRight = false;
         }
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if (auxAxisX < 0)
         {
             rb.MovePosition(transform.position + new Vector3(-1, 0, 0) * player.speed * Time.deltaTime);
             moveUp = false;
@@ -48,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             moveLeft = true;
             moveRight = false;
         }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        if (auxAxisX > 0)
         {
             rb.MovePosition(transform.position + new Vector3(1, 0, 0) * player.speed * Time.deltaTime);
             moveUp = false;

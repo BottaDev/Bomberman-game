@@ -6,10 +6,12 @@ using UnityEngine.Tilemaps;
 public class DroppableBombController : MonoBehaviour
 {
     public GameObject bombGO;
+    public string inputBomb;
 
     private Player player;
     private float currentBombCd = 0;
     private Tilemap tilemap;
+    private float auxInputBomb;
 
     private void Start()
     {
@@ -19,11 +21,13 @@ public class DroppableBombController : MonoBehaviour
 
     private void Update()
     {
+        auxInputBomb = Input.GetAxis(inputBomb);
+
         currentBombCd -= Time.deltaTime;
         if (currentBombCd <= 0)
             currentBombCd = 0;
 
-        if (Input.GetKeyDown(KeyCode.Space) && currentBombCd <= 0 && player.bombStack > 0)
+        if (auxInputBomb == 1 && currentBombCd <= 0 && player.bombStack > 0)
         {
                 DropBomb();
                 player.bombStack -= 1;
