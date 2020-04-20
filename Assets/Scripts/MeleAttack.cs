@@ -30,19 +30,11 @@ public class MeleAttack : MonoBehaviour
 
     void Attack()
     {
-        Collider2D[] hitSomething = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
 
-        foreach(Collider2D objects in hitSomething)
+        foreach(Collider2D enemy in hitEnemies)
         {
             Debug.Log("Le di");
-            Enemy enemy;
-            //MapDestroyer box;
-
-            if (enemy = objects.gameObject.GetComponent<Enemy>())
-                enemy.TakeDamage(damage);
-
-            //else if (box = objects.gameObject.GetComponent<MapDestroyer>())
-              //  box.TakeDamage(damage);
         }
     }
 
