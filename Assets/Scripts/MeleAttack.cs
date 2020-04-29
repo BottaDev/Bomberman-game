@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MeleAttack : MonoBehaviour
 {
+    public string inputMele;
+
     public Transform positionAttack;
     public GameObject direction;
     public float rangeAttack = 0.5f;
@@ -11,13 +13,18 @@ public class MeleAttack : MonoBehaviour
     public float damage;
     public PlayerMovement player;
 
+    private float auxInputMele;
+
     private void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        auxInputMele = Input.GetAxis(inputMele);
+
+        if (auxInputMele == 1)
         {
             Attack();
         }
+
         if (player.moveUp == true)
             direction.transform.localPosition = new Vector3(0, 0.1f, 0);
         if (player.moveDown == true)
@@ -30,19 +37,11 @@ public class MeleAttack : MonoBehaviour
 
     void Attack()
     {
-        Collider2D[] hitSomething = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
 
-        foreach(Collider2D objects in hitSomething)
+        foreach(Collider2D enemy in hitEnemies)
         {
             Debug.Log("Le di");
-            Enemy enemy;
-            //MapDestroyer box;
-
-            if (enemy = objects.gameObject.GetComponent<Enemy>())
-                enemy.TakeDamage(damage);
-
-            //else if (box = objects.gameObject.GetComponent<MapDestroyer>())
-              //  box.TakeDamage(damage);
         }
     }
 

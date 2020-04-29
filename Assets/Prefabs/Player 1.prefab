@@ -44,11 +44,11 @@ GameObject:
   - component: {fileID: 6156193743334003313}
   - component: {fileID: 6156193743334003318}
   - component: {fileID: 2323990091454848041}
+  - component: {fileID: 2322083252886674664}
   - component: {fileID: 3786846090507827629}
   - component: {fileID: 6541275013504766113}
-  - component: {fileID: 2322083252886674664}
   m_Layer: 9
-  m_Name: Player
+  m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   life: 2
   speed: 5
   bombStack: 3
+  playerNum: 0
   bombCd: 1
   bombTimeToExplode: 1.75
   bombRange: 2
@@ -149,6 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombGO: {fileID: 1962719680707978622, guid: f603e6a2a5930b346bbc3b3002a08232, type: 3}
+  inputBomb: BombP1
 --- !u!114 &2323990091454848041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,10 +163,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07662dad408574e1ab3c43c132c438d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputAxisX: HorizontalP1
+  inputAxisY: VerticalP1
   moveUp: 0
   moveDown: 0
   moveLeft: 0
   moveRight: 0
+--- !u!114 &2322083252886674664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6156193743334003314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad56e671275a4a5d802c9171940afd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputMele: MeleP1
+  positionAttack: {fileID: 1765279681243824766}
+  direction: {fileID: 1537039692470931475}
+  rangeAttack: 0.32
+  allLayers:
+    serializedVersion: 2
+    m_Bits: 2304
+  damage: 0
+  player: {fileID: 2323990091454848041}
 --- !u!50 &3786846090507827629
 Rigidbody2D:
   serializedVersion: 4
@@ -202,26 +227,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.065
---- !u!114 &2322083252886674664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6156193743334003314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ad56e671275a4a5d802c9171940afd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionAttack: {fileID: 1765279681243824766}
-  direction: {fileID: 1537039692470931475}
-  rangeAttack: 0.32
-  allLayers:
-    serializedVersion: 2
-    m_Bits: 2304
-  damage: 0
-  player: {fileID: 2323990091454848041}
 --- !u!1 &6224583737534817846
 GameObject:
   m_ObjectHideFlags: 0
