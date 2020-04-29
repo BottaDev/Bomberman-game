@@ -5,51 +5,59 @@ using UnityEngine;
 public class MeleAttack : MonoBehaviour
 {
     public string inputMele;
-
-    public Transform positionAttack;
-    public GameObject direction;
-    public float rangeAttack = 0.5f;
+    public Transform attackPosition;
     public LayerMask allLayers;
-    public float damage;
-    public PlayerMovement player;
+    public GameObject direction;
 
+    private Player player;
+    private PlayerMovement playerMovement;
     private float auxInputMele;
 
+    private void Start()
+    {
+        player = GetComponent<Player>();
+        playerMovement = GetComponent<PlayerMovement>();
+    }
     private void Update()
     {
-
         auxInputMele = Input.GetAxis(inputMele);
 
         if (auxInputMele == 1)
-        {
             Attack();
-        }
 
-        if (player.moveUp == true)
+        if (playerMovement.moveUp == true)
             direction.transform.localPosition = new Vector3(0, 0.1f, 0);
-        if (player.moveDown == true)
+        if (playerMovement.moveDown == true)
             direction.transform.localPosition = new Vector3(0, -0.1f, 0);
-        if (player.moveRight == true)
+        if (playerMovement.moveRight == true)
             direction.transform.localPosition = new Vector3(0.1f, 0, 0);
-        if (player.moveLeft == true)
+        if (playerMovement.moveLeft == true)
             direction.transform.localPosition = new Vector3(-0.1f, 0, 0);
     }
 
     void Attack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
+        //Collider2D[] hitSomething = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
+        Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
 
-        foreach(Collider2D enemy in hitEnemies)
+        // Enemy
+        if (hitSomething.gameObject.layer == 11)
         {
-            Debug.Log("Le di");
+            Enemy enemy = hitSomething.gameObject.GetComponent<Enemy>();
+            enemy.TakeDamage(player.damage);
+        }
+        // Wall
+        else if (hitSomething.gameObject.layer == 8)
+        {
+
         }
     }
 
     private void OnDrawGizmosSelected()
     {
-        if (positionAttack == null)
+        if (attackPosition == null)
             return;
 
-        Gizmos.DrawWireSphere(positionAttack.position, rangeAttack);
+        Gizmos.DrawWireSphere(attackPosition.position, player.attackRange);
     }
 }

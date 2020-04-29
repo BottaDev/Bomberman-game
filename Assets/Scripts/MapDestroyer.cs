@@ -14,16 +14,23 @@ public class MapDestroyer : MonoBehaviour
 	public GameObject moreRangeGO;
 	public GameObject moreSpeedGO;
 
-	[SerializeField]
-	private Tilemap tilemap;
-
+	private MapController mapController;
 	private bool[] canExplode = { true, true, true, true };   // 0 = Up ; 1 = Right ; 2 = Down ; 3 = Left
+
+	private void Start()
+	{
+		mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
+
+		if (mapController == null)
+		{
+			Debug.Log("Error. No se encontró el objeto 'Grid Map'");
+			return;
+		}
+	}
 
 	public void Explode(Vector2 worldPos, int explosionRange)
 	{
-		tilemap = GameObject.Find("Blocks").GetComponent<Tilemap>();
-
-		Vector3Int originCell = tilemap.WorldToCell(worldPos);
+		Vector3Int originCell = mapController.GetOriginCell(worldPos);
 
 		ExplodeCell(originCell);
 		for (int i = 0; i < explosionRange; i++)
@@ -39,7 +46,7 @@ public class MapDestroyer : MonoBehaviour
 	{
 		if (canExplode)
 		{
-			Tile tile = tilemap.GetTile<Tile>(cell);
+			Tile tile = mapController.GetTile(cell);
 
 			if (tile == indestructibleTile && direction != -1)
 			{
@@ -49,34 +56,33 @@ public class MapDestroyer : MonoBehaviour
 				
 			if (tile == destructibleTile)
 			{
-				tilemap.SetTile(cell, null);
+				mapController.DestroyCell(cell);
 				this.canExplode[direction] = false;
 				DropPowerUp(cell);
 			}
 
-			Vector3 pos = tilemap.GetCellCenterWorld(cell);
-			Instantiate(explosionGO, pos, Quaternion.identity);
+			Vector3 position = mapController.GetCellToWorld(cell);
+			Instantiate(explosionGO, position, Quaternion.identity);
 		}
 	}
 
     void DropPowerUp(Vector3Int cell)
     {
-        switch (randomProbability = Random.Range(1,11))
+		Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();
+
+		switch (randomProbability = Random.Range(1,11))
         {
 			case 6:
-				Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();
 				Vector3 cellPosition = grid.GetCellCenterWorld(cell);
 				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
 				break;
 
 			case 7:
-				grid = GameObject.Find("Grid Map").GetComponent<Grid>();
 				cellPosition = grid.GetCellCenterWorld(cell);
 				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
 				break;
 
 			case 8:
-				grid = GameObject.Find("Grid Map").GetComponent<Grid>();
 				cellPosition = grid.GetCellCenterWorld(cell);
 				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
 				break;
