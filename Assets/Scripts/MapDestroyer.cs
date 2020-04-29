@@ -30,7 +30,7 @@ public class MapDestroyer : MonoBehaviour
 
 	public void Explode(Vector2 worldPos, int explosionRange)
 	{
-		Vector3Int originCell = mapController.GetOriginCell(worldPos);
+		Vector3Int originCell = mapController.GetCell(worldPos);
 
 		ExplodeCell(originCell);
 		for (int i = 0; i < explosionRange; i++)
@@ -66,6 +66,7 @@ public class MapDestroyer : MonoBehaviour
 		}
 	}
 
+	// Los dropeos deberia estar en MapController
     void DropPowerUp(Vector3Int cell)
     {
 		Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();

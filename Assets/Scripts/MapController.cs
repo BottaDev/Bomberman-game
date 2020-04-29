@@ -23,11 +23,10 @@ public class MapController : MonoBehaviour
         tilemap.SetTile(cell, null);
     }
 
-    // Retorna la celda donde se origino la explosion de la bomba
-    public Vector3Int GetOriginCell(Vector2 worldPos)
+    public Vector3Int GetCell(Vector2 worldPos)
     {
-        Vector3Int originCell = tilemap.WorldToCell(worldPos);
-        return originCell;
+        Vector3Int cell = tilemap.WorldToCell(worldPos);
+        return cell;
     }
     
     public Vector3 GetCellToWorld(Vector3Int cell)
