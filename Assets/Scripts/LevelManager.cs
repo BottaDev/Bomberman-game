@@ -17,15 +17,16 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         totalEnemies = FindObjectsOfType<Enemy>().Length;
+        int numberOfPlayers = GameManager.instance.GetNumberOfPlayers();
 
-        if (GameManager.instance.numberOfPlayers == 0)
+        if (numberOfPlayers == 0)
         {
             Debug.LogError("ERROR. No hay jugadores en la partida");
             return;
         }
-        else if (GameManager.instance.numberOfPlayers == 1)
+        else if (numberOfPlayers == 1)
             SpawnPlayer();
-        else if ((GameManager.instance.numberOfPlayers == 2))
+        else if (numberOfPlayers == 2)
             SpawnPlayers();
     }
 
@@ -38,9 +39,9 @@ public class LevelManager : MonoBehaviour
         if (level == 1)
         {
             if (randomNum == 0)
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[0], spawnPositions[0]);
+                InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[0]);
             else
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[0], spawnPositions[1]);
+                InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[1]);
         }
         else
         {
