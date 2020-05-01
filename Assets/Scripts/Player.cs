@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public PlayerNum playerNum;
     [Header("Player Settings")]
     public float life = 2;
     public float speed = 5;
     public int bombStack = 3;
-    public PlayerNum playerNum;
+
+    [Header("Attack Settings")]
+    public float damage = 0.5f;
+    public float attackCd;
+    public float attackRange = 0.2f;
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]

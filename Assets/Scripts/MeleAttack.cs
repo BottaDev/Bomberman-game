@@ -1,55 +1,85 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class MeleAttack : MonoBehaviour
 {
+    public Tile destructibleTile;
     public string inputMele;
-
-    public Transform positionAttack;
-    public GameObject direction;
-    public float rangeAttack = 0.5f;
+    public Transform attackPosition;
     public LayerMask allLayers;
-    public float damage;
-    public PlayerMovement player;
+    public GameObject direction;
 
+    private Player player;
+    private PlayerMovement playerMovement;
     private float auxInputMele;
+    private MapController mapController;
+    public float auxAttackCd = 0;
+
+    private void Start()
+    {
+        player = GetComponent<Player>();
+        playerMovement = GetComponent<PlayerMovement>();
+        mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
+
+        if (mapController == null)
+        {
+            Debug.Log("Error. No se encontró el objeto 'Grid Map'");
+            return;
+        }
+    }
 
     private void Update()
     {
-
         auxInputMele = Input.GetAxis(inputMele);
 
-        if (auxInputMele == 1)
-        {
-            Attack();
-        }
+        auxAttackCd -= Time.deltaTime;
+        if (auxAttackCd < 0)
+            auxAttackCd = 0;
 
-        if (player.moveUp == true)
+        if (auxInputMele == 1 && auxAttackCd <= 0)
+            Attack();
+
+        if (playerMovement.moveUp == true)
             direction.transform.localPosition = new Vector3(0, 0.1f, 0);
-        if (player.moveDown == true)
+        if (playerMovement.moveDown == true)
             direction.transform.localPosition = new Vector3(0, -0.1f, 0);
-        if (player.moveRight == true)
+        if (playerMovement.moveRight == true)
             direction.transform.localPosition = new Vector3(0.1f, 0, 0);
-        if (player.moveLeft == true)
+        if (playerMovement.moveLeft == true)
             direction.transform.localPosition = new Vector3(-0.1f, 0, 0);
     }
 
     void Attack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(positionAttack.position, rangeAttack, allLayers);
-
-        foreach(Collider2D enemy in hitEnemies)
+        Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
+        print("Entro");
+        // Enemy
+        if (hitSomething != null && hitSomething.gameObject.layer == 11)
         {
-            Debug.Log("Le di");
+            Enemy enemy = hitSomething.gameObject.GetComponent<Enemy>();
+            enemy.TakeDamage(player.damage);
+        }
+        // Wall
+        else if (hitSomething != null && hitSomething.gameObject.layer == 8)
+        {
+            Vector3Int cell = mapController.GetCell(attackPosition.position);
+            Tile tile = mapController.GetTile(cell);
+
+            if (tile == destructibleTile)
+            {
+                mapController.DestroyCell(cell);
+                auxAttackCd = player.attackCd;
+            }
         }
     }
 
     private void OnDrawGizmosSelected()
     {
-        if (positionAttack == null)
+        if (attackPosition == null)
             return;
 
-        Gizmos.DrawWireSphere(positionAttack.position, rangeAttack);
+        Gizmos.DrawWireSphere(attackPosition.position, player.attackRange);
     }
 }
