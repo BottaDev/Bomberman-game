@@ -11,14 +11,14 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector]
     public bool[] playerIsDead = new bool[2];
-    private int numberOfPlayers = 0;
+    public int numberOfPlayers = 0;
 
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(this.gameObject);
+            DontDestroyOnLoad(this);
         }
         else if (instance != this)
             Destroy(gameObject);
@@ -29,23 +29,26 @@ public class GameManager : MonoBehaviour
         if (playerNum == Player.PlayerNum.Player1)
         {
             playerIsDead[0] = true;
-            currentPlayerGO[0] = playerGO;
+            SetCurrentPlayerGO(playerNum, playerGO);
         }
         else
         {
             playerIsDead[1] = true;
-            currentPlayerGO[1] = playerGO;
+            SetCurrentPlayerGO(playerNum, playerGO);
         }
     }
-
-    public void SetSinglePlayer()
+    public void SetCurrentPlayerGO(Player.PlayerNum playerNum, GameObject playerGO)
     {
-        numberOfPlayers = 1;
+        if (playerNum == Player.PlayerNum.Player1)
+            currentPlayerGO[0] = playerGO;
+        else
+            currentPlayerGO[1] = playerGO;
     }
 
-    public void SetMultiPlayer()
+    // Llamado por los botones en el menu
+    public void SetPlayers(int number)
     {
-        numberOfPlayers = 2;
+        numberOfPlayers = number;
     }
 
     public int GetNumberOfPlayers()

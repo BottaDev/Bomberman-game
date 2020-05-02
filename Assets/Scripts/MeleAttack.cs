@@ -54,7 +54,7 @@ public class MeleAttack : MonoBehaviour
     void Attack()
     {
         Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
-        print("Entro");
+        
         // Enemy
         if (hitSomething != null && hitSomething.gameObject.layer == 11)
         {
