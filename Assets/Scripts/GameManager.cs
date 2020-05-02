@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
             SetCurrentPlayerGO(playerNum, playerGO);
         }
     }
+
     public void SetCurrentPlayerGO(Player.PlayerNum playerNum, GameObject playerGO)
     {
         if (playerNum == Player.PlayerNum.Player1)
@@ -54,5 +55,11 @@ public class GameManager : MonoBehaviour
     public int GetNumberOfPlayers()
     {
         return numberOfPlayers;
+    }
+
+    // Se llama a esta funcion para evitar conflictors a la hora de volver al menu
+    public void DestroyGameManager()
+    {
+        Destroy(this);
     }
 }

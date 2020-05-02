@@ -13,6 +13,7 @@ public class LevelManager : MonoBehaviour
     private int totalEnemies;
     [SerializeField]
     private int enemyDeathCount = 0;
+    private int playerDeathCount = 0;
     private int numberOfPlayers;
     private int level;
 
@@ -111,6 +112,20 @@ public class LevelManager : MonoBehaviour
             SpawnExit();
     }
 
+    public void CheckLoseGame()
+    {
+        playerDeathCount++;
+
+        if (playerDeathCount == numberOfPlayers)
+            LoseLevel();
+    }
+
+    private void LoseLevel()
+    {
+        Debug.Log("Derrota");
+        ChangeLevel(0);
+    }
+
     private void SpawnExit()
     {
         Tilemap tilemap;
@@ -166,7 +181,10 @@ public class LevelManager : MonoBehaviour
     private void ChangeLevel(int levelIndex)
     {
         if (levelIndex > 2)
+        {
+            GameManager.instance.DestroyGameManager();
             SceneManager.LoadScene(0);
+        }
         else
             SceneManager.LoadScene(levelIndex);
     }

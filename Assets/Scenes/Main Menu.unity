@@ -787,17 +787,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 324981147}
-        m_MethodName: ChangeScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1887839100}
         m_MethodName: SetPlayers
         m_Mode: 3
         m_Arguments:
@@ -856,7 +845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ef1661d8568cb41b344517e12ef0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNumber: 1
 --- !u!1 &400305382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,17 +1603,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 324981147}
-        m_MethodName: ChangeScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1887839100}
         m_MethodName: SetPlayers
         m_Mode: 3
         m_Arguments:
@@ -1684,7 +1661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ef1661d8568cb41b344517e12ef0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNumber: 1
 --- !u!1 &867064231
 GameObject:
   m_ObjectHideFlags: 0
@@ -3448,7 +3424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ef1661d8568cb41b344517e12ef0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNumber: 0
 --- !u!1 &1706019881
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,18 +3579,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706019881}
   m_CullTransparentMesh: 0
---- !u!114 &1887839100 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4395116309443313793, guid: a7031d42f8dbdc94098d9a10aa2843b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 430822092}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414ec145af37d72469483758eba47b98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1905201272
 GameObject:
   m_ObjectHideFlags: 0
