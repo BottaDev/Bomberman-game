@@ -65,6 +65,10 @@ public class Player : MonoBehaviour
     private void KillPlayer()
     {
         GameManager.instance.AddPlayerDeath(playerNum, this.gameObject);
+
+        LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
+        levelManager.CheckLoseGame();
+
         Destroy(gameObject);
     }
 

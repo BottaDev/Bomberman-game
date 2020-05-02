@@ -13,27 +13,31 @@ public class LevelManager : MonoBehaviour
     private int totalEnemies;
     [SerializeField]
     private int enemyDeathCount = 0;
+    private int playerDeathCount = 0;
+    private int numberOfPlayers;
+    private int level;
 
     private void Start()
     {
-        totalEnemies = FindObjectsOfType<Enemy>().Length;
-        int numberOfPlayers = GameManager.instance.GetNumberOfPlayers();
+        level = SceneManager.GetActiveScene().buildIndex;
 
-        if (numberOfPlayers == 0)
+        totalEnemies = FindObjectsOfType<Enemy>().Length;
+
+        numberOfPlayers = GameManager.instance.GetNumberOfPlayers();
+
+        if (GameManager.instance.numberOfPlayers == 0)
         {
-            Debug.LogError("ERROR. No hay jugadores en la partida");
+            Debug.LogError("Error. No hay jugadores en la partida");
             return;
         }
-        else if (numberOfPlayers == 1)
+        else if (GameManager.instance.numberOfPlayers == 1)
             SpawnPlayer();
-        else if (numberOfPlayers == 2)
+        else if ((GameManager.instance.numberOfPlayers == 2))
             SpawnPlayers();
     }
 
     private void SpawnPlayer()
     {
-        int level = SceneManager.GetActiveScene().buildIndex;
-
         int randomNum = Random.Range(0, 2);
 
         if (level == 1)
@@ -108,12 +112,26 @@ public class LevelManager : MonoBehaviour
             SpawnExit();
     }
 
+    public void CheckLoseGame()
+    {
+        playerDeathCount++;
+
+        if (playerDeathCount == numberOfPlayers)
+            LoseLevel();
+    }
+
+    private void LoseLevel()
+    {
+        Debug.Log("Derrota");
+        ChangeLevel(0);
+    }
+
     private void SpawnExit()
     {
         Tilemap tilemap;
         tilemap = GameObject.Find("Blocks").GetComponent<Tilemap>();
 
-        bool canSpawn = false;
+        bool canSpawn;
 
         do
         {
@@ -134,5 +152,40 @@ public class LevelManager : MonoBehaviour
                 canSpawn = false;
 
         } while (canSpawn == false);
+    }
+
+    public void WinLevel(GameObject playerGO)
+    {
+        if (numberOfPlayers == 1)
+            GameManager.instance.SetCurrentPlayerGO(Player.PlayerNum.Player1, playerGO);
+        else if (numberOfPlayers == 2)
+        {
+            Player playerEntity = playerGO.GetComponent<Player>();
+            GameManager.instance.SetCurrentPlayerGO(playerEntity.playerNum, playerGO);
+
+            // Se destruye el objeto para no tener problemas en la busqueda del otro player
+            Destroy(playerGO);
+
+            GameObject secondPlayerGO = GameObject.FindGameObjectWithTag("Player");
+
+            if (secondPlayerGO != null)
+            {
+                Player playerEntity2 = secondPlayerGO.GetComponent<Player>();
+                GameManager.instance.SetCurrentPlayerGO(playerEntity2.playerNum, secondPlayerGO);
+            }
+        }
+
+        ChangeLevel(level + 1);
+    }
+
+    private void ChangeLevel(int levelIndex)
+    {
+        if (levelIndex > 2)
+        {
+            GameManager.instance.DestroyGameManager();
+            SceneManager.LoadScene(0);
+        }
+        else
+            SceneManager.LoadScene(levelIndex);
     }
 }

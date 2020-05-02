@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
-    public int sceneNumber;
-
-    public void ChangeScene()
+    public void SetPlayers(int numberOfPlayers)
     {
-        SceneManager.LoadScene(sceneNumber);
+        GameManager.instance.SetPlayers(numberOfPlayers);
+
+        SceneManager.LoadScene(1);
     }
 
     public void ExitGame()
