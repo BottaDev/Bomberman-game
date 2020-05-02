@@ -15,7 +15,7 @@ public class MeleAttack : MonoBehaviour
     private PlayerMovement playerMovement;
     private float auxInputMele;
     private MapController mapController;
-    public float auxAttackCd = 0;
+    private float auxAttackCd = 0;
 
     private void Start()
     {
@@ -70,6 +70,7 @@ public class MeleAttack : MonoBehaviour
             if (tile == destructibleTile)
             {
                 mapController.DestroyCell(cell);
+                mapController.DropPowerUp(cell);
                 auxAttackCd = player.attackCd;
             }
         }

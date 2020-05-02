@@ -58,61 +58,11 @@ public class MapDestroyer : MonoBehaviour
 			{
 				mapController.DestroyCell(cell);
 				this.canExplode[direction] = false;
-				DropPowerUp(cell);
+				mapController.DropPowerUp(cell);
 			}
 
 			Vector3 position = mapController.GetCellToWorld(cell);
 			Instantiate(explosionGO, position, Quaternion.identity);
 		}
 	}
-
-	// Los dropeos deberia estar en MapController
-    void DropPowerUp(Vector3Int cell)
-    {
-		Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();
-
-		switch (randomProbability = Random.Range(1,11))
-        {
-			case 6:
-				Vector3 cellPosition = grid.GetCellCenterWorld(cell);
-				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
-				break;
-
-			case 7:
-				cellPosition = grid.GetCellCenterWorld(cell);
-				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
-				break;
-
-			case 8:
-				cellPosition = grid.GetCellCenterWorld(cell);
-				Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
-				break;
-
-			case 9:
-				PowerUpType(cell);
-				break;
-                
-			case 10:
-				PowerUpType(cell);
-				break;
-		}
-	}
-    
-    void PowerUpType(Vector3Int cell)
-    {
-        switch (randomProbabilityPowerUp = Random.Range(1,3))
-        {
-			case 1:
-				Grid grid = GameObject.Find("Grid Map").GetComponent<Grid>();
-				Vector3 cellPosition = grid.GetCellCenterWorld(cell);
-				Instantiate(moreRangeGO, cellPosition, Quaternion.identity);
-				break;
-
-			case 2:
-				grid = GameObject.Find("Grid Map").GetComponent<Grid>();
-				cellPosition = grid.GetCellCenterWorld(cell);
-				Instantiate(moreSpeedGO, cellPosition, Quaternion.identity);
-				break;
-        }
-    }
 }

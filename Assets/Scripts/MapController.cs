@@ -5,6 +5,10 @@ using UnityEngine.Tilemaps;
 
 public class MapController : MonoBehaviour
 {
+    public GameObject bombPlusGO;
+    public GameObject moreRangeGO;
+    public GameObject moreSpeedGO;
+
     private Tilemap tilemap;
 
     private void Start()
@@ -39,5 +43,44 @@ public class MapController : MonoBehaviour
     {
         Tile tile = tilemap.GetTile<Tile>(cell);
         return tile;
+    }
+
+    public void DropPowerUp(Vector3Int cell)
+    {
+        int randomProbability = Random.Range(1, 11);
+        Vector3 cellPosition = GetCellToWorld(cell);
+
+        switch (randomProbability)
+        {
+            case 6:
+            case 7:
+            case 8:
+                Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
+                break;
+
+            case 9:
+                PowerUpType(cellPosition);
+                break;
+
+            case 10:
+                PowerUpType(cellPosition);
+                break;
+        }
+    }
+
+    private void PowerUpType(Vector3 cellPosition)
+    {
+        int randomProbabilityPowerUp = Random.Range(1, 3);
+
+        switch (randomProbabilityPowerUp)
+        {
+            case 1:
+                Instantiate(moreRangeGO, cellPosition, Quaternion.identity);
+                break;
+
+            case 2:
+                Instantiate(moreSpeedGO, cellPosition, Quaternion.identity);
+                break;
+        }
     }
 }
