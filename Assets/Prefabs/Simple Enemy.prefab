@@ -162,7 +162,8 @@ MonoBehaviour:
   damage: 1
   collisionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 2304
+  directionTimer: 1.5
 --- !u!50 &5288953052312764280
 Rigidbody2D:
   serializedVersion: 4
