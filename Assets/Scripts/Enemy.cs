@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
         mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         directionTimer -= Time.deltaTime;
         if (directionTimer <= 0)
