@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [Header("Enemy Settings")]
     public EnemyType type;
     public float life = 3;
     public float speed = 3;
     public float damage = 1;
     public LayerMask collisionMask;
 
-    private Vector2 direction = Vector2.down; 
-    private bool canTakeDamage = true;
-    private Rigidbody2D rb;
-    private MapController mapController;
+    protected Vector2 direction = Vector2.down; 
+    protected bool canTakeDamage = true;
+    [SerializeField]
+    protected Rigidbody2D rb;
+    protected MapController mapController;
 
-    private Collider2D colUp;
-    private Collider2D colRight;
-    private Collider2D colDown;
-    private Collider2D colLeft;
-    public float directionTimer = 1.5f;
+    protected Collider2D colUp;
+    protected Collider2D colRight;
+    protected Collider2D colDown;
+    protected Collider2D colLeft;
+    protected float directionTimer = 1.5f;
 
     private void Start()
     {
@@ -28,6 +30,11 @@ public class Enemy : MonoBehaviour
     }
 
     private void FixedUpdate()
+    {
+        MoveSimple();
+    }
+
+    protected void MoveSimple()
     {
         directionTimer -= Time.deltaTime;
         if (directionTimer <= 0)
@@ -46,9 +53,9 @@ public class Enemy : MonoBehaviour
             Move();
     }
 
-    public virtual void Move()
+    private void Move()
     {
-        Vector3 dir = new Vector3();
+        Vector3 dir;
         dir = direction;
         rb.MovePosition(transform.position + dir * speed * Time.deltaTime);
     }
@@ -227,7 +234,7 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnDrawGizmosSelected()
+    protected void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere((Vector2) transform.position + new Vector2(0, 0.7f), 0.15f);
         Gizmos.DrawWireSphere((Vector2) transform.position + new Vector2(0.7f, 0), 0.15f);
