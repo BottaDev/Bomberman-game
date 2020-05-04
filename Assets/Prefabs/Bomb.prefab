@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1962719680707978622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.932, y: 1.805, z: -6.7929688}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 5.0611196, y: 5.0611196, z: 5.0611196}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,12 +73,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 4259483801533484995, guid: fbf2f5089bf3b47a3baa147c7603e8d7,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -122,7 +123,6 @@ MonoBehaviour:
     type: 3}
   moreSpeedGO: {fileID: 1567099483808209087, guid: 7be5222783db14df2806830d7c3d9ccd,
     type: 3}
-  tilemap: {fileID: 0}
 --- !u!58 &-3957711584753198733
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.08
 --- !u!50 &-756399044752522045
 Rigidbody2D:
   serializedVersion: 4

@@ -13,6 +13,7 @@ public class MapDestroyer : MonoBehaviour
 	public GameObject bombPlusGO;
 	public GameObject moreRangeGO;
 	public GameObject moreSpeedGO;
+    
 
 	private MapController mapController;
 	private bool[] canExplode = { true, true, true, true };   // 0 = Up ; 1 = Right ; 2 = Down ; 3 = Left

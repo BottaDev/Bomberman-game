@@ -59,9 +59,6 @@ public class MapController : MonoBehaviour
                 break;
 
             case 9:
-                PowerUpType(cellPosition);
-                break;
-
             case 10:
                 PowerUpType(cellPosition);
                 break;

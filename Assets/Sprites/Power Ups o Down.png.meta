@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: 66e12d5516b6b4db2bdcb5a59a0c7063
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1586029532278794723
+    second: SNES - Super Bomberman 5 JPN - Items_0
+  - first:
+      213: -6784800026493677431
+    second: SNES - Super Bomberman 5 JPN - Items_1
+  - first:
+      213: -1772290653394233041
+    second: SNES - Super Bomberman 5 JPN - Items_2
+  - first:
+      213: 7026569486087463865
+    second: SNES - Super Bomberman 5 JPN - Items_3
+  - first:
+      213: 2745221199863720725
+    second: SNES - Super Bomberman 5 JPN - Items_4
+  - first:
+      213: -1222445217473683409
+    second: SNES - Super Bomberman 5 JPN - Items_5
+  - first:
+      213: -405260021306205896
+    second: SNES - Super Bomberman 5 JPN - Items_6
+  - first:
+      213: -481258752582068058
+    second: SNES - Super Bomberman 5 JPN - Items_7
+  - first:
+      213: -7923560539223482000
+    second: SNES - Super Bomberman 5 JPN - Items_8
+  - first:
+      213: 2804199394590891111
+    second: SNES - Super Bomberman 5 JPN - Items_9
+  - first:
+      213: 4850377212095527210
+    second: SNES - Super Bomberman 5 JPN - Items_10
+  - first:
+      213: -6433302885097254821
+    second: SNES - Super Bomberman 5 JPN - Items_11
+  - first:
+      213: 6014648931187207602
+    second: SNES - Super Bomberman 5 JPN - Items_12
+  - first:
+      213: -1365748734214181628
+    second: SNES - Super Bomberman 5 JPN - Items_13
+  - first:
+      213: -7994672112911771051
+    second: SNES - Super Bomberman 5 JPN - Items_14
+  - first:
+      213: 5825781846676763436
+    second: SNES - Super Bomberman 5 JPN - Items_15
+  - first:
+      213: -1288482237053083289
+    second: SNES - Super Bomberman 5 JPN - Items_16
+  - first:
+      213: 8268109427939323849
+    second: SNES - Super Bomberman 5 JPN - Items_17
+  - first:
+      213: -4439839026496491736
+    second: SNES - Super Bomberman 5 JPN - Items_18
+  - first:
+      213: 5261946575723534810
+    second: SNES - Super Bomberman 5 JPN - Items_19
+  - first:
+      213: 5354998216392682650
+    second: SNES - Super Bomberman 5 JPN - Items_20
+  - first:
+      213: -6368370152529154167
+    second: SNES - Super Bomberman 5 JPN - Items_21
+  - first:
+      213: -7649802931817364723
+    second: SNES - Super Bomberman 5 JPN - Items_22
+  - first:
+      213: -1091807523535337903
+    second: SNES - Super Bomberman 5 JPN - Items_23
+  - first:
+      213: -7537031035267991750
+    second: SNES - Super Bomberman 5 JPN - Items_24
+  - first:
+      213: 2238421941079455958
+    second: SNES - Super Bomberman 5 JPN - Items_25
+  - first:
+      213: 1993098663405911432
+    second: SNES - Super Bomberman 5 JPN - Items_26
+  - first:
+      213: 8655902132386043100
+    second: SNES - Super Bomberman 5 JPN - Items_27
+  - first:
+      213: 6457520459333636869
+    second: SNES - Super Bomberman 5 JPN - Items_28
+  - first:
+      213: -3615749017961317531
+    second: SNES - Super Bomberman 5 JPN - Items_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf3d8a6f8d474c81b0d9c357115bc6c
+      internalID: 1586029532278794723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc4cc5eccf704412970c98172b3781c
+      internalID: -6784800026493677431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d1206ddfe0d4bd8add1b7da5a59779
+      internalID: -1772290653394233041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275656b8677b946ddb8821fdb4002ab5
+      internalID: 7026569486087463865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c447a2ee5cccb4564a43535031c30e0b
+      internalID: 2745221199863720725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86119facad3e94fb09e62033b6bcc98e
+      internalID: -1222445217473683409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb20e033b9c5d4985bba205f46034c80
+      internalID: -405260021306205896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92c27eff9da444c784782c45378c0fb
+      internalID: -481258752582068058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b577a054e8654382b9f95ae214f4950
+      internalID: -7923560539223482000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d24ce1a4ea1d44ab8b10c6c9c3cf139
+      internalID: 2804199394590891111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d91aa73aec064c308350e9dfe4f3958
+      internalID: 4850377212095527210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4f46149b18646f99b9ad1ad63c9d8f
+      internalID: -6433302885097254821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6cd0c468d5a455e8f3d51aec75d27d
+      internalID: 6014648931187207602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee3acaec5da6481f8de57dc6b49ad17
+      internalID: -1365748734214181628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aeb2036fbe04fba993805e52ca2b9d
+      internalID: -7994672112911771051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9609873510e174bc39c439adabbe4977
+      internalID: 5825781846676763436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 111
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f3dd9d964cd42ff8c0da21dee52d9b
+      internalID: -1288482237053083289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 111
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ce15be3e394d22b7f1e1c9b96fd8d
+      internalID: 8268109427939323849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 111
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95994a84cc3ae43b298ea3b9af02a94d
+      internalID: -4439839026496491736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812596d1e7bac430f9f9ceace56988cf
+      internalID: 5261946575723534810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f008441dce64414b94146a4ff5d531
+      internalID: 5354998216392682650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b4f011db58e4ff2a58f0fe5d3a36ef
+      internalID: -6368370152529154167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d92c4228f2c1470ba47071595ced849
+      internalID: -7649802931817364723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b61ba12ef74becb0b40c94688b79c
+      internalID: -1091807523535337903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b931da1cd5da2432ab006a3992792350
+      internalID: -7537031035267991750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f079a9d199a53469c870545c8182a223
+      internalID: 2238421941079455958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516a1cda92198484ead9475aa5ce108b
+      internalID: 1993098663405911432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a350014921a443b8b37fdf447db7ee2
+      internalID: 8655902132386043100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8291d91afef4e47279980ef703c7e896
+      internalID: 6457520459333636869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Items_29
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c551eba6e414695a5f40fda221665b
+      internalID: -3615749017961317531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
