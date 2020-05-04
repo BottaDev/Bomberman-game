@@ -31,7 +31,7 @@ public class BombController : MonoBehaviour
         if (hasTime)
             yield return new WaitForSeconds(timeToExplode);
 
-        FindObjectOfType<MapDestroyer>().Explode(transform.position, explosionRange);
+        GetComponent<MapDestroyer>().Explode(transform.position, explosionRange);
 
         exploded = true;
 

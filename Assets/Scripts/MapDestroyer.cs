@@ -8,12 +8,6 @@ public class MapDestroyer : MonoBehaviour
 	public Tile indestructibleTile;
 	public Tile destructibleTile;
 	public GameObject explosionGO;
-	int randomProbability;
-	int randomProbabilityPowerUp;
-	public GameObject bombPlusGO;
-	public GameObject moreRangeGO;
-	public GameObject moreSpeedGO;
-    
 
 	private MapController mapController;
 	private bool[] canExplode = { true, true, true, true };   // 0 = Up ; 1 = Right ; 2 = Down ; 3 = Left
@@ -41,6 +35,9 @@ public class MapDestroyer : MonoBehaviour
 			ExplodeCell(originCell + new Vector3Int(-1 - i, 0, 0), canExplode[2], 2);	// Down
 			ExplodeCell(originCell + new Vector3Int(0, -1 - i, 0), canExplode[3], 3);	// Left
 		}
+
+		for (int i = 0; i < canExplode.Length; i++)
+			canExplode[i] = true;
 	}
 
 	private void ExplodeCell(Vector3Int cell, bool canExplode = true, int direction = -1)

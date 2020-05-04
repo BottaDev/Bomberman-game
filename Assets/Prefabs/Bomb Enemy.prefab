@@ -70,11 +70,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5288953052312764229}
   - component: {fileID: 5288953052312764228}
-  - component: {fileID: 5288953052312764282}
+  - component: {fileID: 7699478880389322758}
+  - component: {fileID: 4022693284674524857}
   - component: {fileID: 5288953052312764280}
   - component: {fileID: 5288953052312764283}
   m_Layer: 11
-  m_Name: Simple Enemy
+  m_Name: Bomb Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,9 +134,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7241259035943245326, guid: 6065648c2287c456d93855c9c7179c91,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 0.74212277, g: 0.972549, b: 0.02352939, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -145,7 +145,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5288953052312764282
+--- !u!114 &7699478880389322758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,17 +154,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 5288953052312764231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98616f9e77b8c44cbdc9b39f81a833a, type: 3}
+  m_Script: {fileID: 11500000, guid: 43ba358e6800ac74594fd85ef1356692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  life: 1
+  type: 2
+  life: 1.5
   speed: 3
   damage: 1
   collisionMask:
     serializedVersion: 2
     m_Bits: 2304
-  directionTimer: 1.5
+  rb: {fileID: 0}
+  explosionCd: 8
+  timeToExplode: 1.5
+  currentExplosionCd: 0
+  currentTimeToExplode: 0
+--- !u!114 &4022693284674524857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288953052312764231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc148cf16f10b7f47bb0053e311e6415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indestructibleTile: {fileID: 11400000, guid: 966a4314e9d733a47b77900582645b7d, type: 2}
+  destructibleTile: {fileID: 11400000, guid: 9881b0dc18cb31147a651fbed21195dc, type: 2}
+  explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
+    type: 3}
 --- !u!50 &5288953052312764280
 Rigidbody2D:
   serializedVersion: 4
