@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public bool[] playerIsDead = new bool[2];
     public int numberOfPlayers = 0;
 
-    void Awake()
+    private void Awake()
     {
         if (instance == null)
         {

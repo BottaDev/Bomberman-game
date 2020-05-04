@@ -16,7 +16,7 @@ public class MoreSpeed : MonoBehaviour
     {
         Player speed = player.GetComponent<Player>();
 
-        speed.ApplyPowerUp3(extraSpeed);
+        speed.ApplySpeedPowerUp(extraSpeed);
 
         Destroy(gameObject);
     }

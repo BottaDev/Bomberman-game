@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
     [Header("Player Settings")]
-    public float life = 2;
+    public int life = 2;
     public float speed = 5;
     public int bombStack = 3;
 
@@ -25,11 +25,30 @@ public class Player : MonoBehaviour
 
     private bool canBeDamaged = true;
 
-    public void TakeDamage(float damage)
+    private void Start()
+    {
+        if (playerNum == PlayerNum.Player1)
+        {
+            UIManager.instance.SetPlayer1Bombs(bombStack);
+            UIManager.instance.SetPlayer1HP(life);
+        }
+        else
+        {
+            UIManager.instance.SetPlayer2Bombs(bombStack);
+            UIManager.instance.SetPlayer2HP(life);
+        }
+    }
+
+    public void TakeDamage(int damage)
     {
         if (canBeDamaged)
         {
             life -= damage;
+
+            if(playerNum == PlayerNum.Player1)
+                UIManager.instance.SetPlayer1HP(life);
+            else
+                UIManager.instance.SetPlayer2HP(life);
 
             if (life <= 0)
                 KillPlayer();
@@ -47,19 +66,24 @@ public class Player : MonoBehaviour
         canBeDamaged = true;
     }
 
-    public void ApplyPowerUp(int extraBomb)
+    public void ApplyBombPowerUp(int extraBomb)
     {
-        bombStack = bombStack + extraBomb;
+        bombStack += extraBomb;
+
+        if (playerNum == PlayerNum.Player1)
+            UIManager.instance.SetPlayer1Bombs(bombStack);
+        else
+            UIManager.instance.SetPlayer2Bombs(bombStack);
     }
 
-    public void ApplyPowerUp2(int extraRange)
+    public void ApplyRangePowerUp(int extraRange)
     {
-        bombRange = bombRange + extraRange;
+        bombRange += extraRange;
     }
 
-    public void ApplyPowerUp3(float extraSpeed)
+    public void ApplySpeedPowerUp(float extraSpeed)
     {
-        speed = speed * extraSpeed;
+        speed *= extraSpeed;
     }
 
     private void KillPlayer()

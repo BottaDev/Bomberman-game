@@ -16,7 +16,7 @@ public class SumBomb : MonoBehaviour
     {
         Player bomb = player.GetComponent<Player>();
 
-        bomb.ApplyPowerUp(extraBomb);
+        bomb.ApplyBombPowerUp(extraBomb);
 
         Destroy(gameObject);
     }

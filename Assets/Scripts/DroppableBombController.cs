@@ -29,8 +29,13 @@ public class DroppableBombController : MonoBehaviour
 
         if (auxInputBomb == 1 && currentBombCd <= 0 && player.bombStack > 0)
         {
-                DropBomb();
-                player.bombStack -= 1;
+            DropBomb();
+            player.bombStack -= 1;
+
+            if (player.playerNum == Player.PlayerNum.Player1)
+                UIManager.instance.SetPlayer1Bombs(player.bombStack);
+            else
+                UIManager.instance.SetPlayer2Bombs(player.bombStack);
         }
     }
 
