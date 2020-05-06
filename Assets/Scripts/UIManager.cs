@@ -8,12 +8,17 @@ public class UIManager : MonoBehaviour
     public static UIManager instance = null;
 
     [Header("Player 1 Area")]
+    public GameObject player1Area;
     public TextMeshProUGUI hp;
     public TextMeshProUGUI bombs;
     [Header("Player 2 Area")]
     public GameObject player2Area;
     public TextMeshProUGUI hp2;
     public TextMeshProUGUI bombs2;
+
+    [Header("Screens")]
+    public GameObject youLoseScreen;
+    public GameObject youWinScreen;
 
 
     private void Awake()
@@ -50,5 +55,16 @@ public class UIManager : MonoBehaviour
     public void SetPlayer2Bombs(int bombs)
     {
         this.bombs2.text = bombs.ToString();
+    }
+
+    public void ShowFinalGui(bool win)
+    {
+        player1Area.SetActive(false);
+        player2Area.SetActive(false);
+
+        if (win)
+            youWinScreen.SetActive(true);
+        else
+            youLoseScreen.SetActive(true);
     }
 }

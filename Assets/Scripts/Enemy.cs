@@ -23,14 +23,22 @@ public class Enemy : MonoBehaviour
     protected Collider2D colLeft;
     protected float directionTimer = 1.5f;
 
+    [HideInInspector]
     public Animator animator;
     SpriteRenderer sprite;
+
+    private Renderer rend;
+    private Color normalColor;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
         sprite = GetComponent<SpriteRenderer>();
+
+        animator = GetComponent<Animator>();
+        rend = GetComponent<Renderer>();
+        normalColor = rend.material.color;
     }
 
     private void FixedUpdate()
@@ -325,8 +333,18 @@ public class Enemy : MonoBehaviour
     private IEnumerator SetInvulnerable()
     {
         canTakeDamage = false;
+
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+
+        normalColor.a = 0.5f;
+        rend.material.color = normalColor;
+
         yield return new WaitForSeconds(1.5f);
+        
         canTakeDamage = true;
+        normalColor.a = 1f;
+        rend.material.color = normalColor;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
