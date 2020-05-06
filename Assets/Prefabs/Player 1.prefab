@@ -191,7 +191,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2304
   direction: {fileID: 1537039692470931475}
-  auxAttackCd: 0
 --- !u!50 &3786846090507827629
 Rigidbody2D:
   serializedVersion: 4
