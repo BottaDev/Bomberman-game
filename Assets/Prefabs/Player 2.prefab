@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 6156193743334003313}
   - component: {fileID: 6156193743334003318}
   - component: {fileID: 2323990091454848041}
-  - component: {fileID: 2322083252886674664}
   - component: {fileID: 3786846090507827629}
   - component: {fileID: 6541275013504766113}
+  - component: {fileID: -5193326712999242991}
   m_Layer: 9
   m_Name: Player 2
   m_TagString: Player
@@ -141,6 +141,7 @@ MonoBehaviour:
   bombCd: 1
   bombTimeToExplode: 1.75
   bombRange: 2
+  animator: {fileID: -5193326712999242991}
 --- !u!114 &6156193743334003318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,25 +174,13 @@ MonoBehaviour:
   moveDown: 0
   moveLeft: 0
   moveRight: 0
---- !u!114 &2322083252886674664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6156193743334003314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ad56e671275a4a5d802c9171940afd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   destructibleTile: {fileID: 11400000, guid: 9881b0dc18cb31147a651fbed21195dc, type: 2}
   inputMele: MeleP2
   attackPosition: {fileID: 1765279681243824766}
   allLayers:
     serializedVersion: 2
     m_Bits: 2304
-  direction: {fileID: 1537039692470931475}
+  direction: {fileID: 2772025898036819098}
 --- !u!50 &3786846090507827629
 Rigidbody2D:
   serializedVersion: 4
@@ -229,6 +218,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.065
+--- !u!95 &-5193326712999242991
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6156193743334003314}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 432ce984c893d427bb2ef9cabe421d48, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6224583737534817846
 GameObject:
   m_ObjectHideFlags: 0

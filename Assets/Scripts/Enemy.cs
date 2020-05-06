@@ -23,10 +23,14 @@ public class Enemy : MonoBehaviour
     protected Collider2D colLeft;
     protected float directionTimer = 1.5f;
 
+    public Animator animator;
+    SpriteRenderer sprite;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
@@ -105,6 +109,20 @@ public class Enemy : MonoBehaviour
                 case 0:
                     if (colUp == null && direction != Vector2.up)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 1);
+                            animator.SetFloat("Right", 0);
+                            animator.SetFloat("Left", 0);
+                            sprite.flipX = false;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 1);
+                            animator.SetFloat("RightB", 0);
+                            animator.SetFloat("LeftB", 0);
+                            sprite.flipX = false;
+                        }
                         direction = Vector2.up;
                         canExit = true;
                     }
@@ -113,6 +131,20 @@ public class Enemy : MonoBehaviour
                 case 1:
                     if (colRight == null && direction != Vector2.right)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 0);
+                            animator.SetFloat("Right", 1);
+                            animator.SetFloat("Left", 0);
+                            sprite.flipX = true;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 0);
+                            animator.SetFloat("RightB", 1);
+                            animator.SetFloat("LeftB", 0);
+                            sprite.flipX = true;
+                        }
                         direction = Vector2.right;
                         canExit = true;
                     }
@@ -121,6 +153,20 @@ public class Enemy : MonoBehaviour
                 case 2:
                     if (colDown == null && direction != Vector2.down)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 0);
+                            animator.SetFloat("Right", 0);
+                            animator.SetFloat("Left", 0);
+                            sprite.flipX = false;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 0);
+                            animator.SetFloat("RightB", 0);
+                            animator.SetFloat("LeftB", 0);
+                            sprite.flipX = false;
+                        }
                         direction = Vector2.down;
                         canExit = true;
                     }
@@ -129,6 +175,20 @@ public class Enemy : MonoBehaviour
                 case 3:
                     if (colLeft == null && direction != Vector2.left)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 0);
+                            animator.SetFloat("Right", 0);
+                            animator.SetFloat("Left", 1);
+                            sprite.flipX = false;
+                        }
+                        else if (type== EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 0);
+                            animator.SetFloat("RightB",0);
+                            animator.SetFloat("LeftB",1);
+                            sprite.flipX = false;
+                        }
                         direction = Vector2.left;
                         canExit = true;
                     }
@@ -158,6 +218,20 @@ public class Enemy : MonoBehaviour
                 case 0:
                     if (colUp == null && direction != Vector2.up && direction != Vector2.down)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 1);
+                            animator.SetFloat("Right", 0);
+                            animator.SetFloat("Left", 0);
+                            sprite.flipX = false;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 1);
+                            animator.SetFloat("RightB", 0);
+                            animator.SetFloat("LeftB", 0);
+                            sprite.flipX = false;
+                        }
                         direction = Vector2.up;
                         canExit = true;
                     }
@@ -166,6 +240,20 @@ public class Enemy : MonoBehaviour
                 case 1:
                     if (colRight == null && direction != Vector2.right && direction != Vector2.left)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 0);
+                            animator.SetFloat("Right", 1);
+                            animator.SetFloat("Left", 0);
+                            sprite.flipX = true;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 0);
+                            animator.SetFloat("RightB", 1);
+                            animator.SetFloat("LeftB", 0);
+                            sprite.flipX = true;
+                        }
                         direction = Vector2.right;
                         canExit = true;
                     }
@@ -174,6 +262,20 @@ public class Enemy : MonoBehaviour
                 case 2:
                     if (colDown == null && direction != Vector2.down && direction != Vector2.up)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 0);
+                            animator.SetFloat("Right", 0);
+                            animator.SetFloat("Left", 0);
+                            sprite.flipX = false;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 0);
+                            animator.SetFloat("RightB", 0);
+                            animator.SetFloat("LeftB", 0);
+                            sprite.flipX = false;
+                        }
                         direction = Vector2.down;
                         canExit = true;
                     }
@@ -182,6 +284,20 @@ public class Enemy : MonoBehaviour
                 case 3:
                     if (colLeft == null && direction != Vector2.left && direction != Vector2.right)
                     {
+                        if (type == EnemyType.Walker)
+                        {
+                            animator.SetFloat("Up", 0);
+                            animator.SetFloat("Right", 0);
+                            animator.SetFloat("Left", 1);
+                            sprite.flipX = false;
+                        }
+                        else if (type == EnemyType.Bomber)
+                        {
+                            animator.SetFloat("UpB", 0);
+                            animator.SetFloat("RightB", 0);
+                            animator.SetFloat("LeftB", 1);
+                            sprite.flipX = false;
+                        }
                         direction = Vector2.left;
                         canExit = true;
                     }

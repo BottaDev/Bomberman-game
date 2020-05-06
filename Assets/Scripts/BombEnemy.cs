@@ -14,6 +14,8 @@ public class BombEnemy : Enemy
     [SerializeField]
     private float currentTimeToExplode = 0;
 
+   
+
     private void Awake()
     {
         currentExplosionCd = explosionCd;
@@ -34,6 +36,7 @@ public class BombEnemy : Enemy
 
     private void PrepareToExplode()
     {
+        animator.SetFloat("Attack",1);
         currentTimeToExplode -= Time.deltaTime;
         if (currentTimeToExplode <= 0)
             Explode();
@@ -49,6 +52,7 @@ public class BombEnemy : Enemy
     {
         currentExplosionCd = explosionCd;
         currentTimeToExplode = timeToExplode;
+        animator.SetFloat("Attack", 0);
 
         StartCoroutine("SetInvulnerable");
 

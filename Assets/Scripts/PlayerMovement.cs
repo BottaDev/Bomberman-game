@@ -9,8 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public string inputAxisX;
     public string inputAxisY;
 
-    public Animator animator;
-
     Player player;
     Rigidbody2D rb;
     PlayerMovement playerMovement;
@@ -32,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     public string inputMele;
     public Transform attackPosition;
     public LayerMask allLayers;
-    public GameObject direction;
+    public Transform direction;
 
     private float auxInputMele;
     private MapController mapController;
@@ -61,16 +59,26 @@ public class PlayerMovement : MonoBehaviour
             auxAttackCd = 0;
 
         if (auxInputMele == 1 && auxAttackCd <= 0)
+        {
             Attack();
-
+        }
+        
         if (playerMovement.moveUp == true)
-            direction.transform.localPosition = new Vector3(0, 0.1f, 0);
+        {
+            direction.localPosition = new Vector3(0, 0.1f, 0);
+        }
         if (playerMovement.moveDown == true)
-            direction.transform.localPosition = new Vector3(0, -0.1f, 0);
+        {
+            direction.localPosition = new Vector3(0, -0.1f, 0);
+        }
         if (playerMovement.moveRight == true)
-            direction.transform.localPosition = new Vector3(0.1f, 0, 0);
+        {
+            direction.localPosition = new Vector3(0.1f, 0, 0);
+        }
         if (playerMovement.moveLeft == true)
-            direction.transform.localPosition = new Vector3(0.1f, 0, 0);
+        {
+            direction.localPosition = new Vector3(0.1f, 0, 0);
+        }
     }
 
     private void FixedUpdate()
@@ -96,10 +104,10 @@ public class PlayerMovement : MonoBehaviour
         {
            
             rb.MovePosition(transform.position + new Vector3(0, 1, 0) * player.speed * Time.deltaTime);
-            animator.SetFloat("MoveU", 1);
-            animator.SetFloat("MoveD", 0);
-            animator.SetFloat("MoveL", 0);
-            animator.SetFloat("MoveR", 0);
+            player.animator.SetFloat("MoveU", 1);
+            player.animator.SetFloat("MoveD", 0);
+            player.animator.SetFloat("MoveL", 0);
+            player.animator.SetFloat("MoveR", 0);
             moveUp = true;
             moveDown = false;
             moveLeft = false;
@@ -108,10 +116,10 @@ public class PlayerMovement : MonoBehaviour
         else if (auxAxisY < 0)
         {
             rb.MovePosition(transform.position + new Vector3(0, -1, 0) * player.speed * Time.deltaTime);
-            animator.SetFloat("MoveD", 1);
-            animator.SetFloat("MoveU", 0);
-            animator.SetFloat("MoveL", 0);
-            animator.SetFloat("MoveR", 0);
+            player.animator.SetFloat("MoveD", 1);
+            player.animator.SetFloat("MoveU", 0);
+            player.animator.SetFloat("MoveL", 0);
+            player.animator.SetFloat("MoveR", 0);
             moveUp = false;
             moveDown = true;
             moveLeft = false;
@@ -120,10 +128,10 @@ public class PlayerMovement : MonoBehaviour
         else if(auxAxisX < 0)
         {
             rb.MovePosition(transform.position + new Vector3(-1, 0, 0) * player.speed * Time.deltaTime);
-            animator.SetFloat("MoveL", 1);
-            animator.SetFloat("MoveU", 0);
-            animator.SetFloat("MoveD", 0);
-            animator.SetFloat("MoveR", 0);
+            player.animator.SetFloat("MoveL", 1);
+            player.animator.SetFloat("MoveU", 0);
+            player.animator.SetFloat("MoveD", 0);
+            player.animator.SetFloat("MoveR", 0);
             transform.localRotation = Quaternion.Euler(0, 180, 0);
             moveUp = false;
             moveDown = false;
@@ -133,10 +141,10 @@ public class PlayerMovement : MonoBehaviour
         else if (auxAxisX > 0)
         {
             rb.MovePosition(transform.position + new Vector3(1, 0, 0) * player.speed * Time.deltaTime);
-            animator.SetFloat("MoveR", 1);
-            animator.SetFloat("MoveU", 0);
-            animator.SetFloat("MoveD", 0);
-            animator.SetFloat("MoveL", 0);
+            player.animator.SetFloat("MoveR", 1);
+            player.animator.SetFloat("MoveU", 0);
+            player.animator.SetFloat("MoveD", 0);
+            player.animator.SetFloat("MoveL", 0);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
             moveUp = false;
             moveDown = false;
@@ -145,15 +153,36 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            animator.SetFloat("MoveR", 0);
-            animator.SetFloat("MoveU", 0);
-            animator.SetFloat("MoveD", 0);
-            animator.SetFloat("MoveL", 0);
+            player.animator.SetFloat("MoveR", 0);
+            player.animator.SetFloat("MoveU", 0);
+            player.animator.SetFloat("MoveD", 0);
+            player.animator.SetFloat("MoveL", 0);
+        }
+    }
+
+    private void ExcuteAttackAnimation()
+    {
+        if (playerMovement.moveUp == true)
+        {
+            player.animator.SetTrigger("PunchU");
+        }
+        else if (playerMovement.moveDown == true)
+        {
+            player.animator.SetTrigger("PunchD");
+        }
+        else if (playerMovement.moveRight == true)
+        {
+            player.animator.SetTrigger("PunchR");
+        }
+        else if (playerMovement.moveLeft == true)
+        {
+            player.animator.SetTrigger("PunchL");
         }
     }
 
     void Attack()
     {
+
         Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
 
         // Enemy
@@ -172,9 +201,10 @@ public class PlayerMovement : MonoBehaviour
             {
                 mapController.DestroyCell(cell);
                 mapController.DropPowerUp(cell);
-                auxAttackCd = player.attackCd;
             }
         }
+        ExcuteAttackAnimation();
+        auxAttackCd = player.attackCd;
     }
 
     private void OnDrawGizmosSelected()

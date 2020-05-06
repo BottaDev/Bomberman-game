@@ -141,6 +141,7 @@ MonoBehaviour:
   bombCd: 1
   bombTimeToExplode: 1.75
   bombRange: 2
+  animator: {fileID: 5547705668671180224}
 --- !u!114 &6156193743334003318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,7 +170,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputAxisX: HorizontalP1
   inputAxisY: VerticalP1
-  animator: {fileID: 5547705668671180224}
   moveUp: 0
   moveDown: 0
   moveLeft: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   allLayers:
     serializedVersion: 2
     m_Bits: 2304
-  direction: {fileID: 1537039692470931475}
+  direction: {fileID: 2772025898036819098}
 --- !u!50 &3786846090507827629
 Rigidbody2D:
   serializedVersion: 4

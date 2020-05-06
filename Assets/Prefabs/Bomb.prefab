@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 184562350528773964}
   - component: {fileID: -3957711584753198733}
   - component: {fileID: -756399044752522045}
+  - component: {fileID: 8900488434506491492}
   m_Layer: 8
   m_Name: Bomb
   m_TagString: Untagged
@@ -101,6 +102,7 @@ MonoBehaviour:
   explosionRange: 2
   explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
     type: 3}
+  animator: {fileID: 8900488434506491492}
 --- !u!114 &184562350528773964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,12 +118,6 @@ MonoBehaviour:
   indestructibleTile: {fileID: 11400000, guid: 966a4314e9d733a47b77900582645b7d, type: 2}
   destructibleTile: {fileID: 11400000, guid: 9881b0dc18cb31147a651fbed21195dc, type: 2}
   explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
-    type: 3}
-  bombPlusGO: {fileID: 5286626215448112834, guid: e9fc3c8b7420045e3b17da2ef5bce2e9,
-    type: 3}
-  moreRangeGO: {fileID: 736808080049414640, guid: a4817502901884478a9deed666025c11,
-    type: 3}
-  moreSpeedGO: {fileID: 1567099483808209087, guid: 7be5222783db14df2806830d7c3d9ccd,
     type: 3}
 --- !u!58 &-3957711584753198733
 CircleCollider2D:
@@ -160,3 +156,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &8900488434506491492
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962719680707978622}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 566a6339357db4c0599310c1f03a1ffc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
