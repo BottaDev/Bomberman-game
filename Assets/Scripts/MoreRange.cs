@@ -16,7 +16,7 @@ public class MoreRange : MonoBehaviour
     {
         Player range = player.GetComponent<Player>();
 
-        range.ApplyPowerUp2(extraRange);
+        range.ApplyRangePowerUp(extraRange);
 
         Destroy(gameObject);
     }

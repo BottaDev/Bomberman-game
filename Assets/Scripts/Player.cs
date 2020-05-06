@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
     [Header("Player Settings")]
-    public float life = 2;
+    public int life = 2;
     public float speed = 5;
     public int bombStack = 3;
 
@@ -22,16 +22,41 @@ public class Player : MonoBehaviour
     public float bombTimeToExplode = 3f;
     [Range(min: 2, max: 5)]
     public int bombRange = 2;   // Valor expresado en bloques del mapa
-
-    private bool canBeDamaged = true;
-
+    [HideInInspector]
     public Animator animator;
 
-    public void TakeDamage(float damage)
+    private bool canBeDamaged = true;
+    private Renderer rend;
+    private Color normalColor;
+
+    private void Start()
+    {
+        if (playerNum == PlayerNum.Player1)
+        {
+            UIManager.instance.SetPlayer1Bombs(bombStack);
+            UIManager.instance.SetPlayer1HP(life);
+        }
+        else
+        {
+            UIManager.instance.SetPlayer2Bombs(bombStack);
+            UIManager.instance.SetPlayer2HP(life);
+        }
+
+        animator = GetComponent<Animator>();
+        rend = GetComponent<Renderer>();
+        normalColor = rend.material.color;
+    }
+
+    public void TakeDamage(int damage)
     {
         if (canBeDamaged)
         {
             life -= damage;
+
+            if(playerNum == PlayerNum.Player1)
+                UIManager.instance.SetPlayer1HP(life);
+            else
+                UIManager.instance.SetPlayer2HP(life);
 
             if (life <= 0)
                 KillPlayer();
@@ -44,24 +69,37 @@ public class Player : MonoBehaviour
     {
         canBeDamaged = false;
 
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.3f);
+
+        normalColor.a = 0.5f;
+        rend.material.color = normalColor;
+
         yield return new WaitForSeconds(1.5f);
 
+        normalColor.a = 1f;
         canBeDamaged = true;
+        rend.material.color = normalColor;
     }
 
-    public void ApplyPowerUp(int extraBomb)
+    public void ApplyBombPowerUp(int extraBomb)
     {
-        bombStack = bombStack + extraBomb;
+        bombStack += extraBomb;
+
+        if (playerNum == PlayerNum.Player1)
+            UIManager.instance.SetPlayer1Bombs(bombStack);
+        else
+            UIManager.instance.SetPlayer2Bombs(bombStack);
     }
 
-    public void ApplyPowerUp2(int extraRange)
+    public void ApplyRangePowerUp(int extraRange)
     {
-        bombRange = bombRange + extraRange;
+        bombRange += extraRange;
     }
 
-    public void ApplyPowerUp3(float extraSpeed)
+    public void ApplySpeedPowerUp(float extraSpeed)
     {
-        speed = speed * extraSpeed;
+        speed *= extraSpeed;
     }
 
     private void KillPlayer()
@@ -79,5 +117,4 @@ public class Player : MonoBehaviour
         Player1,
         Player2,
     }
-
 }

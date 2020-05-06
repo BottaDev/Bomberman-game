@@ -5,7 +5,7 @@ using UnityEngine;
 public class ExplosionController : MonoBehaviour
 {
     public float duration = 0.5f;
-    public float damage = 1;
+    public int damage = 1;
 
     void Start()
     {
