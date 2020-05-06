@@ -94,9 +94,10 @@ public class LevelManager : MonoBehaviour
 
     private IEnumerator LoseLevel()
     {
-        yield return new WaitForSeconds(2);
+        UIManager.instance.ShowFinalGui(false);
 
-        Debug.Log("Derrota");
+        yield return new WaitForSeconds(2);
+        
         ChangeLevel(0);
     }
 
@@ -128,9 +129,11 @@ public class LevelManager : MonoBehaviour
         } while (canSpawn == false);
     }
 
-    public void WinLevel(GameObject playerGO)
+    public IEnumerator WinLevel()
     {
-        // MOstrar pantalla de ganar
+        UIManager.instance.ShowFinalGui(true);
+
+        yield return new WaitForSeconds(2);
 
         ChangeLevel(level + 1);
     }
