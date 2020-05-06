@@ -40,54 +40,26 @@ public class LevelManager : MonoBehaviour
     {
         int randomNum = Random.Range(0, 2);
 
-        if (level == 1)
-        {
-            if (randomNum == 0)
-                InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[0]);
-            else
-                InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[1]);
-        }
+        if (randomNum == 0)
+            InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[0]);
         else
-        {
-            if (randomNum == 0)
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[0], spawnPositions[0], GameManager.instance.playerIsDead[0]);
-            else
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[0], spawnPositions[1], GameManager.instance.playerIsDead[0]);
-        }
+            InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[1]);
+
     }
 
     private void SpawnPlayers()
     {
-        int level = SceneManager.GetActiveScene().buildIndex;
-
         int randomNum = Random.Range(0, 2);
 
-        // Primer nivel, los players no tiene buffs
-        if (level == 1)
+        if (randomNum == 0)
         {
-            if (randomNum == 0)
-            {
-                InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[0]);
-                InstantiatePlayer(GameManager.instance.playerBaseGO[1], spawnPositions[1]);
-            }
-            else
-            {
-                InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[1]);
-                InstantiatePlayer(GameManager.instance.playerBaseGO[1], spawnPositions[0]);
-            }
+            InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[0]);
+            InstantiatePlayer(GameManager.instance.playerBaseGO[1], spawnPositions[1]);
         }
         else
         {
-            if (randomNum == 0)
-            {
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[0], spawnPositions[0], GameManager.instance.playerIsDead[0]);
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[1], spawnPositions[1], GameManager.instance.playerIsDead[1]);
-            }
-            else
-            {
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[0], spawnPositions[1], GameManager.instance.playerIsDead[0]);
-                InstantiatePlayer(GameManager.instance.currentPlayerGO[1], spawnPositions[0], GameManager.instance.playerIsDead[1]);
-            }
+            InstantiatePlayer(GameManager.instance.playerBaseGO[0], spawnPositions[1]);
+            InstantiatePlayer(GameManager.instance.playerBaseGO[1], spawnPositions[0]);
         }
     }
 
@@ -158,24 +130,7 @@ public class LevelManager : MonoBehaviour
 
     public void WinLevel(GameObject playerGO)
     {
-        if (numberOfPlayers == 1)
-            GameManager.instance.SetCurrentPlayerGO(Player.PlayerNum.Player1, playerGO);
-        else if (numberOfPlayers == 2)
-        {
-            Player playerEntity = playerGO.GetComponent<Player>();
-            GameManager.instance.SetCurrentPlayerGO(playerEntity.playerNum, playerGO);
-
-            // Se destruye el objeto para no tener problemas en la busqueda del otro player
-            Destroy(playerGO);
-
-            GameObject secondPlayerGO = GameObject.FindGameObjectWithTag("Player");
-
-            if (secondPlayerGO != null)
-            {
-                Player playerEntity2 = secondPlayerGO.GetComponent<Player>();
-                GameManager.instance.SetCurrentPlayerGO(playerEntity2.playerNum, secondPlayerGO);
-            }
-        }
+        // MOstrar pantalla de ganar
 
         ChangeLevel(level + 1);
     }

@@ -164,7 +164,7 @@ MonoBehaviour:
   damage: 1
   collisionMask:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 256
   rb: {fileID: 0}
   animator: {fileID: -1891380830973403570}
 --- !u!50 &5288953052312764280

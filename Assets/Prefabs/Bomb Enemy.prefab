@@ -165,14 +165,14 @@ MonoBehaviour:
   damage: 1
   collisionMask:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 256
   rb: {fileID: 0}
+  animator: {fileID: 4439185170533840531}
   explosionCd: 8
   timeToExplode: 1.5
   explosionRange: 3
   currentExplosionCd: 0
   currentTimeToExplode: 0
-  animator: {fileID: 4439185170533840531}
 --- !u!114 &4022693284674524857
 MonoBehaviour:
   m_ObjectHideFlags: 0
