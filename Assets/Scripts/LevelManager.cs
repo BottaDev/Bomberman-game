@@ -117,11 +117,13 @@ public class LevelManager : MonoBehaviour
         playerDeathCount++;
 
         if (playerDeathCount == numberOfPlayers)
-            LoseLevel();
+            StartCoroutine("LoseLevel");
     }
 
-    private void LoseLevel()
+    private IEnumerator LoseLevel()
     {
+        yield return new WaitForSeconds(2);
+
         Debug.Log("Derrota");
         ChangeLevel(0);
     }

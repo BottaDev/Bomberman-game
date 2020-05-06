@@ -1,0 +1,5479 @@
+fileFormatVersion: 2
+guid: 32830bf8e662a48b4861092bf6ce003f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5091441398009273350
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_0
+  - first:
+      213: -6249089823908541644
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_1
+  - first:
+      213: 7857116129633190459
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_2
+  - first:
+      213: -5123762362194841606
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_3
+  - first:
+      213: 3972684648280730421
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_4
+  - first:
+      213: -6319312962706308927
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_5
+  - first:
+      213: -3344513886706762760
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_6
+  - first:
+      213: -7913119193583963051
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_7
+  - first:
+      213: -8847113855066281150
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_8
+  - first:
+      213: -4315510878665028948
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_9
+  - first:
+      213: -2637938500781440755
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_10
+  - first:
+      213: -396336632707699174
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_11
+  - first:
+      213: 8574415826384587705
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_12
+  - first:
+      213: 7608383081192717434
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_13
+  - first:
+      213: 6227662754104431667
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_14
+  - first:
+      213: -5689839427634549795
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_15
+  - first:
+      213: -2460231482362841864
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_16
+  - first:
+      213: 591349202474601992
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_17
+  - first:
+      213: -3547992606285462173
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_18
+  - first:
+      213: 3719329417730463924
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_19
+  - first:
+      213: -696487537188053911
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_20
+  - first:
+      213: 8404328708069978258
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_21
+  - first:
+      213: -4738501345227673016
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_22
+  - first:
+      213: 6574690184254645200
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_23
+  - first:
+      213: 4850562210707492008
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_24
+  - first:
+      213: 166043820396881035
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_25
+  - first:
+      213: 8876452499602136996
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_26
+  - first:
+      213: 6890940018747626338
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_27
+  - first:
+      213: -6508074131453638856
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_28
+  - first:
+      213: 2068899708584832762
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_29
+  - first:
+      213: -2115819811638449914
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_30
+  - first:
+      213: -615199878934451623
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_31
+  - first:
+      213: -1166436976955605884
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_32
+  - first:
+      213: 3829885433371347222
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_33
+  - first:
+      213: 6130682789268337220
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_34
+  - first:
+      213: 240271899581194055
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_35
+  - first:
+      213: -4447706046971748022
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_36
+  - first:
+      213: 4822735699986903555
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_37
+  - first:
+      213: -2339566485562972195
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_38
+  - first:
+      213: -3399352813783136368
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_39
+  - first:
+      213: -6615905261769845973
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_40
+  - first:
+      213: 8208238538119475498
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_41
+  - first:
+      213: 5080367863936612997
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_42
+  - first:
+      213: -7398262259282389655
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_43
+  - first:
+      213: -2461784487170023505
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_44
+  - first:
+      213: 2553241220945314217
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_45
+  - first:
+      213: 1369141700855713250
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_46
+  - first:
+      213: 6976795882761611966
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_47
+  - first:
+      213: -3663926820608191676
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_48
+  - first:
+      213: 6197810191810867517
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_49
+  - first:
+      213: 7641073212496115901
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_50
+  - first:
+      213: 2985992155159557075
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_51
+  - first:
+      213: 6877728189703850614
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_52
+  - first:
+      213: -3526174170172795157
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_53
+  - first:
+      213: -7982979009907913510
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_54
+  - first:
+      213: 7806470155820426010
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_55
+  - first:
+      213: 6164269519475520910
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_56
+  - first:
+      213: -7564724264032049044
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_57
+  - first:
+      213: 3065011531035011124
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_58
+  - first:
+      213: -7401859062139933999
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_59
+  - first:
+      213: -484522612124082241
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_60
+  - first:
+      213: 5822035813315876292
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_61
+  - first:
+      213: -8175900939892064232
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_62
+  - first:
+      213: 6756238586640653450
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_63
+  - first:
+      213: -986254762388625077
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_64
+  - first:
+      213: -2618448242183329389
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_65
+  - first:
+      213: -4709257459282675731
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_66
+  - first:
+      213: -2291828573183237896
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_67
+  - first:
+      213: -2154221923188947249
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_68
+  - first:
+      213: -4129882152617306867
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_69
+  - first:
+      213: 5241421600598729634
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_70
+  - first:
+      213: -8994131686123001323
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_71
+  - first:
+      213: 4046465734309188717
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_72
+  - first:
+      213: 1642228907977528672
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_73
+  - first:
+      213: 1899017481889971543
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_74
+  - first:
+      213: -5483784028109712640
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_75
+  - first:
+      213: -6551182535301196339
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_76
+  - first:
+      213: -891332585545832982
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_77
+  - first:
+      213: -1520615571045080305
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_78
+  - first:
+      213: -1428159492222457815
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_79
+  - first:
+      213: -2060721133278204538
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_80
+  - first:
+      213: 8637655954734285068
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_81
+  - first:
+      213: 6355634657547116687
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_82
+  - first:
+      213: 3799636622458055943
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_83
+  - first:
+      213: 3138645605871169349
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_84
+  - first:
+      213: 1300855427673584515
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_85
+  - first:
+      213: -5158030054342967176
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_86
+  - first:
+      213: 7533952227912828344
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_87
+  - first:
+      213: 5150441270613389083
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_88
+  - first:
+      213: -8779867385367920093
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_89
+  - first:
+      213: -2120040792383131458
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_90
+  - first:
+      213: -249186396241458577
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_91
+  - first:
+      213: 1305960255243813698
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_92
+  - first:
+      213: 6473605521606857964
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_93
+  - first:
+      213: 8304437455263019463
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_94
+  - first:
+      213: -1391979109534182193
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_95
+  - first:
+      213: 4374404392676736137
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_96
+  - first:
+      213: -8596258225464345654
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_97
+  - first:
+      213: 4227423907574600008
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_98
+  - first:
+      213: 5643259948535157610
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_99
+  - first:
+      213: 4315351333213662212
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_100
+  - first:
+      213: 769179688343876368
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_101
+  - first:
+      213: -2455300038686298054
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_102
+  - first:
+      213: 233239913907386902
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_103
+  - first:
+      213: 1088320332591550747
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_104
+  - first:
+      213: -4160225426186893099
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_105
+  - first:
+      213: 410107328712440344
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_106
+  - first:
+      213: -6472692303875451605
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_107
+  - first:
+      213: 8965452453348996870
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_108
+  - first:
+      213: 5564328812670318978
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_109
+  - first:
+      213: -2967991732872575020
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_110
+  - first:
+      213: -9174839061660121676
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_111
+  - first:
+      213: -2228487202695310238
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_112
+  - first:
+      213: 6612123210014590025
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_113
+  - first:
+      213: 4786350606280365815
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_114
+  - first:
+      213: 3935190938990195922
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_115
+  - first:
+      213: -799898163378155693
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_116
+  - first:
+      213: -4010587663673213320
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_117
+  - first:
+      213: -245051362209998203
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_118
+  - first:
+      213: 6526386493304147857
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_119
+  - first:
+      213: -2310066228583015985
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_120
+  - first:
+      213: 3757148095307992858
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_121
+  - first:
+      213: 5665108726727343565
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_122
+  - first:
+      213: 3547683316337939027
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_123
+  - first:
+      213: -4255289659423202658
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_124
+  - first:
+      213: -2497347373158931552
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_125
+  - first:
+      213: 5201828179622273252
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_126
+  - first:
+      213: -2595454333732413812
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_127
+  - first:
+      213: -2431231811376013518
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_128
+  - first:
+      213: 5362352978240623910
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_129
+  - first:
+      213: -7941068358719938788
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_130
+  - first:
+      213: 6517878582111945779
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_131
+  - first:
+      213: -8529210682049933378
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_132
+  - first:
+      213: 1214928604650686080
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_133
+  - first:
+      213: -3003176198613906659
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_134
+  - first:
+      213: 5734562017884724566
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_135
+  - first:
+      213: -8387586441935247175
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_136
+  - first:
+      213: 5983790459277134231
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_137
+  - first:
+      213: -3763159374829810416
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_138
+  - first:
+      213: 3157377979552318012
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_139
+  - first:
+      213: 5856392693742517014
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_140
+  - first:
+      213: 1714447674579490605
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_141
+  - first:
+      213: -5955156991437000532
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_142
+  - first:
+      213: 398361852786498231
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_143
+  - first:
+      213: -7173060768109262328
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_144
+  - first:
+      213: -3633009441269922039
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_145
+  - first:
+      213: -4369171270289215005
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_146
+  - first:
+      213: -2635775068375648741
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_147
+  - first:
+      213: -7535303898470627992
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_148
+  - first:
+      213: -4335653835098541130
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_149
+  - first:
+      213: 1031513621678028789
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_150
+  - first:
+      213: -6300019289866020990
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_151
+  - first:
+      213: -8956310149407994496
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_152
+  - first:
+      213: -3157590554573927287
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_153
+  - first:
+      213: -2019097884734146315
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_154
+  - first:
+      213: 2855639734041654381
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_155
+  - first:
+      213: -8479443948351663258
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_156
+  - first:
+      213: 2109202828908429361
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_157
+  - first:
+      213: 7788666532467400899
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_158
+  - first:
+      213: -1759116150571904102
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_159
+  - first:
+      213: 7752892393061644977
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_160
+  - first:
+      213: -8815064795745988429
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_161
+  - first:
+      213: 6963471656558623953
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_162
+  - first:
+      213: -8293900031008808615
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_163
+  - first:
+      213: -542819791717654032
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_164
+  - first:
+      213: -4719694728463231588
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_165
+  - first:
+      213: 3884883718276805936
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_166
+  - first:
+      213: 3264290687949354602
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_167
+  - first:
+      213: 2801808254610372775
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_168
+  - first:
+      213: -2028779220696469238
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_169
+  - first:
+      213: 3737520350067112354
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_170
+  - first:
+      213: -7680577332794330745
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_171
+  - first:
+      213: 8130649217586282527
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_172
+  - first:
+      213: -3245447024312197135
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_173
+  - first:
+      213: 5080299105837294318
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_174
+  - first:
+      213: 9000937237913621370
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_175
+  - first:
+      213: -5107481971143369570
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_176
+  - first:
+      213: -7951126748929515508
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_177
+  - first:
+      213: 5244972675778989707
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_178
+  - first:
+      213: -5724981518776186886
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_179
+  - first:
+      213: -2694051335576126397
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_180
+  - first:
+      213: 4640727183612175013
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_181
+  - first:
+      213: -1473166242404578348
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_182
+  - first:
+      213: 7105295423324428644
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_183
+  - first:
+      213: 3281809079956424650
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_184
+  - first:
+      213: 8282585849173105015
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_185
+  - first:
+      213: 702914371976934074
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_186
+  - first:
+      213: -8706888446251470157
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_187
+  - first:
+      213: 6743269172536167524
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_188
+  - first:
+      213: 7259517383111507594
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_189
+  - first:
+      213: 6516688942886137790
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_190
+  - first:
+      213: -4663694601480789223
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_191
+  - first:
+      213: 8085813109302147601
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_192
+  - first:
+      213: 6273134581303854913
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_193
+  - first:
+      213: 5295682834185431955
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_194
+  - first:
+      213: -8501476890293608526
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_195
+  - first:
+      213: 4340389894073413064
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_196
+  - first:
+      213: 8700907068821338950
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_197
+  - first:
+      213: -1532399900911014236
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_198
+  - first:
+      213: 3036137110783057960
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_199
+  - first:
+      213: 7712848459297480601
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_200
+  - first:
+      213: -8546910235937869424
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_201
+  - first:
+      213: -4922942616291762422
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_202
+  - first:
+      213: 505789386585392197
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_203
+  - first:
+      213: -6641216024844355982
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_204
+  - first:
+      213: -4029650039857585615
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_205
+  - first:
+      213: -788173293300908192
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_206
+  - first:
+      213: -2100742353412790224
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_207
+  - first:
+      213: 5569479470928136310
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_208
+  - first:
+      213: -1332522458064595802
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_209
+  - first:
+      213: 226214965172097546
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_210
+  - first:
+      213: -8417074546469687695
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_211
+  - first:
+      213: 8034170145840676102
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_212
+  - first:
+      213: -1012298581212012159
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_213
+  - first:
+      213: -5129441518623972154
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_214
+  - first:
+      213: -3834002514205712258
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_215
+  - first:
+      213: -6595668549561988884
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_216
+  - first:
+      213: -8346198925585203490
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_217
+  - first:
+      213: 1326699546676228386
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_218
+  - first:
+      213: 2712443056740832008
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_219
+  - first:
+      213: 7830581794403308623
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_220
+  - first:
+      213: 8108381293104868807
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_221
+  - first:
+      213: 5942166327783800208
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_222
+  - first:
+      213: 7154110741019365595
+    second: SNES - Super Bomberman 5 JPN - Baron Bombano_223
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 365
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bc0e466b4fd4447b7db2c34849926d
+      internalID: -5091441398009273350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 365
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae186c219d18d49dda34746bced90498
+      internalID: -6249089823908541644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 365
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c186c15dd7e4a88963601457e82aea
+      internalID: 7857116129633190459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 365
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0c18cc3f6ab4abe82de9f31315422d
+      internalID: -5123762362194841606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 365
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4ebd6d9e51047b89bf6fa3906aa628
+      internalID: 3972684648280730421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 365
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3376f55520bf84f85a9093d9799d785f
+      internalID: -6319312962706308927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 366
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0290d5cd48a4afface92e49e9edfe4
+      internalID: -3344513886706762760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 366
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d124e9ae5fa2f43449ed188421f953f7
+      internalID: -7913119193583963051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 363
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b746c9e282f4d518863c215da4a35d
+      internalID: -8847113855066281150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 363
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a5f9d249c1462d97ed360f58f5c54
+      internalID: -4315510878665028948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 363
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49810207e38824e688edd052983f3861
+      internalID: -2637938500781440755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 363
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a103af4470014c088051f6b318e99a1
+      internalID: -396336632707699174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 363
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1917228059f3446299b1f75de9470e60
+      internalID: 8574415826384587705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 363
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01110d342743341c3a3005fb6c378e6c
+      internalID: 7608383081192717434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 363
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953bdb4cea6a84863b5e039e679d04b0
+      internalID: 6227662754104431667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_15
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 363
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1178c8ec66d14a6d9a884a2c5871c4c
+      internalID: -5689839427634549795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 363
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26beb827f3bf45b1ac4534ff1245c3c
+      internalID: -2460231482362841864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 363
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759acd4e0e3f646dcb6b6efad9d9c1c1
+      internalID: 591349202474601992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_18
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 354
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05014b8eda3b1414596f12b9d25a3cde
+      internalID: -3547992606285462173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_19
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 354
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f67a9da84147afa9f2178da0c3547
+      internalID: 3719329417730463924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_20
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 354
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c343b7f230a482a940a4a36cf4e5fb
+      internalID: -696487537188053911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_21
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 354
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e76d10f8f1e4473b1f006ab3010fa1
+      internalID: 8404328708069978258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 354
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b51ba7b1e774a878e4fae443be5f73
+      internalID: -4738501345227673016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_23
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 354
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7b4f51a9a8b43d29da0900b57395e0
+      internalID: 6574690184254645200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_24
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 355
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17417de0e1dc4bc7920acfa0cea4c98
+      internalID: 4850562210707492008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_25
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 355
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313997ade59254ec183cd096e800a48f
+      internalID: 166043820396881035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_26
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 352
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3db6435a78704b98b122043de14f386
+      internalID: 8876452499602136996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_27
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 352
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd4ae5419a194f2e981e65e52553c54
+      internalID: 6890940018747626338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_28
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 352
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04261d48ca6754032ac298c46d7aa285
+      internalID: -6508074131453638856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_29
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 352
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4175b55e7e5904e61bafade7a30139a1
+      internalID: 2068899708584832762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_30
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 352
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c387522114d4eb09bc6092832f5292
+      internalID: -2115819811638449914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_31
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 352
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd9cf48b8c1248ca8db418c8fe7485d
+      internalID: -615199878934451623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_32
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 352
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f989e76b47440a6b587a642283813d
+      internalID: -1166436976955605884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_33
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 352
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fff08f0534a4e2ba146027adf3f9e8
+      internalID: 3829885433371347222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_34
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 352
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660dcb53f9d7a46768f2950c4a0bfeaa
+      internalID: 6130682789268337220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_35
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 352
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28c9b6cebd5740e4858993ceef3239a
+      internalID: 240271899581194055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 335
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739e458cc73354a42933211dbedc5250
+      internalID: -4447706046971748022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 335
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb1ee6373ff949d68ec0c41eea1099f
+      internalID: 4822735699986903555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_38
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 335
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558559254420d486cb32ad6a29a3d47c
+      internalID: -2339566485562972195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_39
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 335
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbee917d1e9a48088cb7ee1b4317325
+      internalID: -3399352813783136368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 335
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740408549f844676b9abc0e82d772ee
+      internalID: -6615905261769845973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 335
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f507fca5abd4c4d1494026af91e8e761
+      internalID: 8208238538119475498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 335
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e659eff08be9435da9163eaab7bd8d0
+      internalID: 5080367863936612997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 335
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ac651544d8f4b1ba32550f65bb6a07
+      internalID: -7398262259282389655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 331
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3952d523f394411b4d2d9dcd005fe1
+      internalID: -2461784487170023505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_45
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 327
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f34bc28a367486e8d26ec49b25d6d1
+      internalID: 2553241220945314217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_46
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 327
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490b0ffaa3db4ed490560a8787a328a
+      internalID: 1369141700855713250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_47
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 327
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cbf9b14237c4cca8d2c1c5f2e0c955
+      internalID: 6976795882761611966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_48
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 327
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c729a4ce4529641d49922db7ce60481e
+      internalID: -3663926820608191676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 327
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1651fc1bfd14ff7a2ac31f36ec9594
+      internalID: 6197810191810867517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_50
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 327
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984c95f965c094f18a6df5553c96b52c
+      internalID: 7641073212496115901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_51
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 327
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1ea7ff0b8c949a1b0a604947c56db3
+      internalID: 2985992155159557075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_52
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 327
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756e53e291008475d9ee4b3b33ba57ea
+      internalID: 6877728189703850614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_53
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 324
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef951d1aa49448ea8ae59a40f48c9b
+      internalID: -3526174170172795157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_54
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 324
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b550a5aba979467e86f3b413e1b7db4
+      internalID: -7982979009907913510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_55
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 324
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f1bde8a08b94bf889dfde912014300
+      internalID: 7806470155820426010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_56
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 324
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04c1786d1ec149aa800848f4d993ed9
+      internalID: 6164269519475520910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_57
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 324
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dff63551cdd465b8dd983c05dd00e6
+      internalID: -7564724264032049044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_58
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 324
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b880afe9560f4557afa1958f3265e06
+      internalID: 3065011531035011124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_59
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 324
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8ee54f7ff2a419cb52352a7487176a
+      internalID: -7401859062139933999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_60
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 324
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f9dd43efd9473b80ac162b07b7b73
+      internalID: -484522612124082241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_61
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 320
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8826a6f4761474eb1be1e2079fe308
+      internalID: 5822035813315876292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_62
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 316
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc054450893340cca0e522916338959
+      internalID: -8175900939892064232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_63
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 316
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbaabfdcba874fae9e8c30c0ffdd973
+      internalID: 6756238586640653450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_64
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 316
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6226431b011344a0998d0f5db09dcc3c
+      internalID: -986254762388625077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_65
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 316
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4b569eeb1cd499a85b6c3765a30e18
+      internalID: -2618448242183329389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_66
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 316
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4c5c5ae001a4e4881872329074b249
+      internalID: -4709257459282675731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_67
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 316
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219c0faba81e4916bde1e0aec4cc0c4
+      internalID: -2291828573183237896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_68
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 316
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39704cf39ceb4366a8e20c346742174
+      internalID: -2154221923188947249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_69
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 316
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255ddc1cd1b1843f6bf4c5521357f5b3
+      internalID: -4129882152617306867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ee1100ab9954766a3cbcb14e2b04ee
+      internalID: 5241421600598729634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_71
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7f81adce5a417d9a813a41e9faa6e
+      internalID: -8994131686123001323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_72
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6245c934bd3434a9912918b0178ee4
+      internalID: 4046465734309188717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_73
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fab0b1d1b274ec2b16bec9e709243c
+      internalID: 1642228907977528672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2721d30792ff4b2f80a137488034eb6
+      internalID: 1899017481889971543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_75
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cbfae9cec434e80b1511522c5c1a6b
+      internalID: -5483784028109712640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4592f62e87104fb99d76f82ace1ccc0
+      internalID: -6551182535301196339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_77
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528d704e1a3dc471e995823fafe8111e
+      internalID: -891332585545832982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 302
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b3e15350724163ba6a8ae087b43e8
+      internalID: -1520615571045080305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_79
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 294
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6813dc8d0c84e7b80246aa421ee695
+      internalID: -1428159492222457815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 294
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a619e9749b3d456aa9af36ed25fa4c8
+      internalID: -2060721133278204538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_81
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 294
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a6b6b229679417592c927cde27bde1
+      internalID: 8637655954734285068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_82
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 294
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff35564e3f05443a9ab94d5c610f067a
+      internalID: 6355634657547116687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_83
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc327758815654987a0246ef06800c36
+      internalID: 3799636622458055943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_84
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cff272b4ae84631bdac8c305150b9b
+      internalID: 3138645605871169349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_85
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1074e556a838f417b89711a7d4d90958
+      internalID: 1300855427673584515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_86
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c6057e373104fdeb97d1f13b1798b5
+      internalID: -5158030054342967176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_87
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b956c1534a8249a1a83ab45136cece3
+      internalID: 7533952227912828344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_88
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686b397bde25c40bcb0c0946c6040418
+      internalID: 5150441270613389083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_89
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b189d85759d447bcac895f97b9c3cde
+      internalID: -8779867385367920093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_90
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 293
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2571bce91c6a438aa3962f0c97cb2ac
+      internalID: -2120040792383131458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_91
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 291
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd0fe84ce80f4b75b2c52354dccc195
+      internalID: -249186396241458577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_92
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64c869256954d70bbdea35207217fa
+      internalID: 1305960255243813698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_93
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc0eccaa307e4ae1a15a0681ca9539a
+      internalID: 6473605521606857964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_94
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacb891ae5e4d4bec96761f3cd8ad094
+      internalID: 8304437455263019463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_95
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe564249947bc47b49844cae3e7de165
+      internalID: -1391979109534182193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_96
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d092248dfc63453abca92285c65f986
+      internalID: 4374404392676736137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_97
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 232
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e522ce121aab44a6b50f26b63f5e95e
+      internalID: -8596258225464345654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 233
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103a9333802e5434e8fed57e08d70df4
+      internalID: 4227423907574600008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_99
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 233
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf9c5ea556d14f46a9e81bfc6507459
+      internalID: 5643259948535157610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_100
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 230
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308bc13a8386d4d15b71b089ba1e5365
+      internalID: 4315351333213662212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_101
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 230
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b5fe621fed462e93f73e69bc057d7
+      internalID: 769179688343876368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_102
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 230
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cba363f563fd4ee187154384c0b0892
+      internalID: -2455300038686298054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_103
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 230
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee25b7d4d4fd4653ac5f3dfa4f9828b
+      internalID: 233239913907386902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_104
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 230
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc964f2168c0247098ef893b4288bc30
+      internalID: 1088320332591550747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_105
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 230
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a40fa747426405aa2be243529fb9f0
+      internalID: -4160225426186893099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_106
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 230
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1144abc495d443469fe09d9fab30025
+      internalID: 410107328712440344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_107
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 230
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30af15ee02d740cd8ecd19f698fba32
+      internalID: -6472692303875451605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_108
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 230
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95561a07cf23a42218e5a8d80a2aad79
+      internalID: 8965452453348996870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_109
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 230
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115989405fee04a5f9e66ba37d0042c5
+      internalID: 5564328812670318978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_110
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 202
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a095b8fe4f4438e97142665f58b546
+      internalID: -2967991732872575020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_111
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 202
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a020c50fd6b6a4ceca6184218bfccb13
+      internalID: -9174839061660121676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_112
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 202
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b43a8821c624007a6248eaa9615933
+      internalID: -2228487202695310238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_113
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 202
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dda63039d8b6424bae6103ca83e7a0a
+      internalID: 6612123210014590025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_114
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 202
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ea1b14ebd384737b860aac1679cfcb
+      internalID: 4786350606280365815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_115
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 202
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e812d773b3540c69201d6175a8a8d2
+      internalID: 3935190938990195922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_116
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 202
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897388e5d13a94950bbd6ed5e61f42b3
+      internalID: -799898163378155693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_117
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 202
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa094d6aba8ac4d10b1bfae08fc6642c
+      internalID: -4010587663673213320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_118
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 198
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6dc769111a849fba6e1d35e4463aba
+      internalID: -245051362209998203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_119
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 194
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa214cc97741b4ee585fef3b9115f1f8
+      internalID: 6526386493304147857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_120
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 194
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805a0e654814e4b36ba8b03ce0ef2975
+      internalID: -2310066228583015985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_121
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 194
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e600aad7de04a1f96b218de7af255c
+      internalID: 3757148095307992858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_122
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 194
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9767472f23f447838258dd9fc499b91
+      internalID: 5665108726727343565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_123
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 194
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf725d562ee4a64affc8ad0067bbbb
+      internalID: 3547683316337939027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_124
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 194
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c12f91c4aa6458d9d95c1c187439d0
+      internalID: -4255289659423202658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_125
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 194
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4b2627c688742c782af6c278583a4c
+      internalID: -2497347373158931552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_126
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 194
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100d90efa633471e881383087c1b42a
+      internalID: 5201828179622273252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_127
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 204
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4de913378903448eaf3c9b9a730f7af
+      internalID: -2595454333732413812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_128
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 204
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb050f73b106d4a838671204b177f276
+      internalID: -2431231811376013518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_129
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 204
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290df36ed800741439d483ad7018b30e
+      internalID: 5362352978240623910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_130
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 204
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14780b58401a64239a9481672a72dc84
+      internalID: -7941068358719938788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_131
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 204
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff68d8939b534ebba73d1bcee626afa
+      internalID: 6517878582111945779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_132
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 204
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77343fac4700740d3b57ae897182f2b1
+      internalID: -8529210682049933378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_133
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 205
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe8355c6c0cd4b26ac3f85c9f433d16
+      internalID: 1214928604650686080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_134
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 205
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94273474b8933407587d90c493e42a11
+      internalID: -3003176198613906659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_135
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 202
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b5f59a1886b40cdb5766e2a437f705
+      internalID: 5734562017884724566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_136
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 202
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f813d95be42614df88a58e265748bc99
+      internalID: -8387586441935247175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_137
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 202
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bb9af01a36e4242a1555c75b55b0ce
+      internalID: 5983790459277134231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_138
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 202
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7db66da20e441d6a30cadd8031265a
+      internalID: -3763159374829810416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_139
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 202
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d2078fc76024db3a5b9206bed68224
+      internalID: 3157377979552318012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_140
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 202
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e853c053b8974f0f9fee59805bd4ba0
+      internalID: 5856392693742517014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_141
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 202
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5020f2a48a904666b68f0b06f459b51
+      internalID: 1714447674579490605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_142
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 202
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7d65f8162934915960bed9f7a72c34
+      internalID: -5955156991437000532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_143
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 202
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6dca8ea96ed40009ba718ff57647bb
+      internalID: 398361852786498231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_144
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 202
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9daad55a17d42669fd956673b1aaa6
+      internalID: -7173060768109262328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_145
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a81fb7106d4b01b024642c18f1e9c
+      internalID: -3633009441269922039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_146
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efb39043137645d5b5c80ec4f10c161
+      internalID: -4369171270289215005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_147
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212de46efea3049ad807748048791847
+      internalID: -2635775068375648741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_148
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c021ff5e6b04b09aedee92bfdf1533
+      internalID: -7535303898470627992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_149
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2768087049214205a2e11688dcfa5d1
+      internalID: -4335653835098541130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_150
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecea3ca242b9d43c39bb5d9355e3b93a
+      internalID: 1031513621678028789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_151
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f848abd3be1741a98d6b6527da66df8
+      internalID: -6300019289866020990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_152
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 171
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb861d1da39ed4240a37598a0ca72699
+      internalID: -8956310149407994496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_153
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 169
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0551e05996b4cca9ec11e4ae088bb8
+      internalID: -3157590554573927287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_154
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 174
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e356b7ca6c45d45259b7af23922cc883
+      internalID: -2019097884734146315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_155
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 174
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f0d28e882cb4be483c34f05c4bef9f
+      internalID: 2855639734041654381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_156
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 174
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249bca3e01960458997248a354dd5e3f
+      internalID: -8479443948351663258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_157
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 174
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e7f0f03ba5044f9933e7a53c49574d
+      internalID: 2109202828908429361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_158
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 174
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceea69bf0e744f58b2c3bcbb4bab2ae
+      internalID: 7788666532467400899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_159
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 174
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daac5d7f665d408aa833b003ec2b832
+      internalID: -1759116150571904102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_160
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 174
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ab45b9b06f7446283872cb392ed28a
+      internalID: 7752892393061644977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_161
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 174
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4119b8cf3404850827463d8f990201
+      internalID: -8815064795745988429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_162
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 170
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f6e31954dc347128db310077747570
+      internalID: 6963471656558623953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_163
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 166
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120860b9796e948a9b5387b6c16b357b
+      internalID: -8293900031008808615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_164
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 166
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf842705de1964de98e3a2e0458a3534
+      internalID: -542819791717654032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_165
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 166
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb698c5d101c445a68466390c9696f77
+      internalID: -4719694728463231588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_166
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 166
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4cbe0042e364206888f5c37dc04b46
+      internalID: 3884883718276805936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_167
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 166
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b93d13ea0d748ac90ec9d506bd4935
+      internalID: 3264290687949354602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_168
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 166
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ced7af17024b81817274c0c083686
+      internalID: 2801808254610372775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_169
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 166
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce425f59de6a1418eb4bf5c7d52a51f7
+      internalID: -2028779220696469238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_170
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 166
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e3c5de86a284a85818510e2eddd3e0
+      internalID: 3737520350067112354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_171
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5adec1873304b82bf385dd5793a90e
+      internalID: -7680577332794330745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_172
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1de3c2e28734a60a3b6747e69b419c
+      internalID: 8130649217586282527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_173
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a2a5e12c6554794a31057330c6bdfa
+      internalID: -3245447024312197135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_174
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbc2ed80ae0a4a2e8391437563c1e4a
+      internalID: 5080299105837294318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_175
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e021ca6aaa4d009d4cf571e581ea1
+      internalID: 9000937237913621370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_176
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330d8d2a4d25d401a99449e8b890fe81
+      internalID: -5107481971143369570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_177
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071c03095607e455d957ef43201ef103
+      internalID: -7951126748929515508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_178
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 143
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f09030bb936f43a19e95296ee514aa4
+      internalID: 5244972675778989707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_179
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 141
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef3ef2fcfa65427ebb6568121334309
+      internalID: -5724981518776186886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_180
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce07dcc5cb4a04bf78d082171bcc0431
+      internalID: -2694051335576126397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_181
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e8144a434044ac89259bdc7da89b4a
+      internalID: 4640727183612175013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_182
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aecae233c3d432c97b067d0ccec607
+      internalID: -1473166242404578348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_183
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6741aae5d18ad49ddb2acb4bca4932fb
+      internalID: 7105295423324428644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_184
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87931773e43b04b0598d47e608e207c2
+      internalID: 3281809079956424650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_185
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dac6ec2200346afa7c0b1cea8fb6bf
+      internalID: 8282585849173105015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_186
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 87
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9beedc22d69094dcba4024fddede64cb
+      internalID: 702914371976934074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_187
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 87
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b9a7f9eb4243b78171772deac8161
+      internalID: -8706888446251470157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_188
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 84
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10b54c48f85d41d2b4ac51b66226b7b
+      internalID: 6743269172536167524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_189
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 84
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5cf8e01001c4f6ca453fcd519bdcf9
+      internalID: 7259517383111507594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_190
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 84
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4264ea5ff39894d4eb99e2e5f4505fd3
+      internalID: 6516688942886137790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_191
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 84
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1070abdce7d4944d1836c4eb5332b1e1
+      internalID: -4663694601480789223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_192
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 84
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9c97370e17b42d5a585fb2a1b7e7dc
+      internalID: 8085813109302147601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_193
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 84
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e808a59942fdf46a6b98f5f5553cf5bf
+      internalID: 6273134581303854913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_194
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 84
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8d55587429e44768995f6a7e98dc6c
+      internalID: 5295682834185431955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_195
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 84
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087924ed3f504e6fb79d5cebe1639e1
+      internalID: -8501476890293608526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_196
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 84
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebccd968a7494b96962067f5a3e67d3
+      internalID: 4340389894073413064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_197
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 84
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c2a0712efc5449e952ff958775e5d4
+      internalID: 8700907068821338950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_198
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 56
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8a793f31f5c4ccda1aa25a34c51168
+      internalID: -1532399900911014236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_199
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 56
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e185ee315dc48f090d337611e8b92e
+      internalID: 3036137110783057960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_200
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 56
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df5abe9ff3a4fdb825b5e1e10ed7d6
+      internalID: 7712848459297480601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_201
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 56
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4e3c7ed521a47a48261652b80b47cb
+      internalID: -8546910235937869424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_202
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 56
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a266eb5a2b2ef4c5ca963444d868afa4
+      internalID: -4922942616291762422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_203
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 56
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dedba38e38d461f8b7a2b61d4ba28f
+      internalID: 505789386585392197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_204
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 56
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e34879e61924c74a914cb0cbee518e
+      internalID: -6641216024844355982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_205
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 56
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b464b9745c6f4eefa71817e5fb42471
+      internalID: -4029650039857585615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_206
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 52
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfc9d9f822c94ae6b8c340f1e59caa6
+      internalID: -788173293300908192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_207
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 48
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a72361d24e4b21ba8c0f65b451102
+      internalID: -2100742353412790224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_208
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 48
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b78a90bb2bf841b5850bfeb97312ddc
+      internalID: 5569479470928136310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_209
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 48
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1595f3774cfea455f9d54f16ce588522
+      internalID: -1332522458064595802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_210
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ec419ba3b4d42f994858efd6f4a6d8
+      internalID: 226214965172097546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_211
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d824fd23b2f49c9826cd9cc840ee6d
+      internalID: -8417074546469687695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_212
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3585424b060a411aad90658ead172e5
+      internalID: 8034170145840676102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_213
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 48
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f93963c6b364c17984b5f83538bb65
+      internalID: -1012298581212012159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_214
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 48
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600c3a1756de04eb6bfca4980c1750c8
+      internalID: -5129441518623972154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_215
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aca75c82ac34c0e9c09ea0dbbacbc5
+      internalID: -3834002514205712258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_216
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962eb1b4ed2c349eaad3dc5082e0a7fb
+      internalID: -6595668549561988884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_217
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d245ec9fdd0459b9acd635dca7167e
+      internalID: -8346198925585203490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_218
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0b1f3f4c704d9f893a3a42e8cbbee
+      internalID: 1326699546676228386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_219
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c91971ede134991ab84d311efbf0c2
+      internalID: 2712443056740832008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_220
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b51dd84088b4c52ad9df440994ae8e
+      internalID: 7830581794403308623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_221
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03867bacea91d49c3b66e9f4d13800d2
+      internalID: 8108381293104868807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_222
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 25
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e03c5c34ec6449cdbc16886179e6ea0
+      internalID: 5942166327783800208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Baron Bombano_223
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 23
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b011bfd549e4834bcc4f87bf129a59
+      internalID: 7154110741019365595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

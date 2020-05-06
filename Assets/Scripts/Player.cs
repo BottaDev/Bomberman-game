@@ -25,6 +25,8 @@ public class Player : MonoBehaviour
 
     private bool canBeDamaged = true;
 
+    public Animator animator;
+
     public void TakeDamage(float damage)
     {
         if (canBeDamaged)
@@ -65,11 +67,11 @@ public class Player : MonoBehaviour
     private void KillPlayer()
     {
         GameManager.instance.AddPlayerDeath(playerNum, this.gameObject);
+        animator.SetTrigger("Dead");
 
         LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
         levelManager.CheckLoseGame();
 
-        Destroy(gameObject);
     }
 
     public enum PlayerNum

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5286626215448112832}
   - component: {fileID: 5286626215448112833}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Bomb Sum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1e3881d692fc24b4e9753217883f051f, type: 3}
+  m_Sprite: {fileID: -1772290653394233041, guid: 66e12d5516b6b4db2bdcb5a59a0c7063,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,18 +96,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0007095337, y: 0.00038778782}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.8888889, y: 0.8888889}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8892846, y: 0.88870406}
   m_EdgeRadius: 0
 --- !u!114 &5286626215448112833
 MonoBehaviour:
