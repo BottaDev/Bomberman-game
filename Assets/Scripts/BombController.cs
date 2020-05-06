@@ -7,6 +7,7 @@ public class BombController : MonoBehaviour
     public float timeToExplode = 3;
     public int explosionRange = 2;
     public GameObject explosionGO;
+    public Animator animator;
 
     private CircleCollider2D bombCollider;
     private bool exploded = false;

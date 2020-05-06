@@ -1,0 +1,6919 @@
+fileFormatVersion: 2
+guid: 6065648c2287c456d93855c9c7179c91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5993804001807720385
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_0
+  - first:
+      213: 2748893699456717033
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_1
+  - first:
+      213: 3031110605945738649
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_2
+  - first:
+      213: -7758292078750526885
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_3
+  - first:
+      213: 7768863733676119136
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_4
+  - first:
+      213: -1673937128525377719
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_5
+  - first:
+      213: -2910668700855577416
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_6
+  - first:
+      213: -594059872623526383
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_7
+  - first:
+      213: 5980623805013448149
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_8
+  - first:
+      213: -8913227791011424874
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_9
+  - first:
+      213: -7702798466681274328
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_10
+  - first:
+      213: -5486579074708571346
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_11
+  - first:
+      213: -2798772690098033653
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_12
+  - first:
+      213: -5151872615299139950
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_13
+  - first:
+      213: -393376399361192381
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_14
+  - first:
+      213: 3927512617628118497
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_15
+  - first:
+      213: 1366567513799809186
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_16
+  - first:
+      213: -7093727992712434481
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_17
+  - first:
+      213: -7372185334885161595
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_18
+  - first:
+      213: 5094004185987300342
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_19
+  - first:
+      213: 442227665798539063
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_20
+  - first:
+      213: -8653504716336912701
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_21
+  - first:
+      213: 6416087126440791696
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_22
+  - first:
+      213: -5984679872483867142
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_23
+  - first:
+      213: 2442607635540329667
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_24
+  - first:
+      213: -1482676908304306115
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_25
+  - first:
+      213: -4271596772913162322
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_26
+  - first:
+      213: -1225196463378112829
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_27
+  - first:
+      213: 3450495022192093080
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_28
+  - first:
+      213: -856283984410565403
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_29
+  - first:
+      213: -4671652835229191282
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_30
+  - first:
+      213: 2509700897562665415
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_31
+  - first:
+      213: 3891306355545828157
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_32
+  - first:
+      213: 2710347841663822314
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_33
+  - first:
+      213: -8861866153351513315
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_34
+  - first:
+      213: -7728843269336335626
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_35
+  - first:
+      213: 1345900580082590231
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_36
+  - first:
+      213: 4770375956560134121
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_37
+  - first:
+      213: -7188183350112743380
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_38
+  - first:
+      213: 5584250743087250245
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_39
+  - first:
+      213: 7026380505000831860
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_40
+  - first:
+      213: -6288066372849196508
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_41
+  - first:
+      213: 8746053458952611690
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_42
+  - first:
+      213: -1170658253525593737
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_43
+  - first:
+      213: 7413018962634967146
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_44
+  - first:
+      213: -7106168620981320498
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_45
+  - first:
+      213: 3967040398192853280
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_46
+  - first:
+      213: 726029072161181950
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_47
+  - first:
+      213: 8985560244095657134
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_48
+  - first:
+      213: -4965385380586524988
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_49
+  - first:
+      213: -3605465048320197633
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_50
+  - first:
+      213: 8026262707071083728
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_51
+  - first:
+      213: 9038155317761774005
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_52
+  - first:
+      213: 6561984909659309740
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_53
+  - first:
+      213: -3180871795436454202
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_54
+  - first:
+      213: 8172963983820652553
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_55
+  - first:
+      213: -8928596343839930623
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_56
+  - first:
+      213: 3502036938656831185
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_57
+  - first:
+      213: 6801383096890073152
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_58
+  - first:
+      213: 6646527393455783246
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_59
+  - first:
+      213: -5951187503745384974
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_60
+  - first:
+      213: -3638769261368349168
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_61
+  - first:
+      213: -8147400420315881350
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_62
+  - first:
+      213: 1779399041467537925
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_63
+  - first:
+      213: 1145160483184209982
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_64
+  - first:
+      213: -5308755350206770184
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_65
+  - first:
+      213: -3926279853678926528
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_66
+  - first:
+      213: -5110508506850591899
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_67
+  - first:
+      213: -5875095352248002232
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_68
+  - first:
+      213: 1340667496395683362
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_69
+  - first:
+      213: 401988156415913679
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_70
+  - first:
+      213: 5314623577496077566
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_71
+  - first:
+      213: -1199068401733480661
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_72
+  - first:
+      213: 1872208314593163037
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_73
+  - first:
+      213: -8764665367122046233
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_74
+  - first:
+      213: 3170188100076168378
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_75
+  - first:
+      213: 1698568143053574036
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_76
+  - first:
+      213: 7571330357944150480
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_77
+  - first:
+      213: 5980391360559764619
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_78
+  - first:
+      213: -1705193605710476388
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_79
+  - first:
+      213: -1378206611034307645
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_80
+  - first:
+      213: 2142986597545493250
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_81
+  - first:
+      213: -4467813371656820997
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_82
+  - first:
+      213: 1419635339418571119
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_83
+  - first:
+      213: 4544516262180584942
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_84
+  - first:
+      213: -299232588186710736
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_85
+  - first:
+      213: 2151711050466347520
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_86
+  - first:
+      213: -1744703634108008721
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_87
+  - first:
+      213: -9108165173855893098
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_88
+  - first:
+      213: 7116098345300583271
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_89
+  - first:
+      213: -3208014801622349567
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_90
+  - first:
+      213: -3572358102418751656
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_91
+  - first:
+      213: -6407925525416355718
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_92
+  - first:
+      213: 494109437547779091
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_93
+  - first:
+      213: -8922578657456800962
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_94
+  - first:
+      213: -7158600389312022480
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_95
+  - first:
+      213: 2969616424175677999
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_96
+  - first:
+      213: 5157811243460729680
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_97
+  - first:
+      213: 4020169717206299255
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_98
+  - first:
+      213: 3256959219582350018
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_99
+  - first:
+      213: 5491293723559363997
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_100
+  - first:
+      213: 7897934213510937292
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_101
+  - first:
+      213: 3701516502246307526
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_102
+  - first:
+      213: -6965069061370290159
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_103
+  - first:
+      213: 1432019099996376492
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_104
+  - first:
+      213: -1698121972473816159
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_105
+  - first:
+      213: 8555104396639507069
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_106
+  - first:
+      213: 8584507756072311074
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_107
+  - first:
+      213: 1063332398792757471
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_108
+  - first:
+      213: -1734539249952017156
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_109
+  - first:
+      213: 7345233244963410914
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_110
+  - first:
+      213: -303790085841962488
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_111
+  - first:
+      213: 2969770879114827846
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_112
+  - first:
+      213: -2002857397567418172
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_113
+  - first:
+      213: -1754665869696621237
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_114
+  - first:
+      213: -5800735055378844731
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_115
+  - first:
+      213: 3976205359507163127
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_116
+  - first:
+      213: -6506483068442292034
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_117
+  - first:
+      213: -5920326011523334371
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_118
+  - first:
+      213: -1180009499568946955
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_119
+  - first:
+      213: -9118994990272273179
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_120
+  - first:
+      213: 7640626786709911717
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_121
+  - first:
+      213: -7029341681082457289
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_122
+  - first:
+      213: 2232735565162190335
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_123
+  - first:
+      213: 6981366711270720239
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_124
+  - first:
+      213: -3929137940698622992
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_125
+  - first:
+      213: -4563458642353835813
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_126
+  - first:
+      213: -8054296923959337667
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_127
+  - first:
+      213: -3900437167620130326
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_128
+  - first:
+      213: 939713201529652936
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_129
+  - first:
+      213: -1996369480973128699
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_130
+  - first:
+      213: -2480065201490457439
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_131
+  - first:
+      213: -8161813741908273264
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_132
+  - first:
+      213: 5015993114524627390
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_133
+  - first:
+      213: 3030574884716156453
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_134
+  - first:
+      213: -3914389726652242362
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_135
+  - first:
+      213: -546814759766048641
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_136
+  - first:
+      213: -6365671811205519665
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_137
+  - first:
+      213: -418293327932043133
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_138
+  - first:
+      213: -4378264538759774753
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_139
+  - first:
+      213: -8060621337766413850
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_140
+  - first:
+      213: 2650627245929345417
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_141
+  - first:
+      213: -3461037423028410009
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_142
+  - first:
+      213: -2003929675591417017
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_143
+  - first:
+      213: 6632675510832188530
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_144
+  - first:
+      213: -349233923303618018
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_145
+  - first:
+      213: -195849210687376353
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_146
+  - first:
+      213: -5853444182096606415
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_147
+  - first:
+      213: 7241259035943245326
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_148
+  - first:
+      213: 9195989888839492459
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_149
+  - first:
+      213: -3745229001620538229
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_150
+  - first:
+      213: 8248262819699687021
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_151
+  - first:
+      213: 4034308480692993188
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_152
+  - first:
+      213: -2690506208592476366
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_153
+  - first:
+      213: 4357332502049371843
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_154
+  - first:
+      213: 6121315671099666603
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_155
+  - first:
+      213: -2265967561021969214
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_156
+  - first:
+      213: 1922513885586308980
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_157
+  - first:
+      213: -6845864681005805899
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_158
+  - first:
+      213: -6845995939179607852
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_159
+  - first:
+      213: 8386361455584381201
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_160
+  - first:
+      213: 1610985415237982978
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_161
+  - first:
+      213: 5852686735172470602
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_162
+  - first:
+      213: -1110158840745119453
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_163
+  - first:
+      213: -241408343262683129
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_164
+  - first:
+      213: -2494096554031718501
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_165
+  - first:
+      213: 9158836336581046666
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_166
+  - first:
+      213: -8968456181028651382
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_167
+  - first:
+      213: -5202246826895569237
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_168
+  - first:
+      213: 3921850477896329294
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_169
+  - first:
+      213: 42952300886263950
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_170
+  - first:
+      213: 7287890155780383203
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_171
+  - first:
+      213: 2665102836517675963
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_172
+  - first:
+      213: -4463888326429166788
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_173
+  - first:
+      213: -8148664925883528659
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_174
+  - first:
+      213: 112710288972233002
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_175
+  - first:
+      213: 2600852454311283300
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_176
+  - first:
+      213: -5012420951719437897
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_177
+  - first:
+      213: 459073605909443593
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_178
+  - first:
+      213: 3105664397863563766
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_179
+  - first:
+      213: 8736340327985823584
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_180
+  - first:
+      213: -5112375754590671112
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_181
+  - first:
+      213: -1442397542542042543
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_182
+  - first:
+      213: 2666457504812857229
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_183
+  - first:
+      213: 4684026875899977413
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_184
+  - first:
+      213: 2467843561582223939
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_185
+  - first:
+      213: -911573293817936953
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_186
+  - first:
+      213: 5397306685902066864
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_187
+  - first:
+      213: -5920054734390001594
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_188
+  - first:
+      213: -4838489470537598758
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_189
+  - first:
+      213: -4773138939332841920
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_190
+  - first:
+      213: -6645574154281795872
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_191
+  - first:
+      213: -3892312644489371941
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_192
+  - first:
+      213: 5528683582315067611
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_193
+  - first:
+      213: 5210600053491013191
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_194
+  - first:
+      213: -4577297243086455089
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_195
+  - first:
+      213: -1015732379119071595
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_196
+  - first:
+      213: -4327344302981676000
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_197
+  - first:
+      213: 1192479677888096416
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_198
+  - first:
+      213: 5198689846164868612
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_199
+  - first:
+      213: -4862019027918700199
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_200
+  - first:
+      213: 3125180385659692695
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_201
+  - first:
+      213: -7996972119345270402
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_202
+  - first:
+      213: -1359188934392339662
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_203
+  - first:
+      213: 6124046738766120458
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_204
+  - first:
+      213: 4364590604222505546
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_205
+  - first:
+      213: 5647997841361805502
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_206
+  - first:
+      213: 7128404347299218211
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_207
+  - first:
+      213: 6142113200468668081
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_208
+  - first:
+      213: 2277023670164055221
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_209
+  - first:
+      213: -7617473575388074839
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_210
+  - first:
+      213: -6069829035373190738
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_211
+  - first:
+      213: 6565355537062895820
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_212
+  - first:
+      213: 4211155026060432024
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_213
+  - first:
+      213: 6954534897314597477
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_214
+  - first:
+      213: 5479736550778243605
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_215
+  - first:
+      213: -3966216956611045669
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_216
+  - first:
+      213: 4866434528912550911
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_217
+  - first:
+      213: -7284906453468379544
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_218
+  - first:
+      213: -6022486044519461755
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_219
+  - first:
+      213: -489105252392636250
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_220
+  - first:
+      213: 2379237837367561971
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_221
+  - first:
+      213: -1728020726363638914
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_222
+  - first:
+      213: 9091805419258089615
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_223
+  - first:
+      213: -1707235165731224656
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_224
+  - first:
+      213: -1372371433631673121
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_225
+  - first:
+      213: 4594931522325100118
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_226
+  - first:
+      213: -9075730397036614136
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_227
+  - first:
+      213: -1256893511266550628
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_228
+  - first:
+      213: 2682358767296081997
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_229
+  - first:
+      213: -8936570662967527378
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_230
+  - first:
+      213: 2433111155232326586
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_231
+  - first:
+      213: 8862141564128169554
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_232
+  - first:
+      213: -3483751443254640739
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_233
+  - first:
+      213: 409734194349370835
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_234
+  - first:
+      213: -125143933490633234
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_235
+  - first:
+      213: 5923463235856788629
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_236
+  - first:
+      213: -5771837590106745452
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_237
+  - first:
+      213: -4165368641478632671
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_238
+  - first:
+      213: -3115315899620553732
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_239
+  - first:
+      213: 7382973586291977823
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_240
+  - first:
+      213: 1656722556871962975
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_241
+  - first:
+      213: -286821993313963302
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_242
+  - first:
+      213: 7797858070184849275
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_243
+  - first:
+      213: 6069901036428156449
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_244
+  - first:
+      213: 3699390961516588919
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_245
+  - first:
+      213: -4269538031403754424
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_246
+  - first:
+      213: -5654937516524061198
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_247
+  - first:
+      213: 4390405937279241043
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_248
+  - first:
+      213: -1997491840064168630
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_249
+  - first:
+      213: 4036680527076570404
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_250
+  - first:
+      213: -5855490589534013366
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_251
+  - first:
+      213: 2527115167015020186
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_252
+  - first:
+      213: 3045147108561683041
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_253
+  - first:
+      213: -2134920373834178220
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_254
+  - first:
+      213: 6660735272253181160
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_255
+  - first:
+      213: -770084184668871255
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_256
+  - first:
+      213: 2292674060690595729
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_257
+  - first:
+      213: 5110036494494225473
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_258
+  - first:
+      213: -9217832571269664254
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_259
+  - first:
+      213: -5028007601152952421
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_260
+  - first:
+      213: 7921332914488465551
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_261
+  - first:
+      213: 5522950328461128500
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_262
+  - first:
+      213: -8528354790614192839
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_263
+  - first:
+      213: -4310938725995874643
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_264
+  - first:
+      213: -8551138213386980058
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_265
+  - first:
+      213: -674934960114107075
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_266
+  - first:
+      213: 2551663825320744719
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_267
+  - first:
+      213: 4725910293464081957
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_268
+  - first:
+      213: -2102373224636335728
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_269
+  - first:
+      213: 8392002144694464992
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_270
+  - first:
+      213: 1112733206250005354
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_271
+  - first:
+      213: -2095465471641934930
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_272
+  - first:
+      213: 3173125991009428206
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_273
+  - first:
+      213: 7770571137151413503
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_274
+  - first:
+      213: -8835538986535364419
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_275
+  - first:
+      213: -7763202575210726679
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_276
+  - first:
+      213: 699791354328351612
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_277
+  - first:
+      213: -6614259696321777479
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_278
+  - first:
+      213: 8027314432390951244
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_279
+  - first:
+      213: 8039596558134287150
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_280
+  - first:
+      213: -4523730015723643446
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_281
+  - first:
+      213: -3923407818405448552
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_282
+  - first:
+      213: 4375760020101930409
+    second: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_283
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16acade1174634938abc5a3ba2856bbb
+      internalID: -5993804001807720385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 552
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235aa4c31500b43b4929c7d1a416bead
+      internalID: 2748893699456717033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 552
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded15e2975ccd48a0827e658a8721ed7
+      internalID: 3031110605945738649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 552
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ac51939a3b4343bf3ec1f5fd14bc8
+      internalID: -7758292078750526885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b9530cb7e254750a81b9c84d0d7ece
+      internalID: 7768863733676119136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 567
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee48015b2b1449819f99fcdeecb642c
+      internalID: -1673937128525377719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 568
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1879faa67a5fd4aacadb40c261127dbd
+      internalID: -2910668700855577416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4b45d196ede4583bbcf2c4399c11d1
+      internalID: -594059872623526383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 527
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554f8035b731d475a92ee782648dc12f
+      internalID: 5980623805013448149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 527
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2039790dd57401c932a9dd65f66b09
+      internalID: -8913227791011424874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 527
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d43549a3edad44cebd96e1f2bb42de2
+      internalID: -7702798466681274328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 538
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4c99dbde3804152ab2a1eb8627f0b2
+      internalID: -5486579074708571346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 538
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8691491c8acf645d3a3e7818d3d3abee
+      internalID: -2798772690098033653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 538
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6175b65aa2e484eaab00766285c391bc
+      internalID: -5151872615299139950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 538
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c06fbc18512e4653ba040fc213d293a
+      internalID: -393376399361192381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 538
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81966d007dacb45cda6ff3ef6811adf9
+      internalID: 3927512617628118497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 538
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cec3df98344f4e7d8345f36eb2c5bf1
+      internalID: 1366567513799809186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 542
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7660e70be5dec4d0986177d6387d51b4
+      internalID: -7093727992712434481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_18
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 544
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8997e4089c84b91b8af4e6c3f0f1ec
+      internalID: -7372185334885161595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 544
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f5bd13a42cc4e318b506fadbd0aa6d
+      internalID: 5094004185987300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_20
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 543
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00da8bc8e01114c19b26b4d16ace5683
+      internalID: 442227665798539063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_21
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 543
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d565128a051407cbb6910b08c5d6b9
+      internalID: -8653504716336912701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_22
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 542
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a92cf267c854f189376a2212837a4b
+      internalID: 6416087126440791696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_23
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 542
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9f5a37d45e34b83a3d0121023405b4
+      internalID: -5984679872483867142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_24
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 542
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68622c30bb6e0406b8f38e030b474bd3
+      internalID: 2442607635540329667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 498
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b2524bb648e486391151c727b95b4d
+      internalID: -1482676908304306115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 498
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baed916ef5c47453cbb4bc95a7d2032f
+      internalID: -4271596772913162322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_27
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 498
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9542fb85f25b4296bed3ccdb68b1f64
+      internalID: -1225196463378112829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 498
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a90ed27a624694a3115f31f2c120c
+      internalID: 3450495022192093080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 521
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ac3a9e101154d979089137623f5256
+      internalID: -856283984410565403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_30
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 521
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69adfb64b4b514f1d9a83ac37b3975e5
+      internalID: -4671652835229191282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 521
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799f4665eb04a4529aa6accb98e3b7a8
+      internalID: 2509700897562665415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 517
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0ee43c7bff844c2ad889056321c47b
+      internalID: 3891306355545828157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 517
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b69ec83d2148c2860526038c433f2
+      internalID: 2710347841663822314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 517
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9768696dc8c9c467f9d60ea78c847b68
+      internalID: -8861866153351513315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_35
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 517
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ba7477b67df4897aa63df4a9f498b1
+      internalID: -7728843269336335626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_36
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 517
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad70ed7732484b6e84e63ee5dc63b5d
+      internalID: 1345900580082590231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_37
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 517
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fd7c31ca65a4f04a9258a174c5f37b
+      internalID: 4770375956560134121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_38
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c4fdead19d4e519989fc9805aff82
+      internalID: -7188183350112743380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_39
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 508
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96319f76c2096453a8b4fb75327d6bcc
+      internalID: 5584250743087250245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_40
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 508
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329da43f41840420387b960f8bf58525
+      internalID: 7026380505000831860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_41
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 502
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69341792d0d574a3b803fd27d42d272a
+      internalID: -6288066372849196508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 499
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b5d501e08b54a388141462df7e5154
+      internalID: 8746053458952611690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_43
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 498
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a3327fc0eb14756a204a8350f00191
+      internalID: -1170658253525593737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_44
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 498
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ed741a3926445b4a1ed67ade481a55
+      internalID: 7413018962634967146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_45
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 498
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05717f7b410e0446fb37a1b5ae034e19
+      internalID: -7106168620981320498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 473
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8f537c266814b419f57f9380ae18e8
+      internalID: 3967040398192853280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 473
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e3ea12c6db1439cab62142a3f14855
+      internalID: 726029072161181950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_48
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 473
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3622ce0854d1042deb69a9e00c28a497
+      internalID: 8985560244095657134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 473
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1315b6cf760b54aa8bbbd2535d8ba1c1
+      internalID: -4965385380586524988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_50
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 475
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664420790237848549fd0ff6fe1f44e6
+      internalID: -3605465048320197633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_51
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 475
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe36abc8b8844ea69916e8ec9a53678
+      internalID: 8026262707071083728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_52
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 475
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd654a589306c4e558f910f831d43560
+      internalID: 9038155317761774005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 475
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0a75889da374febbe3fe810091acfe
+      internalID: 6561984909659309740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_54
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 475
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef16d39e3d8f14ea8921da24842a41b9
+      internalID: -3180871795436454202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_55
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 475
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b860d940b82c458fb374abb62a4ea4b
+      internalID: 8172963983820652553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_56
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 493
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea487e55ff354307b5219dc65a34b2e
+      internalID: -8928596343839930623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_57
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 490
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74afca05bd547a79e42917f299792d
+      internalID: 3502036938656831185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9a24a9b41834a479724a3643ae4c7a
+      internalID: 6801383096890073152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 448
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ab37d352d7d4a5fa1d550394e35fa0
+      internalID: 6646527393455783246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 465
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad5655ec1af64d558b7ad35e326536b
+      internalID: -5951187503745384974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 454
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b2f73b1ce4f42c4934fecad3955582
+      internalID: -3638769261368349168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_62
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 454
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bfb1c129da34e1f937b626bd306b60
+      internalID: -8147400420315881350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_63
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 454
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f8e5f21f44c4f8ba7de98084da9ac4
+      internalID: 1779399041467537925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 413
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5ce1f5ff3694091b993e58a5cca54d
+      internalID: 1145160483184209982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_65
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 413
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a40115c327c4febb5ac0293104c1ef
+      internalID: -5308755350206770184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_66
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 413
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b572ff37d9ef4857a42a2831b046243
+      internalID: -3926279853678926528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_67
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 413
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce65df17f86f14827834f6071f5edd02
+      internalID: -5110508506850591899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_68
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 413
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c760e2468cf4e31b0708fd094328c9
+      internalID: -5875095352248002232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_69
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 417
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d2ed2c758094cdcaec86a36238d64c
+      internalID: 1340667496395683362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_70
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 415
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a0847cc204b402eb77e17fc33157cd
+      internalID: 401988156415913679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_71
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 417
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5e7cb92bdff49f9b277812e2a10e38
+      internalID: 5314623577496077566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_72
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 415
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ef9ede2741448b989f4436b98aa832
+      internalID: -1199068401733480661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_73
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 416
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1820ea578e34c0cace0fe15c48867d
+      internalID: 1872208314593163037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_74
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 415
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feb9f317cfa647109255e6b344dff16
+      internalID: -8764665367122046233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_75
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 415
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ae8fcaa3db04400b0a2b53a110ace3
+      internalID: 3170188100076168378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_76
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 415
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61adae7b879fa4335896792d05418694
+      internalID: 1698568143053574036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_77
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 385
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0104f0b978c43c0bbc7d8aec45127d
+      internalID: 7571330357944150480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 380
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea45eae1873f4e8e8da8d749878a3e6
+      internalID: 5980391360559764619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_79
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 380
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09079751854934922ab2d4fd4c94e9a8
+      internalID: -1705193605710476388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_80
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 380
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e31405642a634f2ea4dee2589e1fd43
+      internalID: -1378206611034307645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_81
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 382
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046818e3db30d4607a287556638a4708
+      internalID: 2142986597545493250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_82
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 410
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830b3d3473ebe4504aa8885e06d526a2
+      internalID: -4467813371656820997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_83
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 382
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73939f7ad1c764334985594f9b623bed
+      internalID: 1419635339418571119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_84
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 392
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67ef0414859643f6ab889ae1f497179
+      internalID: 4544516262180584942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_85
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 395
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a629a1c592d414aa94215a3dcd94e9
+      internalID: -299232588186710736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_86
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 396
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fc150f241654064acdc1074f1146ea
+      internalID: 2151711050466347520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 405
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762cd073ea8cc44b8a5b70f64aaf5d03
+      internalID: -1744703634108008721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_88
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 382
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c1893ffcc4d4cd69a49b20ced7262f
+      internalID: -9108165173855893098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_89
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 399
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256c412af12c24d7f9810225129fd1b5
+      internalID: 7116098345300583271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_90
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 382
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c351bd526ab47fcae988b973557ce0
+      internalID: -3208014801622349567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_91
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 386
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cfc4c58f8a24cc099ef491a29dd07f
+      internalID: -3572358102418751656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_92
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 383
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be79e4fe895040c2a91382c5d30a421
+      internalID: -6407925525416355718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_93
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 384
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b6eac0c3e4543c187c8b6a58b26fdd
+      internalID: 494109437547779091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_94
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 384
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62e600886724e4d8909ce7536d2884
+      internalID: -8922578657456800962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_95
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 384
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdff2033f17cb4d7b9b4b53e1f44a036
+      internalID: -7158600389312022480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 347
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23677c1a6ed5f40c0bd64a92d8cfc311
+      internalID: 2969616424175677999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 347
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854674d80ecc24a97b01e5fc8b8e87bb
+      internalID: 5157811243460729680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_98
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 347
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ddab9d2c660433ba53e7ef87589dbc
+      internalID: 4020169717206299255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_99
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 347
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0a94292f4a24597b26253c1997ce5c
+      internalID: 3256959219582350018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_100
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 347
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51d85cd8f2fb462b9d71777e2679f97
+      internalID: 5491293723559363997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_101
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 315
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7e1d76f5f4a402c895264cae5e03da
+      internalID: 7897934213510937292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_102
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 315
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4cf28bd058541558dd6aa894260a5e
+      internalID: 3701516502246307526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_103
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 357
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9486ac6c4349b474d91a39cdc000d8cd
+      internalID: -6965069061370290159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_104
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 360
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293130ea236a840a6a3f62ce91d85aec
+      internalID: 1432019099996376492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_105
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 361
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1345aa23d8b49dc90c182f81e5107d
+      internalID: -1698121972473816159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_106
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 350
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d933eec86bfc48e6bcc3464df5fb880
+      internalID: 8555104396639507069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_107
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 315
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7932ef4068c4410bad98608a2be8dae
+      internalID: 8584507756072311074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_108
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 349
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b093ca789ec45c2b0cfe8db9a778c2
+      internalID: 1063332398792757471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_109
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 349
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b6db5e4d5924dc28b21e5c07d07f9d
+      internalID: -1734539249952017156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_110
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 349
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63030150a473c4b3a831354c69bd2d1f
+      internalID: 7345233244963410914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_111
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 305
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781e260d5d051422d89c4d95df57d27e
+      internalID: -303790085841962488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_112
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 315
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7cfdb77ba7d41c5937885528483e0d
+      internalID: 2969770879114827846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_113
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 315
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30203d1bdd7d945baac74bbc36c839f2
+      internalID: -2002857397567418172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_114
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 315
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43e8df3562fb4c0885b5db8ff9c31ee
+      internalID: -1754665869696621237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_115
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 315
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1e6c94b8cbe46f68969e6fe855337e
+      internalID: -5800735055378844731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_116
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 315
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c5899f0ded142e491d397f19fe1b96
+      internalID: 3976205359507163127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_117
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 315
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3007bb6e7e584a4fb44e5c191c3884e
+      internalID: -6506483068442292034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_118
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 332
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9465026053b0f4758911b24893f37184
+      internalID: -5920326011523334371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_119
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 323
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d7a2ca348d42fcb113f359080c6eb
+      internalID: -1180009499568946955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_120
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 325
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24b42ce2ea14b528d59b70a64165c7
+      internalID: -9118994990272273179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_121
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 328
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2ac768a1f94ad6ada990b48ace0b2
+      internalID: 7640626786709911717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_122
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 323
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0b28281ada1431fba29a6d157870c3
+      internalID: -7029341681082457289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_123
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 301
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a53b55a4268a4c6281ebbbc57600b25
+      internalID: 2232735565162190335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_124
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 315
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e506de488f947f5900c41c2175ddc4
+      internalID: 6981366711270720239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_125
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 324
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c004659943483e94596523094c576
+      internalID: -3929137940698622992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e941f6babba347f793d391925c84f04
+      internalID: -4563458642353835813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_127
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 301
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7baa204f45d24bdbac68e46bc7506c5
+      internalID: -8054296923959337667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_128
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 301
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c330682f7e1b44cfbc0a939da48df68
+      internalID: -3900437167620130326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_129
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 301
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3748c092b5424275816eea8384e1201
+      internalID: 939713201529652936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_130
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 315
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb19651e6b88a41308d6f35e680bcaf4
+      internalID: -1996369480973128699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_131
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 315
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872170111079041108de5d250c75d820
+      internalID: -2480065201490457439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_132
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 315
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bb06323b6164267aca01cd28ea36c8
+      internalID: -8161813741908273264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_133
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 315
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eeeaf7273894a949426bb108639cec
+      internalID: 5015993114524627390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_134
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 316
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a536bc93e52482c80a4ce6cb32c1cb
+      internalID: 3030574884716156453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_135
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 310
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adb18fa44716448ba015ac625b5984c
+      internalID: -3914389726652242362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_136
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 306
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b185457a624074630861ae2c2448fc0b
+      internalID: -546814759766048641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_137
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 307
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb1e2d5bffc24ac7afd59f22d5f90a9
+      internalID: -6365671811205519665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_138
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 307
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c35cef89f9904a8ba2d52a16c562134
+      internalID: -418293327932043133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_139
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 301
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552e9f632fd644617b6d377697203f08
+      internalID: -4378264538759774753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_140
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 280
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd826d8c0b42c497192362deabccbae5
+      internalID: -8060621337766413850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 280
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcdd53d4560474d9679f28b2acafbb
+      internalID: 2650627245929345417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_142
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 274
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e76227f103148059a4fcf8dac72e60
+      internalID: -3461037423028410009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_143
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 273
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abbb17110e314b78b74f26061a0a6fd
+      internalID: -2003929675591417017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_144
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 272
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4683826929a4ad2a639fbf8ca4f59b
+      internalID: 6632675510832188530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_145
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 271
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5b6d64c61994d179136401cd82c3d0
+      internalID: -349233923303618018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_146
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 271
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be965cad85743a98370e6ccc46abc4
+      internalID: -195849210687376353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_147
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 271
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1bb4959c495402bbf9efd4f5ab000f
+      internalID: -5853444182096606415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_148
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 255
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bcfbfa0dc8845cd971effef394c86f
+      internalID: 7241259035943245326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_149
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 255
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d95ff5d92644a9f9ee19ea46fc34ab
+      internalID: 9195989888839492459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_150
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 255
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd45dd4dc1ba45688bf999f7fda1408
+      internalID: -3745229001620538229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_151
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c37ca4dc67ca429ba6bd16702315da5
+      internalID: 8248262819699687021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 255
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbcb9259ec764c27b7d9f34807670b6
+      internalID: 4034308480692993188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_153
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 255
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624c791b5b90a42e0b23bbc77651bb38
+      internalID: -2690506208592476366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_154
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 255
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f612e30754f4728b396e4d0781dcb6
+      internalID: 4357332502049371843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_155
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 255
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52631480edac4fb097ee86f5915acb2
+      internalID: 6121315671099666603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_156
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 255
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2c170fb938348a2a80727e66bf8eae
+      internalID: -2265967561021969214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_157
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 255
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1375500aec1f47a899086551ca8f4d6
+      internalID: 1922513885586308980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_158
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 253
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06136f66e22684a6e8dd2ad37213898f
+      internalID: -6845864681005805899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_159
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 253
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef01216d83814398850d7ac4fc4cb8c
+      internalID: -6845995939179607852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_160
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 253
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec0ea3fabf143ba820aaa355c40888
+      internalID: 8386361455584381201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_161
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 253
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894635ec9afa14ac3be2d9d98639082e
+      internalID: 1610985415237982978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_162
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 253
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e5b5d7ca97d417c8eec13a90b3189e
+      internalID: 5852686735172470602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_163
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 253
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31818595dc124fdbbc5723160792403
+      internalID: -1110158840745119453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_164
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 253
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d248514f30e0424b93304a172154a75
+      internalID: -241408343262683129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_165
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 253
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8a3f5bc0de349ec9c30617fed30338
+      internalID: -2494096554031718501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_166
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 224
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5655a16d9a29b47dba9073361133528e
+      internalID: 9158836336581046666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_167
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 224
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e392cbc32931d4119b3b9088cc3e2361
+      internalID: -8968456181028651382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_168
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 224
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ccec2e860ec49e789600e04db780b8
+      internalID: -5202246826895569237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_169
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37fa7d1de7754d16a4e08a64d791a9a
+      internalID: 3921850477896329294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_170
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 224
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51490da91fecc4f1eb32ecaa41cec1f5
+      internalID: 42952300886263950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_171
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 256
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14931b4ff186949b89ebbaf3f554bf7d
+      internalID: 7287890155780383203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_172
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 222
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3544e1037e464a74b107e5838d09e4a
+      internalID: 2665102836517675963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_173
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 222
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880017e8b93d427c8e5298cd182e0ca
+      internalID: -4463888326429166788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_174
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 222
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3e8d8fa84184c78ba3ace4be9c0be5
+      internalID: -8148664925883528659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_175
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 222
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11690b02c8774a0db9e0c989c735825
+      internalID: 112710288972233002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 222
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d020fe7a33c14cdc8bd6ef564362258
+      internalID: 2600852454311283300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_177
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 222
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eeb6078e03e4b51bebf0426fbd7a2d
+      internalID: -5012420951719437897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_178
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 222
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856c7f2b4364241f1a959d330080269a
+      internalID: 459073605909443593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_179
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 222
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1407aa6a8c1467292bb9a2f8023529
+      internalID: 3105664397863563766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_180
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 222
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe42de9de55a4cb6bf3429c2bf75132
+      internalID: 8736340327985823584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_181
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 222
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c3b833aa28e44a794a093947299a3e
+      internalID: -5112375754590671112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_182
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 222
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15939a708aca640d89a75f5f0728ffc7
+      internalID: -1442397542542042543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_183
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 222
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a719b94e3a8f4402d8d5d0c56ab77202
+      internalID: 2666457504812857229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_184
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 222
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3803e1357ad064ce592b58f8e40a8c18
+      internalID: 4684026875899977413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_185
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 222
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b75f715d6f3a417c80b47986e15e2d0
+      internalID: 2467843561582223939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_186
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 222
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee64f6e07e9430b9ecce32d57a5f9e
+      internalID: -911573293817936953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_187
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 222
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb8338435c26478dbc69201cadca45c
+      internalID: 5397306685902066864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_188
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 245
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8429148c5ba04085a0b6f61dcf35f5c
+      internalID: -5920054734390001594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_189
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 222
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1708264fcb30405b9348fa3442ab13b
+      internalID: -4838489470537598758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_190
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 234
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c2b801142f049429d7990927fd2ffe
+      internalID: -4773138939332841920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_191
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 205
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff00ce3f6e464755a533e1da1839fc1
+      internalID: -6645574154281795872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_192
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 205
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5df155da445943068ff65310d533f88
+      internalID: -3892312644489371941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_193
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 205
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6295e1bd1f34b56bade2028795398a
+      internalID: 5528683582315067611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_194
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 175
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3d662985a234ea69e027f218bb4365
+      internalID: 5210600053491013191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_195
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 175
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95be7a45efbab40da8247e1b00ead7f0
+      internalID: -4577297243086455089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_196
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 158
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9e36f99bc2149d288aedf4c74808c4
+      internalID: -1015732379119071595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_197
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 184
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65151c5c5b974443cb1bad6b296d1693
+      internalID: -4327344302981676000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_198
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 179
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260373f23dea24b7dbf990eb2fb8f5a1
+      internalID: 1192479677888096416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_199
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 187
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771ac5ccc3b08402db45a15dd56e1c07
+      internalID: 5198689846164868612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_200
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 187
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fba747b0ac804116b3dc283e67fe015
+      internalID: -4862019027918700199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_201
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 187
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db06d1f7d2cc241feac1cd25c01b98c5
+      internalID: 3125180385659692695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_202
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 187
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460e376d1fdb44dd880e80b5acf270d6
+      internalID: -7996972119345270402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_203
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 187
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74168071c65994d9b918a9b57476a3cc
+      internalID: -1359188934392339662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_204
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 195
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bd26f7b86df480588c00c23426722e
+      internalID: 6124046738766120458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_205
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 195
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa9683143cc4fc1a1ec67cf92c4d9e
+      internalID: 4364590604222505546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_206
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a35278489ffe4c6996cb887a7ef777a
+      internalID: 5647997841361805502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_207
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 188
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05266ea706f7a4cf89ed0cdc880403be
+      internalID: 7128404347299218211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_208
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 186
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb34df001ee442eb8191c337c52c05
+      internalID: 6142113200468668081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_209
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 186
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acbcab9a0be841329ab3b2f02442d8b
+      internalID: 2277023670164055221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_210
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 170
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff5191e487514ae7a9febf33985caf3
+      internalID: -7617473575388074839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_211
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a27b566c42a41b3ab12b8dd5d1070b
+      internalID: -6069829035373190738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_212
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 170
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f73cfa25be346e2b0ecb6c7b3cfa4c
+      internalID: 6565355537062895820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_213
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 170
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8a69c319f0144069ea17c88de88c85
+      internalID: 4211155026060432024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_214
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 170
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4452b886cd364e89b88eb8a4dc30df9
+      internalID: 6954534897314597477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_215
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 171
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13023cece3c42e8baf2242daa88e6a
+      internalID: 5479736550778243605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_216
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 177
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9632f19e46934abf8968c70dd18a634
+      internalID: -3966216956611045669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_217
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 177
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53be87308b5c24c6ba7ab7b14207b77c
+      internalID: 4866434528912550911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_218
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 170
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494358d5a89ed4a2099b05a63c7036bc
+      internalID: -7284906453468379544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_219
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 170
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff12746fb70e4a9998db6e20e87f62b
+      internalID: -6022486044519461755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_220
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 170
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989ab984a13b748fe99c86bb3710732a
+      internalID: -489105252392636250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_221
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 168
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5960b3b01b3147c0bf214bb2b87327b
+      internalID: 2379237837367561971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_222
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 149
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1987d8d158c74d8686e3a6a97e56518
+      internalID: -1728020726363638914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_223
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 158
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd9141bdddae48b9b425641b538c6c3
+      internalID: 9091805419258089615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_224
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 149
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c23bfdc3078b4a5f88ebc72189be1b4
+      internalID: -1707235165731224656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_225
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 158
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcde3e881e2c450688f23deafe5ed13
+      internalID: -1372371433631673121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_226
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 153
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a92dc88068f4abb8b7a08fb159e016
+      internalID: 4594931522325100118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_227
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 153
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415976f2a208141a5aef0c72aff65e66
+      internalID: -9075730397036614136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_228
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401fd4d38b38d40d7aab4c8b5cea6adb
+      internalID: -1256893511266550628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_229
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd0fe55cd57843b0ab04058e71ac757
+      internalID: 2682358767296081997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_230
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449083f10b9824e8bb4374a9c4aab3bc
+      internalID: -8936570662967527378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_231
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29f623cb9852410bab6ad113de6e089
+      internalID: 2433111155232326586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_232
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf82280d07c01414a9020792ceaa4d2a
+      internalID: 8862141564128169554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_233
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 152
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7177d72285c49ecb6064505cc16588
+      internalID: -3483751443254640739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_234
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 158
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63927b8c5d2444da3a866bacb60ad441
+      internalID: 409734194349370835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_235
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 153
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c599c41a07401ebac6ed22a839707
+      internalID: -125143933490633234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_236
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 155
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf1c2e1d58db40de8bfba1a3dd990bb
+      internalID: 5923463235856788629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_237
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add56c4cabf2d4e6a9645bc642dfde21
+      internalID: -5771837590106745452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_238
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 86
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda710f21b7a948df847030c5d699a3e
+      internalID: -4165368641478632671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_239
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 88
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9a1b76bda3d402f89b08cf77e4a45b
+      internalID: -3115315899620553732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_240
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 91
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b895fd5d7b904d5d94e7ab5a5119671
+      internalID: 7382973586291977823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_241
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 91
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628e193b1c0534e36a6c778ae71017ce
+      internalID: 1656722556871962975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_242
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 91
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34b994a97a63482ab24819372f783f5
+      internalID: -286821993313963302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_243
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 91
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a0a7ec230eb4a56ba47566eccacef0
+      internalID: 7797858070184849275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_244
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 91
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a1c9b4f3f6f41e48e7bf7bc6e8b26c
+      internalID: 6069901036428156449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_245
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 91
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6771bd2edbc384dedbf7dc6c1a868657
+      internalID: 3699390961516588919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_246
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 109
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5227a6bc946d424ba388ceafc79ca37
+      internalID: -4269538031403754424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_247
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 86
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b53796c17b14d5fae77b9de2472725
+      internalID: -5654937516524061198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_248
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 86
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b869b03c48a4d898ef5f5d8e36b9c1
+      internalID: 4390405937279241043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_249
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 88
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acceba3e8df745869029372d5625d3d
+      internalID: -1997491840064168630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_250
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 91
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3186b29066e54a28811c8a8fa50a88f
+      internalID: 4036680527076570404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_251
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 96
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c95aa4fa114383b2a18d9061cf3d1
+      internalID: -5855490589534013366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_252
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 62
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c0e212d05944c6da2c474b2ee2f18b
+      internalID: 2527115167015020186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_253
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 63
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe6243b7386f42bf95ac9c9bf54faa7
+      internalID: 3045147108561683041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_254
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 62
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb80baa92004d93a25367801b7005f
+      internalID: -2134920373834178220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_255
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 62
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d8f38d1d0d04569a024ffad9d98dff
+      internalID: 6660735272253181160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_256
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 62
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbed2ffef8b145e297db1ebe1e8c674
+      internalID: -770084184668871255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_257
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 62
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16f83cc90c844102aae6147a46a6a83
+      internalID: 2292674060690595729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_258
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 66
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f3e347dc4de491ba66a178780b8eef
+      internalID: 5110036494494225473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_259
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 66
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff9f6e5d655424d9cd9d2eb7989f68
+      internalID: -9217832571269664254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_260
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 66
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd7a2f019a444b88adb83ceca4288b6
+      internalID: -5028007601152952421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_261
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 66
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651a282c79ad466292c3e1fca1f3941
+      internalID: 7921332914488465551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_262
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 66
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90506b2b21e68477d904ce4689485bfa
+      internalID: 5522950328461128500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_263
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 66
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b9ac87234c4fa09726f8caf1ab7da
+      internalID: -8528354790614192839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_264
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 66
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48503eba239b44666ae961016fdd018a
+      internalID: -4310938725995874643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_265
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 66
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2ff6f41744c4e308a03505a7017f71
+      internalID: -8551138213386980058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_266
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad87432b405e43b7b011794aaf3f389
+      internalID: -674934960114107075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_267
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109b5ff804f15473fb9ad0c257c3080b
+      internalID: 2551663825320744719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_268
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 38
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823b7b21dd2ba4eb5bc8725e0812b774
+      internalID: 4725910293464081957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_269
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 42
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4730584d123f468bb76ba41104f6017
+      internalID: -2102373224636335728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_270
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 32
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a45cd5f09284e0681fc3752beaf2de
+      internalID: 8392002144694464992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_271
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 41
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4706e713ef043494c84cb022acddd45c
+      internalID: 1112733206250005354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_272
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 57
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745f12ae5e69a4fa0ba2103c86cad9b5
+      internalID: -2095465471641934930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_273
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 59
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eeaf974e48e49998b3a0011e550918
+      internalID: 3173125991009428206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_274
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5601cd01a23544bbaaef2290fabc1509
+      internalID: 7770571137151413503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_275
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f41aac232e5432281e60313bc7b5db
+      internalID: -8835538986535364419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_276
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 38
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5adf982d61a542108358538903b9418
+      internalID: -7763202575210726679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_277
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 118
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2d46dfca17f4217b05ac27d9f18de2
+      internalID: 699791354328351612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_278
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf2fcfbda6434a2b8906e82f12296b4
+      internalID: -6614259696321777479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_279
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 12
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454a2119473b74754a1490c2968ac78a
+      internalID: 8027314432390951244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_280
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 13
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f39ff2665043498fcd1ad52ba9787
+      internalID: 8039596558134287150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_281
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 12
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e623b3a1197d9475999315ebca7a1f4c
+      internalID: -4523730015723643446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_282
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 12
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37967ed507efb48b0a0f1ef1f49851d0
+      internalID: -3923407818405448552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - ZONE 5 Enemy Characters_283
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 12
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bd58e3c95bb44168233776e009c666
+      internalID: 4375760020101930409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

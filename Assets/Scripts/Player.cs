@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     public float bombTimeToExplode = 3f;
     [Range(min: 2, max: 5)]
     public int bombRange = 2;   // Valor expresado en bloques del mapa
+    [HideInInspector]
+    public Animator animator;
 
     private bool canBeDamaged = true;
     private Renderer rend;
@@ -40,6 +42,7 @@ public class Player : MonoBehaviour
             UIManager.instance.SetPlayer2HP(life);
         }
 
+        animator = GetComponent<Animator>();
         rend = GetComponent<Renderer>();
         normalColor = rend.material.color;
     }
@@ -102,11 +105,11 @@ public class Player : MonoBehaviour
     private void KillPlayer()
     {
         GameManager.instance.AddPlayerDeath(playerNum, this.gameObject);
+        animator.SetTrigger("Dead");
 
         LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
         levelManager.CheckLoseGame();
 
-        Destroy(gameObject);
     }
 
     public enum PlayerNum
@@ -114,5 +117,4 @@ public class Player : MonoBehaviour
         Player1,
         Player2,
     }
-
 }
