@@ -7634,6 +7634,21 @@ PrefabInstance:
       propertyPath: bombs2
       value: 
       objectReference: {fileID: 2105590913}
+    - target: {fileID: 204696364185213529, guid: 083d09ff1697f474b87f200218118dfb,
+        type: 3}
+      propertyPath: player1Area
+      value: 
+      objectReference: {fileID: 7497580258039328521}
+    - target: {fileID: 204696364185213529, guid: 083d09ff1697f474b87f200218118dfb,
+        type: 3}
+      propertyPath: youWinScreen
+      value: 
+      objectReference: {fileID: 7497580258039328519}
+    - target: {fileID: 204696364185213529, guid: 083d09ff1697f474b87f200218118dfb,
+        type: 3}
+      propertyPath: youLoseScreen
+      value: 
+      objectReference: {fileID: 7497580258039328520}
     - target: {fileID: 2518859376975785000, guid: 083d09ff1697f474b87f200218118dfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7924,3 +7939,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc814b04bd572ea46840a32edcae77f2, type: 3}
+--- !u!1 &7497580258039328519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7292854616865799899, guid: cc814b04bd572ea46840a32edcae77f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7497580258039328518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7497580258039328520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9080781401236221388, guid: cc814b04bd572ea46840a32edcae77f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7497580258039328518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7497580258039328521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7497580258315600895, guid: cc814b04bd572ea46840a32edcae77f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7497580258039328518}
+  m_PrefabAsset: {fileID: 0}

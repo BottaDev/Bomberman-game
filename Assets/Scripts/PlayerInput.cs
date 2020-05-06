@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerInput : MonoBehaviour
 {
     [Header("Movimiento")]
     public string inputAxisX;
@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
 
     Player player;
     Rigidbody2D rb;
-    PlayerMovement playerMovement;
 
     [HideInInspector]
     public bool moveUp;
@@ -40,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody2D>();
         player = GetComponent<Player>();
-        playerMovement = GetComponent<PlayerMovement>();
         mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
 
         if (mapController == null)
@@ -59,26 +57,16 @@ public class PlayerMovement : MonoBehaviour
             auxAttackCd = 0;
 
         if (auxInputMele == 1 && auxAttackCd <= 0)
-        {
             Attack();
-        }
         
-        if (playerMovement.moveUp == true)
-        {
+        if (moveUp == true)
             direction.localPosition = new Vector3(0, 0.1f, 0);
-        }
-        if (playerMovement.moveDown == true)
-        {
+        if (moveDown == true)
             direction.localPosition = new Vector3(0, -0.1f, 0);
-        }
-        if (playerMovement.moveRight == true)
-        {
+        if (moveRight == true)
             direction.localPosition = new Vector3(0.1f, 0, 0);
-        }
-        if (playerMovement.moveLeft == true)
-        {
+        if (moveLeft == true)
             direction.localPosition = new Vector3(0.1f, 0, 0);
-        }
     }
 
     private void FixedUpdate()
@@ -102,7 +90,6 @@ public class PlayerMovement : MonoBehaviour
 
         else if (auxAxisY > 0)
         {
-           
             rb.MovePosition(transform.position + new Vector3(0, 1, 0) * player.speed * Time.deltaTime);
             player.animator.SetFloat("MoveU", 1);
             player.animator.SetFloat("MoveD", 0);
@@ -162,22 +149,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void ExcuteAttackAnimation()
     {
-        if (playerMovement.moveUp == true)
-        {
+        if (moveUp == true)
             player.animator.SetTrigger("PunchU");
-        }
-        else if (playerMovement.moveDown == true)
-        {
+        else if (moveDown == true)
             player.animator.SetTrigger("PunchD");
-        }
-        else if (playerMovement.moveRight == true)
-        {
+        else if (moveRight == true)
             player.animator.SetTrigger("PunchR");
-        }
-        else if (playerMovement.moveLeft == true)
-        {
+        else if (moveLeft == true)
             player.animator.SetTrigger("PunchL");
-        }
     }
 
     void Attack()

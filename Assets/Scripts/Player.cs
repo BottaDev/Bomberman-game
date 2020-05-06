@@ -104,12 +104,25 @@ public class Player : MonoBehaviour
 
     private void KillPlayer()
     {
-        GameManager.instance.AddPlayerDeath(playerNum, this.gameObject);
         animator.SetTrigger("Dead");
+
+        PlayerInput input = GetComponent<PlayerInput>();
+        input.enabled = false;
 
         LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
         levelManager.CheckLoseGame();
 
+        StartCoroutine(DestroyAfterAnimation(1.15f));
+    }
+
+    private IEnumerator DestroyAfterAnimation(float seconds)
+    {
+        Collider2D col = GetComponent<Collider2D>();
+        col.enabled = false;
+
+        yield return new WaitForSeconds(seconds);
+
+        Destroy(gameObject);
     }
 
     public enum PlayerNum
