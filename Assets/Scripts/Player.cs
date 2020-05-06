@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]
-    public float bombCd;
+    public float bombCd = 3;
     [Range(min: 0.5f, max: 3f)]
     public float bombTimeToExplode = 3f;
     [Range(min: 2, max: 5)]
