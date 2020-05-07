@@ -9,7 +9,7 @@ public class LevelExit : MonoBehaviour
         LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
 
         if (levelManager != null)
-            levelManager.WinLevel();
+            levelManager.StartCoroutine("WinLevel");
         else
             Debug.Log("Error. No se encontró un Level Manager");
     }
