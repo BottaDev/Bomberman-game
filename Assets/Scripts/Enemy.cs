@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     [Header("Enemy Settings")]
     public EnemyType type;
     public float life = 3;
-    public float speed = 3;
+    public float speed = 2;
     public int damage = 1;
     public LayerMask collisionMask;
 

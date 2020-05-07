@@ -160,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   life: 1
-  speed: 3
+  speed: 2.5
   damage: 1
   collisionMask:
     serializedVersion: 2

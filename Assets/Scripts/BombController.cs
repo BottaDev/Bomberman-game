@@ -5,7 +5,7 @@ using UnityEngine;
 public class BombController : MonoBehaviour
 {
     public float timeToExplode = 3;
-    public int explosionRange = 2;
+    public int explosionRange = 1;
     public GameObject explosionGO;
     public Animator animator;
 

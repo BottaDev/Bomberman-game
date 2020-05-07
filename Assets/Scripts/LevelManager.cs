@@ -136,7 +136,7 @@ public class LevelManager : MonoBehaviour
 
     private void ChangeLevel(int levelIndex)
     {
-        if (levelIndex > 2)
+        if (levelIndex > 3)
         {
             GameManager.instance.DestroyGameManager();
             SceneManager.LoadScene(0);
