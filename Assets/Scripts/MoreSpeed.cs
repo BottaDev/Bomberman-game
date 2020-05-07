@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoreSpeed : MonoBehaviour
 {
-    public float extraSpeed = 1.3f;
+    public float extraSpeed = 1.1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

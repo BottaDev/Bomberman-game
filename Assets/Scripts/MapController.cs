@@ -47,19 +47,20 @@ public class MapController : MonoBehaviour
 
     public void DropPowerUp(Vector3Int cell)
     {
-        int randomProbability = Random.Range(1, 11);
+        int randomProbability = Random.Range(1, 21);
         Vector3 cellPosition = GetCellToWorld(cell);
 
         switch (randomProbability)
         {
-            case 6:
-            case 7:
-            case 8:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
                 Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
                 break;
 
-            case 9:
-            case 10:
+            case 19:
+            case 20:
                 PowerUpType(cellPosition);
                 break;
         }

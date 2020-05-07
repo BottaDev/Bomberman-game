@@ -6,8 +6,8 @@ public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
     [Header("Player Settings")]
-    public int life = 2;
-    public float speed = 5;
+    public int life = 3;
+    public float speed = 3;
     public int bombStack = 3;
 
     [Header("Attack Settings")]
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     public float bombCd = 3;
     [Range(min: 0.5f, max: 3f)]
     public float bombTimeToExplode = 3f;
-    [Range(min: 2, max: 5)]
+    [Range(min: 1, max: 5)]
     public int bombRange = 2;   // Valor expresado en bloques del mapa
     [HideInInspector]
     public Animator animator;
