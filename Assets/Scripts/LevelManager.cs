@@ -69,15 +69,7 @@ public class LevelManager : MonoBehaviour
 
     private void InstantiatePlayer(GameObject player, Transform spawn, bool isDead = false)
     {
-        // Si el player murio en el anterior nivel, resetea la cantidad de vidas y la cantida de bombas
-        if (isDead)
-        {
-            Player p = Instantiate(player, spawn.position, spawn.rotation).GetComponent<Player>();
-            p.life = 2;
-            p.bombStack = 3;
-        }
-        else
-            Instantiate(player, spawn.position, spawn.rotation);
+        Instantiate(player, spawn.position, spawn.rotation);
     }
 
     public void AddEnemyDeath()
