@@ -29,14 +29,6 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void Start()
-    {
-        if (GameManager.instance.numberOfPlayers == 2)
-            player2Area.SetActive(true);
-        else
-            player2Area.SetActive(false);
-    }
-
     public void SetPlayer1HP(int hp)
     {
         this.hp.text = hp.ToString();
