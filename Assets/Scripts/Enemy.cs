@@ -227,7 +227,7 @@ public class Enemy : MonoBehaviour
 
     private bool CheckDebugColision(int value)
     {
-        if (value >= 20)
+        if (value >= 40)
         {
             StartCoroutine("DebugInvulnerable");
             Debug.LogWarning("Colision infinita corregida");
