@@ -9,12 +9,8 @@ public class BombEnemy : Enemy
     public float timeToExplode = 1.5f;
     public int explosionRange = 3;
 
-    [SerializeField]
     private float currentExplosionCd = 0;
-    [SerializeField]
     private float currentTimeToExplode = 0;
-
-   
 
     private void Awake()
     {
@@ -24,7 +20,7 @@ public class BombEnemy : Enemy
 
     private void FixedUpdate()
     {
-        currentExplosionCd -= Time.deltaTime;
+        currentExplosionCd -= Time.fixedDeltaTime;
         if (currentExplosionCd <= 0)
             currentExplosionCd = 0;
 

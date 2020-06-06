@@ -9,13 +9,15 @@ public class MapController : MonoBehaviour
     public GameObject moreRangeGO;
     public GameObject moreSpeedGO;
 
-    private Tilemap tilemap;
+    private Tilemap blocksTilemap;
+    private Tilemap groundTilemap;
 
     private void Start()
     {
-        tilemap = GameObject.Find("Blocks").GetComponent<Tilemap>();
+        blocksTilemap = GameObject.Find("Blocks").GetComponent<Tilemap>();
+        groundTilemap = GameObject.Find("Ground TM").GetComponent<Tilemap>();
 
-        if (tilemap == null)
+        if (blocksTilemap == null)
         {
             Debug.Log("Error. No se encontró el objeto 'Blocks'");
             return;
@@ -24,25 +26,33 @@ public class MapController : MonoBehaviour
 
     public void DestroyCell(Vector3Int cell)
     {
-        tilemap.SetTile(cell, null);
+        blocksTilemap.SetTile(cell, null);
     }
 
     public Vector3Int GetCell(Vector2 worldPos)
     {
-        Vector3Int cell = tilemap.WorldToCell(worldPos);
+        Vector3Int cell = blocksTilemap.WorldToCell(worldPos);
         return cell;
     }
     
     public Vector3 GetCellToWorld(Vector3Int cell)
     {
-        Vector3 position = tilemap.GetCellCenterWorld(cell);
+        Vector3 position = blocksTilemap.GetCellCenterWorld(cell);
         return position;
     }
 
-    public Tile GetTile(Vector3Int cell)
+    public Tile GetTile(Vector3Int cell, bool needGround = false)
     {
-        Tile tile = tilemap.GetTile<Tile>(cell);
-        return tile;
+        if (needGround)
+        {
+            Tile tile = groundTilemap.GetTile<Tile>(cell);
+            return tile;
+        }
+        else
+        {
+            Tile tile = blocksTilemap.GetTile<Tile>(cell);
+            return tile;
+        }
     }
 
     public void DropPowerUp(Vector3Int cell)

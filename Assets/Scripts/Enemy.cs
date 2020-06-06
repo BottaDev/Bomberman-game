@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Enemy : MonoBehaviour
 {
     [Header("Enemy Settings")]
@@ -13,19 +14,18 @@ public class Enemy : MonoBehaviour
 
     protected Vector2 direction = Vector2.down; 
     protected bool canTakeDamage = true;
-    [SerializeField]
     protected Rigidbody2D rb;
     protected MapController mapController;
-
+    
     protected Collider2D colUp;
     protected Collider2D colRight;
     protected Collider2D colDown;
     protected Collider2D colLeft;
     protected float directionTimer = 1.5f;
+    protected SpriteRenderer sprite;
 
     [HideInInspector]
     public Animator animator;
-    SpriteRenderer sprite;
 
     private Renderer rend;
     private Color normalColor;
@@ -100,7 +100,7 @@ public class Enemy : MonoBehaviour
         return canChangeDirection;
     }
 
-    private void ChangeColisionDirection()
+    public virtual void ChangeColisionDirection()
     {
         // IMPORTANTE: Debe estar seteado el "Geometry Type" a "Polygons" en el Composite Collider del tile para que 
         // detecte correctamente las colisiones
@@ -225,7 +225,7 @@ public class Enemy : MonoBehaviour
         } while (canExitLoop == false);
     }
 
-    private bool CheckDebugColision(int value)
+    protected bool CheckDebugColision(int value)
     {
         if (value >= 40)
         {
@@ -363,7 +363,7 @@ public class Enemy : MonoBehaviour
     }
 
     // Se llama a esta funcion para evitar el loop infinito al colocar una bomba muy cerca de un enemigo
-    private IEnumerator DebugInvulnerable()
+    protected IEnumerator DebugInvulnerable()
     {
         coll.enabled = false;
         
