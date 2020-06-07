@@ -23,13 +23,14 @@ public class Enemy : MonoBehaviour
     protected Collider2D colLeft;
     protected float directionTimer = 1.5f;
     protected SpriteRenderer sprite;
+    protected Collider2D coll;
 
     [HideInInspector]
     public Animator animator;
 
     private Renderer rend;
     private Color normalColor;
-    private Collider2D coll;
+    
 
     private void Start()
     {
@@ -59,7 +60,7 @@ public class Enemy : MonoBehaviour
 
         int randomNum = Random.Range(0, 4);
         if (canChangeDirection && directionTimer == 0f && randomNum == 0)
-            ChangeTimerDirection();
+            ChangeDirection(false);
 
         // Si todos los colliders detectan algo, no se deberia mover
         if (colUp != null && colRight != null && colDown != null && colLeft != null)
@@ -100,7 +101,7 @@ public class Enemy : MonoBehaviour
         return canChangeDirection;
     }
 
-    public virtual void ChangeColisionDirection()
+    public virtual void ChangeDirection(bool onCollision = true)
     {
         // IMPORTANTE: Debe estar seteado el "Geometry Type" a "Polygons" en el Composite Collider del tile para que 
         // detecte correctamente las colisiones
@@ -119,110 +120,117 @@ public class Enemy : MonoBehaviour
             switch (randomNum)
             {
                 case 0:
-                    canExitLoop = CheckDebugColision(debugTimes);
-
-                    if (colUp == null && direction != Vector2.up)
+                    if (onCollision)
                     {
-                        if (type == EnemyType.Walker)
+                        canExitLoop = CheckDebugColision(debugTimes);
+
+                        if (colUp == null && direction != Vector2.up)
                         {
-                            animator.SetFloat("Up", 1);
-                            animator.SetFloat("Right", 0);
-                            animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
+                            SetAnimation(1, 0, 0, false);
+
+                            direction = Vector2.up;
+                            canExitLoop = true;
                         }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 1);
-                            animator.SetFloat("RightB", 0);
-                            animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
-                        }
-                        direction = Vector2.up;
-                        canExitLoop = true;
+                        else
+                            debugTimes++;
                     }
                     else
-                        debugTimes++;
+                    {
+                        if (colUp == null && direction != Vector2.up && direction != Vector2.down)
+                        {
+                            SetAnimation(1, 0, 0, false);
+
+                            direction = Vector2.up;
+                            canExitLoop = true;
+                        }
+                    }                       
                     break;
 
                 case 1:
-                    canExitLoop = CheckDebugColision(debugTimes);
-
-                    if (colRight == null && direction != Vector2.right)
+                    if (onCollision)
                     {
-                        if (type == EnemyType.Walker)
+                        canExitLoop = CheckDebugColision(debugTimes);
+
+                        if (colRight == null && direction != Vector2.right)
                         {
-                            animator.SetFloat("Up", 0);
-                            animator.SetFloat("Right", 1);
-                            animator.SetFloat("Left", 0);
-                            sprite.flipX = true;
+                            SetAnimation(0, 1, 0, true);
+
+                            direction = Vector2.right;
+                            canExitLoop = true;
                         }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 0);
-                            animator.SetFloat("RightB", 1);
-                            animator.SetFloat("LeftB", 0);
-                            sprite.flipX = true;
-                        }
-                        direction = Vector2.right;
-                        canExitLoop = true;
+                        else
+                            debugTimes++;
                     }
                     else
-                        debugTimes++;
+                    {
+                        if (colRight == null && direction != Vector2.right && direction != Vector2.left)
+                        {
+                            SetAnimation(0, 1, 0, true);
+
+                            direction = Vector2.right;
+                            canExitLoop = true;
+                        }
+                    }
                     break;
 
                 case 2:
-                    canExitLoop = CheckDebugColision(debugTimes);
-
-                    if (colDown == null && direction != Vector2.down)
+                    if (onCollision)
                     {
-                        if (type == EnemyType.Walker)
+                        canExitLoop = CheckDebugColision(debugTimes);
+
+                        if (colDown == null && direction != Vector2.down)
                         {
-                            animator.SetFloat("Up", 0);
-                            animator.SetFloat("Right", 0);
-                            animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
+                            SetAnimation(0, 0, 0, false);
+
+                            direction = Vector2.down;
+                            canExitLoop = true;
                         }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 0);
-                            animator.SetFloat("RightB", 0);
-                            animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
-                        }
-                        direction = Vector2.down;
-                        canExitLoop = true;
+                        else
+                            debugTimes++;
                     }
                     else
-                        debugTimes++;
+                    {
+                        if (colDown == null && direction != Vector2.down && direction != Vector2.up)
+                        {
+                            SetAnimation(0, 0, 0, false);
+
+                            direction = Vector2.down;
+                            canExitLoop = true;
+                        }
+                    }                        
                     break;
 
                 case 3:
-                    canExitLoop = CheckDebugColision(debugTimes);
-
-                    if (colLeft == null && direction != Vector2.left)
+                    if (onCollision)
                     {
-                        if (type == EnemyType.Walker)
+                        canExitLoop = CheckDebugColision(debugTimes);
+
+                        if (colLeft == null && direction != Vector2.left)
                         {
-                            animator.SetFloat("Up", 0);
-                            animator.SetFloat("Right", 0);
-                            animator.SetFloat("Left", 1);
-                            sprite.flipX = false;
+                            SetAnimation(0, 0, 1, false);
+
+                            direction = Vector2.left;
+                            canExitLoop = true;
                         }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 0);
-                            animator.SetFloat("RightB", 0);
-                            animator.SetFloat("LeftB", 1);
-                            sprite.flipX = false;
-                        }
-                        direction = Vector2.left;
-                        canExitLoop = true;
+                        else
+                            debugTimes++;
                     }
                     else
-                        debugTimes++;
+                    {
+                        if (colLeft == null && direction != Vector2.left && direction != Vector2.right)
+                        {
+                            SetAnimation(0, 0, 1, false);
+
+                            direction = Vector2.left;
+                            canExitLoop = true;
+                        }
+                    }
                     break;
             }
         } while (canExitLoop == false);
+
+        if(!onCollision)
+            directionTimer = 1.5f;
     }
 
     protected bool CheckDebugColision(int value)
@@ -236,117 +244,6 @@ public class Enemy : MonoBehaviour
         }
         else
             return false;
-    }
-
-    private void ChangeTimerDirection()
-    {
-        // IMPORTANTE: Debe estar seteado el "Geometry Type" a "Polygons" en el Composite Collider del tile para que 
-        // detecte correctamente las colisiones
-
-        Vector3Int cell = mapController.GetCell(transform.position);
-        Vector3 cellCenterPos = mapController.GetCellToWorld(cell);
-        transform.position = cellCenterPos;
-
-        bool canExitLoop = false;
-
-        do
-        {
-            int randomNum = Random.Range(0, 4);
-
-            switch (randomNum)
-            {
-                case 0:
-                    if (colUp == null && direction != Vector2.up && direction != Vector2.down)
-                    {
-                        if (type == EnemyType.Walker)
-                        {
-                            animator.SetFloat("Up", 1);
-                            animator.SetFloat("Right", 0);
-                            animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
-                        }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 1);
-                            animator.SetFloat("RightB", 0);
-                            animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
-                        }
-                        direction = Vector2.up;
-                        canExitLoop = true;
-                    }
-                    break;
-
-                case 1:
-                    if (colRight == null && direction != Vector2.right && direction != Vector2.left)
-                    {
-                        if (type == EnemyType.Walker)
-                        {
-                            animator.SetFloat("Up", 0);
-                            animator.SetFloat("Right", 1);
-                            animator.SetFloat("Left", 0);
-                            sprite.flipX = true;
-                        }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 0);
-                            animator.SetFloat("RightB", 1);
-                            animator.SetFloat("LeftB", 0);
-                            sprite.flipX = true;
-                        }
-                        direction = Vector2.right;
-                        canExitLoop = true;
-                    }
-                    break;
-
-                case 2:
-                    if (colDown == null && direction != Vector2.down && direction != Vector2.up)
-                    {
-                        if (type == EnemyType.Walker)
-                        {
-                            animator.SetFloat("Up", 0);
-                            animator.SetFloat("Right", 0);
-                            animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
-                        }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 0);
-                            animator.SetFloat("RightB", 0);
-                            animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
-                        }
-                        direction = Vector2.down;
-                        canExitLoop = true;
-                    }
-                    break;
-
-                case 3:
-                    if (colLeft == null && direction != Vector2.left && direction != Vector2.right)
-                    {
-                        if (type == EnemyType.Walker)
-                        {
-                            animator.SetFloat("Up", 0);
-                            animator.SetFloat("Right", 0);
-                            animator.SetFloat("Left", 1);
-                            sprite.flipX = false;
-                        }
-                        else if (type == EnemyType.Bomber)
-                        {
-                            animator.SetFloat("UpB", 0);
-                            animator.SetFloat("RightB", 0);
-                            animator.SetFloat("LeftB", 1);
-                            sprite.flipX = false;
-                        }
-                        direction = Vector2.left;
-                        canExitLoop = true;
-                    }
-                    break;
-            }
-
-        } while (canExitLoop == false);
-
-        directionTimer = 1.5f;
     }
 
     public void TakeDamage(float damage)
@@ -391,7 +288,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        ChangeColisionDirection();
+        ChangeDirection();
 
         // Player
         if (collision.gameObject.layer == 9)
@@ -399,7 +296,6 @@ public class Enemy : MonoBehaviour
             Player player = collision.gameObject.GetComponent<Player>();
             player.TakeDamage(damage);
         }
-            
     }
 
     private void KillEnemy()
@@ -408,6 +304,27 @@ public class Enemy : MonoBehaviour
         levelManager.AddEnemyDeath();
 
         Destroy(gameObject);
+    }
+
+    private void SetAnimation(int up, int right, int left, bool flip)
+    {
+        if ((up > 1 || up < 0) || (right > 1 || right < 0) || (left > 1 || left < 0))
+            Debug.LogError("Valores para animator incorrectos");
+
+        if (type == EnemyType.Walker)
+        {
+            animator.SetFloat("Up", up);
+            animator.SetFloat("Right", right);
+            animator.SetFloat("Left", left);
+            sprite.flipX = flip;
+        }
+        else if (type == EnemyType.Bomber)
+        {
+            animator.SetFloat("UpB", 0);
+            animator.SetFloat("RightB", 0);
+            animator.SetFloat("LeftB", 1);
+            sprite.flipX = flip;
+        }
     }
 
     protected void OnDrawGizmosSelected()

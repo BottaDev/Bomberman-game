@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class JumperEnemy : Enemy
 {
     [Header("Jump Settings")]
-    public float jumpSpeed = 1;
+    public float jumpSpeed = 2;
     public float jumpCd = 5;
     public Tile groundTile;
 
@@ -25,7 +25,7 @@ public class JumperEnemy : Enemy
             currentJumpCd = 0;
     }
 
-    public override void ChangeColisionDirection()
+    public override void ChangeDirection(bool onCollision = true)
     {
         // IMPORTANTE: Debe estar seteado el "Geometry Type" a "Polygons" en el Composite Collider del tile para que 
         // detecte correctamente las colisiones
@@ -43,7 +43,7 @@ public class JumperEnemy : Enemy
             else
             {
                 currentJumpCd = jumpCd;
-                ChangeColisionDirection();
+                ChangeDirection();
             }
         }
         else
@@ -62,7 +62,8 @@ public class JumperEnemy : Enemy
                 switch (randomNum)
                 {
                     case 0:
-                        canExitLoop = CheckDebugColision(debugTimes);
+                        if (onCollision)
+                            canExitLoop = CheckDebugColision(debugTimes);
 
                         if (colUp == null && direction != Vector2.up)
                         {
@@ -88,7 +89,8 @@ public class JumperEnemy : Enemy
                         break;
 
                     case 1:
-                        canExitLoop = CheckDebugColision(debugTimes);
+                        if (onCollision)
+                            canExitLoop = CheckDebugColision(debugTimes);
 
                         if (colRight == null && direction != Vector2.right)
                         {
@@ -114,7 +116,8 @@ public class JumperEnemy : Enemy
                         break;
 
                     case 2:
-                        canExitLoop = CheckDebugColision(debugTimes);
+                        if (onCollision)
+                            canExitLoop = CheckDebugColision(debugTimes);
 
                         if (colDown == null && direction != Vector2.down)
                         {
@@ -140,7 +143,8 @@ public class JumperEnemy : Enemy
                         break;
 
                     case 3:
-                        canExitLoop = CheckDebugColision(debugTimes);
+                        if (onCollision)
+                            canExitLoop = CheckDebugColision(debugTimes);
 
                         if (colLeft == null && direction != Vector2.left)
                         {
@@ -166,6 +170,9 @@ public class JumperEnemy : Enemy
                         break;
                 }
             } while (canExitLoop == false);
+
+            if (!onCollision)
+                directionTimer = 1.5f;
         }
     }
 
@@ -208,11 +215,13 @@ public class JumperEnemy : Enemy
     private void Jump(Vector3 cellToJump)
     {
         print("Saltó");
-        StartCoroutine("DebugInvulnerable");
+        coll.enabled = false;
 
         transform.position = Vector3.MoveTowards(transform.position, cellToJump, jumpSpeed * Time.deltaTime);
-
+        
         // Acomoda el enemigo en la celda
         transform.position = cellToJump;
+
+        coll.enabled = true;
     }
 }
