@@ -101,7 +101,7 @@ public class Enemy : MonoBehaviour
         return canChangeDirection;
     }
 
-    public virtual void ChangeDirection(bool onCollision = true)
+    protected void ChangeDirection(bool onCollision = true)
     {
         // IMPORTANTE: Debe estar seteado el "Geometry Type" a "Polygons" en el Composite Collider del tile para que 
         // detecte correctamente las colisiones
@@ -306,7 +306,7 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void SetAnimation(int up, int right, int left, bool flip)
+    protected void SetAnimation(int up, int right, int left, bool flip)
     {
         if ((up > 1 || up < 0) || (right > 1 || right < 0) || (left > 1 || left < 0))
             Debug.LogError("Valores para animator incorrectos");

@@ -25,184 +25,54 @@ public class JumperEnemy : Enemy
             currentJumpCd = 0;
     }
 
-    public override void ChangeDirection(bool onCollision = true)
+    private void CheckJump()
     {
-        // IMPORTANTE: Debe estar seteado el "Geometry Type" a "Polygons" en el Composite Collider del tile para que 
-        // detecte correctamente las colisiones
-
         if (currentJumpCd <= 0)
         {
             Vector3Int cell = mapController.GetCell(transform.position);
             Vector3 cellToJump = GetCellToJump(cell);
 
             if (cellToJump.x != 9999)
-            {
-                currentJumpCd = jumpCd;
                 Jump(cellToJump);
-            }
             else
-            {
-                currentJumpCd = jumpCd;
                 ChangeDirection();
-            }
         }
         else
-        {
-            Vector3Int cell = mapController.GetCell(transform.position);
-            Vector3 cellCenterPos = mapController.GetCellToWorld(cell);
-            transform.position = cellCenterPos;
-
-            bool canExitLoop = false;
-            int debugTimes = 0;             // Cantidad de veces que se ejecutó el loop
-
-            do
-            {
-                int randomNum = Random.Range(0, 4);
-
-                switch (randomNum)
-                {
-                    case 0:
-                        if (onCollision)
-                            canExitLoop = CheckDebugColision(debugTimes);
-
-                        if (colUp == null && direction != Vector2.up)
-                        {
-                            if (type == EnemyType.Walker)
-                            {
-                                animator.SetFloat("Up", 1);
-                                animator.SetFloat("Right", 0);
-                                animator.SetFloat("Left", 0);
-                                sprite.flipX = false;
-                            }
-                            else if (type == EnemyType.Bomber)
-                            {
-                                animator.SetFloat("UpB", 1);
-                                animator.SetFloat("RightB", 0);
-                                animator.SetFloat("LeftB", 0);
-                                sprite.flipX = false;
-                            }
-                            direction = Vector2.up;
-                            canExitLoop = true;
-                        }
-                        else
-                            debugTimes++;
-                        break;
-
-                    case 1:
-                        if (onCollision)
-                            canExitLoop = CheckDebugColision(debugTimes);
-
-                        if (colRight == null && direction != Vector2.right)
-                        {
-                            if (type == EnemyType.Walker)
-                            {
-                                animator.SetFloat("Up", 0);
-                                animator.SetFloat("Right", 1);
-                                animator.SetFloat("Left", 0);
-                                sprite.flipX = true;
-                            }
-                            else if (type == EnemyType.Bomber)
-                            {
-                                animator.SetFloat("UpB", 0);
-                                animator.SetFloat("RightB", 1);
-                                animator.SetFloat("LeftB", 0);
-                                sprite.flipX = true;
-                            }
-                            direction = Vector2.right;
-                            canExitLoop = true;
-                        }
-                        else
-                            debugTimes++;
-                        break;
-
-                    case 2:
-                        if (onCollision)
-                            canExitLoop = CheckDebugColision(debugTimes);
-
-                        if (colDown == null && direction != Vector2.down)
-                        {
-                            if (type == EnemyType.Walker)
-                            {
-                                animator.SetFloat("Up", 0);
-                                animator.SetFloat("Right", 0);
-                                animator.SetFloat("Left", 0);
-                                sprite.flipX = false;
-                            }
-                            else if (type == EnemyType.Bomber)
-                            {
-                                animator.SetFloat("UpB", 0);
-                                animator.SetFloat("RightB", 0);
-                                animator.SetFloat("LeftB", 0);
-                                sprite.flipX = false;
-                            }
-                            direction = Vector2.down;
-                            canExitLoop = true;
-                        }
-                        else
-                            debugTimes++;
-                        break;
-
-                    case 3:
-                        if (onCollision)
-                            canExitLoop = CheckDebugColision(debugTimes);
-
-                        if (colLeft == null && direction != Vector2.left)
-                        {
-                            if (type == EnemyType.Walker)
-                            {
-                                animator.SetFloat("Up", 0);
-                                animator.SetFloat("Right", 0);
-                                animator.SetFloat("Left", 1);
-                                sprite.flipX = false;
-                            }
-                            else if (type == EnemyType.Bomber)
-                            {
-                                animator.SetFloat("UpB", 0);
-                                animator.SetFloat("RightB", 0);
-                                animator.SetFloat("LeftB", 1);
-                                sprite.flipX = false;
-                            }
-                            direction = Vector2.left;
-                            canExitLoop = true;
-                        }
-                        else
-                            debugTimes++;
-                        break;
-                }
-            } while (canExitLoop == false);
-
-            if (!onCollision)
-                directionTimer = 1.5f;
-        }
+            ChangeDirection();
     }
 
     private Vector3 GetCellToJump(Vector3Int currentCell)
     {
-        Tile cellTile = null;
+        Tile cellGroundTile = null;
+        Tile cellBlockTile = null;
         Vector3Int nextCell = Vector3Int.zero;
 
         if (direction == Vector2.up)
         {
             nextCell = currentCell + new Vector3Int(0, 2, 0);
-            cellTile = mapController.GetTile(nextCell, true);
+            cellGroundTile = mapController.GetTile(nextCell, true);
+            cellBlockTile = mapController.GetTile(nextCell, false);
         }
         else if (direction == Vector2.down)
         {
             nextCell = currentCell + new Vector3Int(0, -2, 0);
-            cellTile = mapController.GetTile(nextCell, true);
+            cellGroundTile = mapController.GetTile(nextCell, true);
+            cellBlockTile = mapController.GetTile(nextCell, false);
         }
         else if (direction == Vector2.right)
         {
             nextCell = currentCell + new Vector3Int(2, 0, 0);
-            cellTile = mapController.GetTile(nextCell, true);
+            cellGroundTile = mapController.GetTile(nextCell, true);
+            cellBlockTile = mapController.GetTile(nextCell, false);
         }   
         else if (direction == Vector2.left)
         {
             nextCell = currentCell + new Vector3Int(-2, 0, 0);
-            cellTile = mapController.GetTile(nextCell, true);
+            cellGroundTile = mapController.GetTile(nextCell, true);
+            cellBlockTile = mapController.GetTile(nextCell, false);
         }
 
-        if (cellTile != null && cellTile == groundTile)
+        if (cellGroundTile != null && cellBlockTile == null && cellGroundTile == groundTile)
         {
             Vector3 cellCenterPos = mapController.GetCellToWorld(nextCell);
             return cellCenterPos;
@@ -223,5 +93,22 @@ public class JumperEnemy : Enemy
         transform.position = cellToJump;
 
         coll.enabled = true;
+
+        currentJumpCd = jumpCd;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (type == EnemyType.Jumper)
+            CheckJump();
+        else
+            ChangeDirection();
+
+        // Player
+        if (collision.gameObject.layer == 9)
+        {
+            Player player = collision.gameObject.GetComponent<Player>();
+            player.TakeDamage(damage);
+        }
     }
 }

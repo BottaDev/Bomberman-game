@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &495043302
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   life: 2
-  speed: 3
+  speed: 2
   damage: 1
   collisionMask:
     serializedVersion: 2
@@ -8001,7 +8001,7 @@ PrefabInstance:
     - target: {fileID: 5288953052312764231, guid: 92b79b959f89e834ca3db2744944df13,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92b79b959f89e834ca3db2744944df13, type: 3}
