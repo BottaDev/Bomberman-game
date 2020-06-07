@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class JumperEnemy : Enemy
 {
     [Header("Jump Settings")]
-    public float jumpSpeed = 2;
+    public float jumpSpeed = 1;
     public float jumpCd = 5;
     public Tile groundTile;
 
@@ -84,12 +84,9 @@ public class JumperEnemy : Enemy
 
     private void Jump(Vector3 cellToJump)
     {
-        print("Saltó");
         coll.enabled = false;
 
-        transform.position = Vector3.MoveTowards(transform.position, cellToJump, jumpSpeed * Time.deltaTime);
-        
-        // Acomoda el enemigo en la celda
+        transform.position = Vector3.Lerp(transform.position, cellToJump, jumpSpeed);
         transform.position = cellToJump;
 
         coll.enabled = true;
