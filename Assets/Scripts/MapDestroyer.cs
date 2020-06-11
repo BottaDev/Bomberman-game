@@ -66,12 +66,15 @@ public class MapDestroyer : MonoBehaviour
 
     private bool CheckIndestructibleTile(Tile currentTile)
     {
-        for (int i = 0; i < indestructibleTile.Length; i++)
-        {
-			if (currentTile == indestructibleTile[i])
-				return false;
-        }
+		if (currentTile != null)
+		{
+			for (int i = 0; i < indestructibleTile.Length; i++)
+			{
+				if (currentTile == indestructibleTile[i])
+					return true;
+			}
+		}
 
-		return true;
+		return false;
     }
 }
