@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: dbbb62234544642d790847ba7eb1829f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8703821988965650373
+    second: "Enemigo Saltari\u0301n Arriba_0"
+  - first:
+      213: -4591511465633828422
+    second: "Enemigo Saltari\u0301n Arriba_1"
+  - first:
+      213: 6545271300449453945
+    second: "Enemigo Saltari\u0301n Arriba_2"
+  - first:
+      213: 5752558694453919701
+    second: "Enemigo Saltari\u0301n Arriba_3"
+  - first:
+      213: 940160318873336889
+    second: "Enemigo Saltari\u0301n Arriba_4"
+  - first:
+      213: 2926378307821074293
+    second: "Enemigo Saltari\u0301n Arriba_5"
+  - first:
+      213: -241327649703139664
+    second: "Enemigo Saltari\u0301n Arriba_6"
+  - first:
+      213: -7595413867386687995
+    second: "Enemigo Saltari\u0301n Arriba_7"
+  - first:
+      213: 2011675347138978057
+    second: "Enemigo Saltari\u0301n Arriba_8"
+  - first:
+      213: 2230433109160141224
+    second: "Enemigo Saltari\u0301n Arriba_9"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_0"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2105
+        width: 87
+        height: 295
+      alignment: 9
+      pivot: {x: 0.6596413, y: 0.029190116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e348dbc36b6b8417e97bf2db1e2fc310
+      internalID: -8703821988965650373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_1"
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2020
+        width: 80
+        height: 270
+      alignment: 9
+      pivot: {x: 0.79550797, y: 0.043128405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a29f6d202aa94033941608f8a568dfc
+      internalID: -4591511465633828422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_2"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1781
+        width: 237
+        height: 226
+      alignment: 9
+      pivot: {x: 0.88091916, y: 0.10054003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d5aef2b9f145d2b8b2c6039412568
+      internalID: 6545271300449453945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_3"
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 978
+        width: 544
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54be039efb7f64d0ab3294f026a4d044
+      internalID: 5752558694453919701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_4"
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1804
+        width: 235
+        height: 177
+      alignment: 9
+      pivot: {x: 0.17493974, y: 0.10765774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176ce15c10f9949c5a124277f89625f4
+      internalID: 940160318873336889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1409
+        width: 318
+        height: 158
+      alignment: 9
+      pivot: {x: 0.93675715, y: 0.28023866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b162f4dce254a6d9832b17c4f74c93
+      internalID: 2926378307821074293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_6"
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1419
+        width: 234
+        height: 165
+      alignment: 9
+      pivot: {x: 0.08452013, y: 0.5841745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d4a9cb92d4f43a6b5991ff68c7e697
+      internalID: -241327649703139664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_7"
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 898
+        width: 186
+        height: 197
+      alignment: 9
+      pivot: {x: 0.7613491, y: 0.67625403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149f8debabe4c46c493d3e7e582f7470
+      internalID: -7595413867386687995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_8"
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1049
+        width: 206
+        height: 81
+      alignment: 9
+      pivot: {x: 0.1628898, y: 0.75720066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a72c1d5f67064d8b9fec689914d335c
+      internalID: 2011675347138978057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo Saltari\u0301n Arriba_9"
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 767
+        height: 878
+      alignment: 9
+      pivot: {x: 0.50905395, y: 0.97456336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80289fde36b23465baf554377bf463de
+      internalID: 2230433109160141224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

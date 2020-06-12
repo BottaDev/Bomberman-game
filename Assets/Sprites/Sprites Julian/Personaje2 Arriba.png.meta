@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 971fb9e15b42247b6a4c811c53a14dbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6397439820887890838
+    second: Personaje2 Arriba_0
+  - first:
+      213: -5270859231710454234
+    second: Personaje2 Arriba_1
+  - first:
+      213: 8694379829075586977
+    second: Personaje2 Arriba_2
+  - first:
+      213: 2979401285216186822
+    second: Personaje2 Arriba_3
+  - first:
+      213: -6949875642152928532
+    second: Personaje2 Arriba_4
+  - first:
+      213: 1764736236048054206
+    second: Personaje2 Arriba_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje2 Arriba_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1221
+        width: 1066
+        height: 1688
+      alignment: 9
+      pivot: {x: 0.46841562, y: 0.031266995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d46b1dd866b645da8e5cf9e3b3a9991
+      internalID: -6397439820887890838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje2 Arriba_1
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1545
+        width: 620
+        height: 930
+      alignment: 9
+      pivot: {x: 0.89370984, y: 0.9434891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c293edd35e54ab0827f8da3520268d
+      internalID: -5270859231710454234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje2 Arriba_2
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 1744
+        width: 668
+        height: 906
+      alignment: 9
+      pivot: {x: 0.14718097, y: 0.9459466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53da0175b74c7415ebc0db1b327b1aa5
+      internalID: 8694379829075586977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje2 Arriba_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 914
+        height: 853
+      alignment: 9
+      pivot: {x: 0.49079043, y: 0.036212582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7515311fa1a484fa09c9a31681685535
+      internalID: 2979401285216186822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje2 Arriba_4
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 585
+        width: 241
+        height: 741
+      alignment: 9
+      pivot: {x: 0.49999848, y: 0.97709066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fcd3caa722248a8bd706ecf567d99a
+      internalID: -6949875642152928532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje2 Arriba_5
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 532
+        width: 266
+        height: 761
+      alignment: 9
+      pivot: {x: 0.53164285, y: 0.93136984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4688b47c2a494a259076715e5c89029
+      internalID: 1764736236048054206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

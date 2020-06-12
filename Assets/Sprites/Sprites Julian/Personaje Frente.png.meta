@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: db0542bd8329a457492a15972c40f4e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3511191005603406849
+    second: Personaje Frente_0
+  - first:
+      213: -8088396736414342267
+    second: Personaje Frente_1
+  - first:
+      213: -3467416582718051551
+    second: Personaje Frente_2
+  - first:
+      213: -89164395360130380
+    second: Personaje Frente_3
+  - first:
+      213: 5372388446508713187
+    second: Personaje Frente_4
+  - first:
+      213: -7891460755995687522
+    second: Personaje Frente_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje Frente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 1102
+        height: 1692
+      alignment: 9
+      pivot: {x: 0.52293795, y: 0.036872737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cce57c596b24d2da4728347e5cc0fe
+      internalID: -3511191005603406849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Frente_1
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1545
+        width: 619
+        height: 931
+      alignment: 9
+      pivot: {x: 0.8675279, y: 0.9434695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1278d8de7604ec9a3aca3bef14b2f6
+      internalID: -8088396736414342267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Frente_2
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 1743
+        width: 668
+        height: 907
+      alignment: 9
+      pivot: {x: 0.108976625, y: 0.90875465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6195d17c1ad3b45f281366576211fa35
+      internalID: -3467416582718051551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Frente_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1373
+        height: 998
+      alignment: 9
+      pivot: {x: 0.48772603, y: 0.035645317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891e5d52c386641dbaaede74d9d2fcd1
+      internalID: -89164395360130380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Frente_4
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 577
+        width: 237
+        height: 741
+      alignment: 9
+      pivot: {x: 0.49999845, y: 0.9548406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cb0c161895d4fa1af574c735804d46
+      internalID: 5372388446508713187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Frente_5
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 515
+        width: 264
+        height: 760
+      alignment: 9
+      pivot: {x: 0.43616554, y: 0.9878166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649dae37131b546598caeeffef653cc1
+      internalID: -7891460755995687522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class MapDestroyer : MonoBehaviour
 {
-	public Tile indestructibleTile;
+	public Tile[] indestructibleTile;
 	public Tile destructibleTile;
 	public GameObject explosionGO;
 
@@ -22,7 +22,7 @@ public class MapDestroyer : MonoBehaviour
 			return;
 		}
 	}
-
+    
 	public void Explode(Vector2 worldPos, int explosionRange)
 	{
 		Vector3Int originCell = mapController.GetCell(worldPos);
@@ -46,7 +46,7 @@ public class MapDestroyer : MonoBehaviour
 		{
 			Tile tile = mapController.GetTile(cell);
 
-			if (tile == indestructibleTile && direction != -1)
+			if (CheckIndestructibleTile(tile) && direction != -1)
 			{
 				this.canExplode[direction] = false;
 				return;
@@ -63,4 +63,18 @@ public class MapDestroyer : MonoBehaviour
 			Instantiate(explosionGO, position, Quaternion.identity);
 		}
 	}
+
+    private bool CheckIndestructibleTile(Tile currentTile)
+    {
+		if (currentTile != null)
+		{
+			for (int i = 0; i < indestructibleTile.Length; i++)
+			{
+				if (currentTile == indestructibleTile[i])
+					return true;
+			}
+		}
+
+		return false;
+    }
 }

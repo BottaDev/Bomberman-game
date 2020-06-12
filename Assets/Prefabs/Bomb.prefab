@@ -74,8 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 4259483801533484995, guid: fbf2f5089bf3b47a3baa147c7603e8d7,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2a99ded7c3694e199ec2197cc21ab17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -115,8 +114,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc148cf16f10b7f47bb0053e311e6415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indestructibleTile: {fileID: 11400000, guid: 966a4314e9d733a47b77900582645b7d, type: 2}
-  destructibleTile: {fileID: 11400000, guid: 9881b0dc18cb31147a651fbed21195dc, type: 2}
+  indestructibleTile:
+  - {fileID: 11400000, guid: 6427bb511ca694c529b0a56f884339eb, type: 2}
+  - {fileID: 11400000, guid: 665a295bbe2a84530a0f4b665c7d6e6e, type: 2}
+  - {fileID: 11400000, guid: c20ec3188b93a45d09419fee188e8ce8, type: 2}
+  - {fileID: 11400000, guid: e07e7fa66e9ca47058c57d01bffa87bd, type: 2}
+  - {fileID: 11400000, guid: 8456bc5d1f5a5425fb702bc155a6d78e, type: 2}
+  destructibleTile: {fileID: 11400000, guid: 05c2613c02b5944f4b611227ef417532, type: 2}
   explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
     type: 3}
 --- !u!58 &-3957711584753198733
