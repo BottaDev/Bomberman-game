@@ -25,7 +25,6 @@ public class Enemy : MonoBehaviour
 
     [HideInInspector]
     public Animator animator;
-    SpriteRenderer sprite;
 
     private Renderer rend;
     private Color normalColor;
@@ -34,7 +33,6 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
-        sprite = GetComponent<SpriteRenderer>();
 
         animator = GetComponent<Animator>();
         rend = GetComponent<Renderer>();
@@ -122,14 +120,12 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 1);
                             animator.SetFloat("Right", 0);
                             animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 1);
                             animator.SetFloat("RightB", 0);
                             animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
                         }
                         direction = Vector2.up;
                         canExit = true;
@@ -144,14 +140,14 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 0);
                             animator.SetFloat("Right", 1);
                             animator.SetFloat("Left", 0);
-                            sprite.flipX = true;
+                            transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB", 1);
                             animator.SetFloat("LeftB", 0);
-                            sprite.flipX = true;
+                            transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         direction = Vector2.right;
                         canExit = true;
@@ -166,14 +162,12 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 0);
                             animator.SetFloat("Right", 0);
                             animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB", 0);
                             animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
                         }
                         direction = Vector2.down;
                         canExit = true;
@@ -188,14 +182,14 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 0);
                             animator.SetFloat("Right", 0);
                             animator.SetFloat("Left", 1);
-                            sprite.flipX = false;
+                            transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         else if (type== EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB",0);
                             animator.SetFloat("LeftB",1);
-                            sprite.flipX = false;
+                            transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         direction = Vector2.left;
                         canExit = true;
@@ -231,14 +225,12 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 1);
                             animator.SetFloat("Right", 0);
                             animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 1);
                             animator.SetFloat("RightB", 0);
                             animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
                         }
                         direction = Vector2.up;
                         canExit = true;
@@ -253,14 +245,14 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 0);
                             animator.SetFloat("Right", 1);
                             animator.SetFloat("Left", 0);
-                            sprite.flipX = true;
+                            transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB", 1);
                             animator.SetFloat("LeftB", 0);
-                            sprite.flipX = true;
+                            transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         direction = Vector2.right;
                         canExit = true;
@@ -275,14 +267,12 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 0);
                             animator.SetFloat("Right", 0);
                             animator.SetFloat("Left", 0);
-                            sprite.flipX = false;
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB", 0);
                             animator.SetFloat("LeftB", 0);
-                            sprite.flipX = false;
                         }
                         direction = Vector2.down;
                         canExit = true;
@@ -297,14 +287,14 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Up", 0);
                             animator.SetFloat("Right", 0);
                             animator.SetFloat("Left", 1);
-                            sprite.flipX = false;
+                            transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB", 0);
                             animator.SetFloat("LeftB", 1);
-                            sprite.flipX = false;
+                            transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         direction = Vector2.left;
                         canExit = true;
