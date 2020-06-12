@@ -28,12 +28,16 @@ public class Enemy : MonoBehaviour
 
     private Renderer rend;
     private Color normalColor;
+    private Collider2D coll;
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         mapController = GameObject.Find("Grid Map").GetComponent<MapController>();
 
+        rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>();
+
+        sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rend = GetComponent<Renderer>();
         normalColor = rend.material.color;
@@ -104,7 +108,8 @@ public class Enemy : MonoBehaviour
         Vector3 cellCenterPos = mapController.GetCellToWorld(cell);
         transform.position = cellCenterPos;
 
-        bool canExit = false;
+        bool canExitLoop = false;
+        int debugTimes = 0;             // Cantidad de veces que se ejecutó el loop
 
         do
         {
@@ -113,6 +118,8 @@ public class Enemy : MonoBehaviour
             switch (randomNum)
             {
                 case 0:
+                    canExitLoop = CheckDebugColision(debugTimes);
+
                     if (colUp == null && direction != Vector2.up)
                     {
                         if (type == EnemyType.Walker)
@@ -128,11 +135,15 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("LeftB", 0);
                         }
                         direction = Vector2.up;
-                        canExit = true;
+                        canExitLoop = true;
                     }
+                    else
+                        debugTimes++;
                     break;
 
                 case 1:
+                    canExitLoop = CheckDebugColision(debugTimes);
+
                     if (colRight == null && direction != Vector2.right)
                     {
                         if (type == EnemyType.Walker)
@@ -150,11 +161,15 @@ public class Enemy : MonoBehaviour
                             transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         direction = Vector2.right;
-                        canExit = true;
+                        canExitLoop = true;
                     }
+                    else
+                        debugTimes++;
                     break;
 
                 case 2:
+                    canExitLoop = CheckDebugColision(debugTimes);
+
                     if (colDown == null && direction != Vector2.down)
                     {
                         if (type == EnemyType.Walker)
@@ -170,11 +185,15 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("LeftB", 0);
                         }
                         direction = Vector2.down;
-                        canExit = true;
+                        canExitLoop = true;
                     }
+                    else
+                        debugTimes++;
                     break;
 
                 case 3:
+                    canExitLoop = CheckDebugColision(debugTimes);
+
                     if (colLeft == null && direction != Vector2.left)
                     {
                         if (type == EnemyType.Walker)
@@ -184,7 +203,7 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("Left", 1);
                             transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
-                        else if (type== EnemyType.Bomber)
+                        else if (type == EnemyType.Bomber)
                         {
                             animator.SetFloat("UpB", 0);
                             animator.SetFloat("RightB",0);
@@ -192,12 +211,26 @@ public class Enemy : MonoBehaviour
                             transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         direction = Vector2.left;
-                        canExit = true;
+                        canExitLoop = true;
                     }
+                    else
+                        debugTimes++;
                     break;
             }
+        } while (canExitLoop == false);
+    }
 
-        } while (canExit == false);
+    private bool CheckDebugColision(int value)
+    {
+        if (value >= 40)
+        {
+            StartCoroutine("DebugInvulnerable");
+            Debug.LogWarning("Colision infinita corregida");
+
+            return true;
+        }
+        else
+            return false;
     }
 
     private void ChangeTimerDirection()
@@ -209,7 +242,7 @@ public class Enemy : MonoBehaviour
         Vector3 cellCenterPos = mapController.GetCellToWorld(cell);
         transform.position = cellCenterPos;
 
-        bool canExit = false;
+        bool canExitLoop = false;
 
         do
         {
@@ -233,7 +266,7 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("LeftB", 0);
                         }
                         direction = Vector2.up;
-                        canExit = true;
+                        canExitLoop = true;
                     }
                     break;
 
@@ -255,7 +288,7 @@ public class Enemy : MonoBehaviour
                             transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         direction = Vector2.right;
-                        canExit = true;
+                        canExitLoop = true;
                     }
                     break;
 
@@ -275,7 +308,7 @@ public class Enemy : MonoBehaviour
                             animator.SetFloat("LeftB", 0);
                         }
                         direction = Vector2.down;
-                        canExit = true;
+                        canExitLoop = true;
                     }
                     break;
 
@@ -297,12 +330,12 @@ public class Enemy : MonoBehaviour
                             transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         direction = Vector2.left;
-                        canExit = true;
+                        canExitLoop = true;
                     }
                     break;
             }
 
-        } while (canExit == false);
+        } while (canExitLoop == false);
 
         directionTimer = 1.5f;
     }
@@ -318,6 +351,16 @@ public class Enemy : MonoBehaviour
 
             StartCoroutine("SetInvulnerable");
         }
+    }
+
+    // Se llama a esta funcion para evitar el loop infinito al colocar una bomba muy cerca de un enemigo
+    private IEnumerator DebugInvulnerable()
+    {
+        coll.enabled = false;
+        
+        yield return new WaitForSeconds(0.5f);
+
+        coll.enabled = true;
     }
 
     private IEnumerator SetInvulnerable()
