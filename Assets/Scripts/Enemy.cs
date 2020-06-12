@@ -157,6 +157,7 @@ public class Enemy : MonoBehaviour
 
                             direction = Vector2.right;
                             canExitLoop = true;
+                            transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                         else
                             debugTimes++;
@@ -169,6 +170,7 @@ public class Enemy : MonoBehaviour
 
                             direction = Vector2.right;
                             canExitLoop = true;
+                            transform.localRotation = Quaternion.Euler(0, 180, 0);
                         }
                     }
                     break;
@@ -211,6 +213,7 @@ public class Enemy : MonoBehaviour
 
                             direction = Vector2.left;
                             canExitLoop = true;
+                            transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                         else
                             debugTimes++;
@@ -223,6 +226,7 @@ public class Enemy : MonoBehaviour
 
                             direction = Vector2.left;
                             canExitLoop = true;
+                            transform.localRotation = Quaternion.Euler(0, 0, 0);
                         }
                     }
                     break;
@@ -245,6 +249,7 @@ public class Enemy : MonoBehaviour
         else
             return false;
     }
+
 
     public void TakeDamage(float damage)
     {

@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 28e9971f856a74a788eb960d4e0b77a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3835080216217152991
+    second: Enemigo Bomba_0
+  - first:
+      213: 8004250698539833297
+    second: Enemigo Bomba_1
+  - first:
+      213: 5728598352257619623
+    second: Enemigo Bomba_2
+  - first:
+      213: 3045084155653805740
+    second: Enemigo Bomba_3
+  - first:
+      213: 9140883330392872274
+    second: Enemigo Bomba_4
+  - first:
+      213: -2420094082973543535
+    second: Enemigo Bomba_5
+  - first:
+      213: 7626770661623443152
+    second: Enemigo Bomba_6
+  - first:
+      213: 196921531773467617
+    second: Enemigo Bomba_7
+  - first:
+      213: 8191375704186152020
+    second: Enemigo Bomba_8
+  - first:
+      213: -7931482316885211015
+    second: Enemigo Bomba_9
+  - first:
+      213: 6079086658826690375
+    second: Enemigo Bomba_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemigo Bomba_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1482
+        width: 1016
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1027cbf9475845d2b6cbb85cb72772f
+      internalID: -3835080216217152991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1658
+        width: 338
+        height: 350
+      alignment: 9
+      pivot: {x: 0.7412586, y: 0.20347168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e6763f0e5544321b8a4111c3d55306
+      internalID: 8004250698539833297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_2
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1696
+        width: 273
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5814634, y: 0.0627605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6ecddcb6d224f58a4749d5814cafd6
+      internalID: 5728598352257619623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_3
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 1606
+        width: 336
+        height: 382
+      alignment: 9
+      pivot: {x: 0.23524258, y: 0.17009316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecbe750db47c4d1689abe065a6a0d8d
+      internalID: 3045084155653805740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1102
+        width: 352
+        height: 274
+      alignment: 9
+      pivot: {x: 0.85802424, y: 0.22944497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f6b0e5308a34e0e9c37b1f0d73386c
+      internalID: 9140883330392872274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_5
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 1286
+        width: 355
+        height: 314
+      alignment: 9
+      pivot: {x: 0.16588496, y: 0.26391095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55d61dcbb7654ae887a83bfd4518d3a
+      internalID: -2420094082973543535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_6
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 514
+        width: 361
+        height: 295
+      alignment: 9
+      pivot: {x: 0.86963296, y: 0.70103574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dab59b53fbad4f208da3c87066801f9
+      internalID: 7626770661623443152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_7
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 710
+        width: 350
+        height: 274
+      alignment: 9
+      pivot: {x: 0.097569756, y: 0.6623326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c28fec6d29442c081963422429e197
+      internalID: 196921531773467617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_8
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 38
+        width: 335
+        height: 355
+      alignment: 9
+      pivot: {x: 0.809805, y: 0.79235125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6c772b5267c44df90806a64f79a2df
+      internalID: 8191375704186152020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_9
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 281
+        height: 322
+      alignment: 9
+      pivot: {x: 0.47361892, y: 0.937424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760638fb03ec34bf48940c1859087a48
+      internalID: -7931482316885211015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba_10
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 201
+        width: 325
+        height: 354
+      alignment: 9
+      pivot: {x: 0.20347281, y: 0.8560009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98ef46a74f264c0692570efba59abc4
+      internalID: 6079086658826690375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 10b1d5ad29bb74d36944610f47617496
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7351850207435778502
+    second: Enemigo Bomba Arriba_0
+  - first:
+      213: 8065350987093004520
+    second: Enemigo Bomba Arriba_1
+  - first:
+      213: 7349189388948405177
+    second: Enemigo Bomba Arriba_2
+  - first:
+      213: 3798181881796215146
+    second: Enemigo Bomba Arriba_3
+  - first:
+      213: 8110948351699301030
+    second: Enemigo Bomba Arriba_4
+  - first:
+      213: 4282271699558399142
+    second: Enemigo Bomba Arriba_5
+  - first:
+      213: -8312271946066561883
+    second: Enemigo Bomba Arriba_6
+  - first:
+      213: 7635580668560190439
+    second: Enemigo Bomba Arriba_7
+  - first:
+      213: -3019916128931155010
+    second: Enemigo Bomba Arriba_8
+  - first:
+      213: 8965264539541621455
+    second: Enemigo Bomba Arriba_9
+  - first:
+      213: 7894151676542952278
+    second: Enemigo Bomba Arriba_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1518
+        width: 1040
+        height: 1044
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b961f153cad4c7aa407e4863046aff
+      internalID: -7351850207435778502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_1
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1658
+        width: 338
+        height: 350
+      alignment: 9
+      pivot: {x: 0.78512263, y: 0.20347168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b9cae891299467e92d6103a9bd2e21
+      internalID: 8065350987093004520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_2
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1701
+        width: 280
+        height: 351
+      alignment: 9
+      pivot: {x: 0.57942766, y: 0.03535518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89405c9d0263e447dbc997b86d47bf31
+      internalID: 7349189388948405177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_3
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 1606
+        width: 335
+        height: 367
+      alignment: 9
+      pivot: {x: 0.27871022, y: 0.1768087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e28987eb8ec2448698d0a9e5445e6ae
+      internalID: 3798181881796215146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1102
+        width: 352
+        height: 274
+      alignment: 9
+      pivot: {x: 0.836964, y: 0.337667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f23c46fbee1e4383b53dccdb2b6de5f
+      internalID: 8110948351699301030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_5
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 1286
+        width: 355
+        height: 314
+      alignment: 9
+      pivot: {x: 0.10323847, y: 0.1694752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a857588254b438b9bf5247fb4b5dbc
+      internalID: 4282271699558399142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_6
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 507
+        width: 355
+        height: 302
+      alignment: 9
+      pivot: {x: 0.9385278, y: 0.67182875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43deb1f1120d446e99623ae135d03def
+      internalID: -8312271946066561883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_7
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 710
+        width: 350
+        height: 274
+      alignment: 9
+      pivot: {x: 0.097569756, y: 0.77055436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a39552e19962487ea1b01628a20bed7
+      internalID: 7635580668560190439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_8
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 38
+        width: 335
+        height: 355
+      alignment: 9
+      pivot: {x: 0.809805, y: 0.81323344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e386a6fd634861a145f2e4c69f0ee
+      internalID: -3019916128931155010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_9
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 281
+        height: 322
+      alignment: 9
+      pivot: {x: 0.4472374, y: 0.9604463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a30de71132644bd8b77def8424f49a
+      internalID: 8965264539541621455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo Bomba Arriba_10
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 201
+        width: 325
+        height: 354
+      alignment: 9
+      pivot: {x: 0.20347281, y: 0.8560009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5057488eb6b244f33bd55cad22a13e1b
+      internalID: 7894151676542952278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
