@@ -8,7 +8,8 @@ public class Player : MonoBehaviour
     public List<Renderer> rendererList = new List<Renderer>();      // Objetos que se pintaran de rojo al recibir daño
     [Header("Player Settings")]
     public int life = 3;
-    public float speed = 3;
+    [Range(min:4, max: 6)]
+    public float speed = 4;
     // public int bombStack = 3;       Revisar mecanica de bombas limitadas para el final
 
     //[Header("Attack Settings")]       Revisar mecanica de ataque mele para el final
@@ -100,11 +101,15 @@ public class Player : MonoBehaviour
     public void ApplyRangePowerUp(int extraRange)
     {
         bombRange += extraRange;
+        if (bombRange > 5)
+            bombRange = 5;
     }
 
     public void ApplySpeedPowerUp(float extraSpeed)
     {
         speed *= extraSpeed;
+        if (speed > 6)
+            speed = 6;
     }
 
     private void KillPlayer()
