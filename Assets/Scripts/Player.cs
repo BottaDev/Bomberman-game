@@ -8,12 +8,12 @@ public class Player : MonoBehaviour
     [Header("Player Settings")]
     public int life = 3;
     public float speed = 3;
-    public int bombStack = 3;
+    // public int bombStack = 3;       Revisar mecanica de bombas limitadas para el final
 
-    [Header("Attack Settings")]
-    public float damage = 0.5f;
-    public float attackCd;
-    public float attackRange = 0.2f;
+    //[Header("Attack Settings")]       Revisar mecanica de ataque mele para el final
+    //public float damage = 0.5f;
+    //public float attackCd;
+    //public float attackRange = 0.2f;
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]
@@ -33,12 +33,12 @@ public class Player : MonoBehaviour
     {
         if (playerNum == PlayerNum.Player1)
         {
-            UIManager.instance.SetPlayer1Bombs(bombStack);
+            //UIManager.instance.SetPlayer1Bombs(bombStack);
             UIManager.instance.SetPlayer1HP(life);
         }
         else
         {
-            UIManager.instance.SetPlayer2Bombs(bombStack);
+            //UIManager.instance.SetPlayer2Bombs(bombStack);
             UIManager.instance.SetPlayer2HP(life);
         }
 
@@ -82,15 +82,15 @@ public class Player : MonoBehaviour
         rend.material.color = normalColor;
     }
 
-    public void ApplyBombPowerUp(int extraBomb)
-    {
-        bombStack += extraBomb;
+    //public void ApplyBombPowerUp(int extraBomb)
+    //{
+    //    bombStack += extraBomb;
 
-        if (playerNum == PlayerNum.Player1)
-            UIManager.instance.SetPlayer1Bombs(bombStack);
-        else
-            UIManager.instance.SetPlayer2Bombs(bombStack);
-    }
+    //    if (playerNum == PlayerNum.Player1)
+    //        UIManager.instance.SetPlayer1Bombs(bombStack);
+    //    else
+    //        UIManager.instance.SetPlayer2Bombs(bombStack);
+    //}
 
     public void ApplyRangePowerUp(int extraRange)
     {

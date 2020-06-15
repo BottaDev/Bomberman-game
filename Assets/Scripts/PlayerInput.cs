@@ -56,8 +56,8 @@ public class PlayerInput : MonoBehaviour
         if (auxAttackCd < 0)
             auxAttackCd = 0;
 
-        if (auxInputMele == 1 && auxAttackCd <= 0)
-            Attack();
+        //if (auxInputMele == 1 && auxAttackCd <= 0)
+        //    Attack();
         
         if (moveUp == true)
             direction.localPosition = new Vector3(0, 0.1f, 0);
@@ -85,10 +85,10 @@ public class PlayerInput : MonoBehaviour
         if (auxAttackCd < 0)
             auxAttackCd = 0;
 
-        if (auxInputMele == 1 && auxAttackCd <= 0)
-            Attack();
+        //if (auxInputMele == 1 && auxAttackCd <= 0)
+        //    Attack();
 
-        else if (auxAxisY > 0)
+        if (auxAxisY > 0)
         {
             rb.MovePosition(transform.position + new Vector3(0, 1, 0) * player.speed * Time.deltaTime);
             player.animator.SetFloat("MoveU", 1);
@@ -147,50 +147,52 @@ public class PlayerInput : MonoBehaviour
         }
     }
 
-    private void ExcuteAttackAnimation()
-    {
-        if (moveUp == true)
-            player.animator.SetTrigger("PunchU");
-        else if (moveDown == true)
-            player.animator.SetTrigger("PunchD");
-        else if (moveRight == true)
-            player.animator.SetTrigger("PunchR");
-        else if (moveLeft == true)
-            player.animator.SetTrigger("PunchL");
-    }
+    //private void ExcuteAttackAnimation()
+    //{
+    //    if (moveUp == true)
+    //        player.animator.SetTrigger("PunchU");
+    //    else if (moveDown == true)
+    //        player.animator.SetTrigger("PunchD");
+    //    else if (moveRight == true)
+    //        player.animator.SetTrigger("PunchR");
+    //    else if (moveLeft == true)
+    //        player.animator.SetTrigger("PunchL");
+    //}
 
-    void Attack()
-    {
+    // Revisar mecanica de ataque mele para el final
 
-        Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
+    //void Attack()
+    //{
 
-        // Enemy
-        if (hitSomething != null && hitSomething.gameObject.layer == 11)
-        {
-            Enemy enemy = hitSomething.gameObject.GetComponent<Enemy>();
-            enemy.TakeDamage(player.damage);
-        }
-        // Wall
-        else if (hitSomething != null && hitSomething.gameObject.layer == 8)
-        {
-            Vector3Int cell = mapController.GetCell(attackPosition.position);
-            Tile tile = mapController.GetTile(cell);
+    //    Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
 
-            if (tile == destructibleTile)
-            {
-                mapController.DestroyCell(cell);
-                mapController.DropPowerUp(cell);
-            }
-        }
-        ExcuteAttackAnimation();
-        auxAttackCd = player.attackCd;
-    }
+    //    // Enemy
+    //    if (hitSomething != null && hitSomething.gameObject.layer == 11)
+    //    {
+    //        Enemy enemy = hitSomething.gameObject.GetComponent<Enemy>();
+    //        enemy.TakeDamage(player.damage);
+    //    }
+    //    // Wall
+    //    else if (hitSomething != null && hitSomething.gameObject.layer == 8)
+    //    {
+    //        Vector3Int cell = mapController.GetCell(attackPosition.position);
+    //        Tile tile = mapController.GetTile(cell);
 
-    private void OnDrawGizmosSelected()
-    {
-        if (attackPosition == null)
-            return;
+    //        if (tile == destructibleTile)
+    //        {
+    //            mapController.DestroyCell(cell);
+    //            mapController.DropPowerUp(cell);
+    //        }
+    //    }
+    //    ExcuteAttackAnimation();
+    //    auxAttackCd = player.attackCd;
+    //}
 
-        Gizmos.DrawWireSphere(attackPosition.position, player.attackRange);
-    }
+    //private void OnDrawGizmosSelected()
+    //{
+    //    if (attackPosition == null)
+    //        return;
+
+    //    Gizmos.DrawWireSphere(attackPosition.position, player.attackRange);
+    //}
 }
