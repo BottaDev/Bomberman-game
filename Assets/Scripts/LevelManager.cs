@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
         else if (GameManager.instance.numberOfPlayers == 1)
         {
             SpawnPlayer();
-            UIManager.instance.bombs2.text = "-";
+            //UIManager.instance.bombs2.text = "-";
             UIManager.instance.hp2.text = "-";
         }
         else if ((GameManager.instance.numberOfPlayers == 2))

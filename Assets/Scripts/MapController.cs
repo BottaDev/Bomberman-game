@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class MapController : MonoBehaviour
 {
-    public GameObject bombPlusGO;
+    //public GameObject bombPlusGO;     Revisar mecanica de bombas limitadas para el final
     public GameObject moreRangeGO;
     public GameObject moreSpeedGO;
 
@@ -66,8 +66,8 @@ public class MapController : MonoBehaviour
             case 16:
             case 17:
             case 18:
-                Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
-                break;
+                //Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
+                //break;
 
             case 19:
             case 20:
