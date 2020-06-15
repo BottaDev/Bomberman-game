@@ -699,7 +699,7 @@ MonoBehaviour:
   - {fileID: 4175830379336741290}
   - {fileID: 1662558414300422529}
   life: 3
-  speed: 3
+  speed: 4
   bombCd: 3
   bombTimeToExplode: 1.75
   bombRange: 1
