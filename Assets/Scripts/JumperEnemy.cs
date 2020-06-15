@@ -96,7 +96,7 @@ public class JumperEnemy : Enemy
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (type == EnemyType.Jumper)
+        if (type == EnemyType.Jumper && collision.gameObject.layer == 8)
             CheckJump();
         else
             ChangeDirection();
