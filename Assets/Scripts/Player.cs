@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
+    public List<Renderer> rendererList = new List<Renderer>();      // Objetos que se pintaran de rojo al recibir daño
     [Header("Player Settings")]
     public int life = 3;
     public float speed = 3;
@@ -26,7 +27,6 @@ public class Player : MonoBehaviour
     public Animator animator;
 
     private bool canBeDamaged = true;
-    private Renderer rend;
     private Color normalColor;
 
     private void Start()
@@ -43,8 +43,8 @@ public class Player : MonoBehaviour
         }
 
         animator = GetComponent<Animator>();
-        rend = GetComponent<Renderer>();
-        normalColor = rend.material.color;
+
+        normalColor = rendererList[1].material.color;
     }
 
     public void TakeDamage(int damage)
@@ -69,17 +69,22 @@ public class Player : MonoBehaviour
     {
         canBeDamaged = false;
 
-        rend.material.color = Color.red;
+        foreach (Renderer item in rendererList)
+            item.material.color = Color.red;
+
         yield return new WaitForSeconds(0.3f);
 
         normalColor.a = 0.5f;
-        rend.material.color = normalColor;
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
 
         yield return new WaitForSeconds(1.5f);
 
         normalColor.a = 1f;
         canBeDamaged = true;
-        rend.material.color = normalColor;
+
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
     }
 
     //public void ApplyBombPowerUp(int extraBomb)
