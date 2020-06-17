@@ -112,6 +112,16 @@ public class Player : MonoBehaviour
             speed = 6;
     }
 
+    public void ApplyLifePowerUp(int lifeSum)
+    {
+        life += lifeSum;
+
+        if (playerNum == PlayerNum.Player1)
+            UIManager.instance.SetPlayer1HP(life);
+        else
+            UIManager.instance.SetPlayer2HP(life);
+    }
+
     private void KillPlayer()
     {
         animator.SetTrigger("Dead");
