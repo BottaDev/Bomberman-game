@@ -258,7 +258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6872250285101270745
 Transform:
   m_ObjectHideFlags: 0
@@ -544,7 +544,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   jumpSpeed: 1
   jumpCd: 5
-  groundTile: {fileID: 11400000, guid: 0bbffb418543f0543970236853265e4c, type: 2}
+  groundTile: {fileID: 11400000, guid: ef0affb5eac89470ab97265f2cd82f06, type: 2}
   currentJumpCd: 0
 --- !u!50 &3014669288464146211
 Rigidbody2D:
@@ -1648,7 +1648,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.431019, y: 8.77}
+  m_Size: {x: 0.54310185, y: 0.87700003}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
