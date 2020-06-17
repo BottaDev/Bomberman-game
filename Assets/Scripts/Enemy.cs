@@ -329,9 +329,16 @@ public class Enemy : MonoBehaviour
         }
         else if (type == EnemyType.Bomber)
         {
-            animator.SetFloat("UpB", 0);
-            animator.SetFloat("RightB", 0);
-            animator.SetFloat("LeftB", 1);
+            animator.SetFloat("UpB", up);
+            animator.SetFloat("RightB", right);
+            animator.SetFloat("LeftB", left);
+            sprite.flipX = flip;
+        }
+        else if (type == EnemyType.Jumper)
+        {
+            animator.SetFloat("UpC", up);
+            animator.SetFloat("RightC", right);
+            animator.SetFloat("LeftC", left);
             sprite.flipX = flip;
         }
     }
