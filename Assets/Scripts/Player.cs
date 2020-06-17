@@ -5,15 +5,19 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
+    public List<Renderer> rendererList = new List<Renderer>();      // Objetos que se pintaran de rojo al recibir daño
+    public AudioClip hitSound;
+    public AudioClip powerUpSound;
     [Header("Player Settings")]
     public int life = 3;
-    public float speed = 3;
-    public int bombStack = 3;
+    [Range(min:4, max: 6)]
+    public float speed = 4;
+    // public int bombStack = 3;       Revisar mecanica de bombas limitadas para el final
 
-    [Header("Attack Settings")]
-    public float damage = 0.5f;
-    public float attackCd;
-    public float attackRange = 0.2f;
+    //[Header("Attack Settings")]       Revisar mecanica de ataque mele para el final
+    //public float damage = 0.5f;
+    //public float attackCd;
+    //public float attackRange = 0.2f;
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]
@@ -25,26 +29,28 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public Animator animator;
 
+    private AudioSource source;
     private bool canBeDamaged = true;
-    private Renderer rend;
     private Color normalColor;
 
     private void Start()
     {
         if (playerNum == PlayerNum.Player1)
         {
-            UIManager.instance.SetPlayer1Bombs(bombStack);
+            //UIManager.instance.SetPlayer1Bombs(bombStack);
             UIManager.instance.SetPlayer1HP(life);
         }
         else
         {
-            UIManager.instance.SetPlayer2Bombs(bombStack);
+            //UIManager.instance.SetPlayer2Bombs(bombStack);
             UIManager.instance.SetPlayer2HP(life);
         }
 
         animator = GetComponent<Animator>();
-        rend = GetComponent<Renderer>();
-        normalColor = rend.material.color;
+
+        normalColor = rendererList[1].material.color;
+
+        source = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(int damage)
@@ -69,37 +75,68 @@ public class Player : MonoBehaviour
     {
         canBeDamaged = false;
 
-        rend.material.color = Color.red;
+        foreach (Renderer item in rendererList)
+            item.material.color = Color.red;
+
+        source.clip = hitSound;
+        source.Play();
+
         yield return new WaitForSeconds(0.3f);
 
         normalColor.a = 0.5f;
-        rend.material.color = normalColor;
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
 
         yield return new WaitForSeconds(1.5f);
 
         normalColor.a = 1f;
         canBeDamaged = true;
-        rend.material.color = normalColor;
+
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
     }
 
-    public void ApplyBombPowerUp(int extraBomb)
-    {
-        bombStack += extraBomb;
+    //public void ApplyBombPowerUp(int extraBomb)
+    //{
+    //    bombStack += extraBomb;
 
-        if (playerNum == PlayerNum.Player1)
-            UIManager.instance.SetPlayer1Bombs(bombStack);
-        else
-            UIManager.instance.SetPlayer2Bombs(bombStack);
-    }
+    //    if (playerNum == PlayerNum.Player1)
+    //        UIManager.instance.SetPlayer1Bombs(bombStack);
+    //    else
+    //        UIManager.instance.SetPlayer2Bombs(bombStack);
+    //}
 
     public void ApplyRangePowerUp(int extraRange)
     {
+        source.clip = powerUpSound;
+        source.Play();
+
         bombRange += extraRange;
+        if (bombRange > 5)
+            bombRange = 5;
     }
 
     public void ApplySpeedPowerUp(float extraSpeed)
     {
+        source.clip = powerUpSound;
+        source.Play();
+
         speed *= extraSpeed;
+        if (speed > 6)
+            speed = 6;
+    }
+
+    public void ApplyLifePowerUp(int lifeSum)
+    {
+        source.clip = powerUpSound;
+        source.Play();
+
+        life += lifeSum;
+
+        if (playerNum == PlayerNum.Player1)
+            UIManager.instance.SetPlayer1HP(life);
+        else
+            UIManager.instance.SetPlayer2HP(life);
     }
 
     private void KillPlayer()

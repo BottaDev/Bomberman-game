@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
         else if (GameManager.instance.numberOfPlayers == 1)
         {
             SpawnPlayer();
-            UIManager.instance.bombs2.text = "-";
+            //UIManager.instance.bombs2.text = "-";
             UIManager.instance.hp2.text = "-";
         }
         else if ((GameManager.instance.numberOfPlayers == 2))
@@ -92,8 +92,12 @@ public class LevelManager : MonoBehaviour
     {
         UIManager.instance.ShowFinalGui(false);
 
+        AudioManager.instance.PlayWinLoseSound(true);
+
         yield return new WaitForSeconds(2);
-        
+
+        AudioManager.instance.SetMenuGameMusic(true);
+
         ChangeLevel(0);
     }
 
@@ -129,6 +133,8 @@ public class LevelManager : MonoBehaviour
     {
         UIManager.instance.ShowFinalGui(true);
 
+        AudioManager.instance.PlayWinLoseSound(false);
+
         yield return new WaitForSeconds(2);
 
         ChangeLevel(level + 1);
@@ -138,6 +144,7 @@ public class LevelManager : MonoBehaviour
     {
         if (levelIndex > 3)
         {
+            AudioManager.instance.SetMenuGameMusic(true);
             GameManager.instance.DestroyGameManager();
             SceneManager.LoadScene(0);
         }

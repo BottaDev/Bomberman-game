@@ -5,9 +5,10 @@ using UnityEngine.Tilemaps;
 
 public class MapController : MonoBehaviour
 {
-    public GameObject bombPlusGO;
+    //public GameObject bombPlusGO;     Revisar mecanica de bombas limitadas para el final
     public GameObject moreRangeGO;
     public GameObject moreSpeedGO;
+    public GameObject moreLifeGO;
 
     private Tilemap blocksTilemap;
     private Tilemap groundTilemap;
@@ -66,8 +67,8 @@ public class MapController : MonoBehaviour
             case 16:
             case 17:
             case 18:
-                Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
-                break;
+                //Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
+                //break;
 
             case 19:
             case 20:
@@ -78,7 +79,7 @@ public class MapController : MonoBehaviour
 
     private void PowerUpType(Vector3 cellPosition)
     {
-        int randomProbabilityPowerUp = Random.Range(1, 3);
+        int randomProbabilityPowerUp = Random.Range(1, 4);
 
         switch (randomProbabilityPowerUp)
         {
@@ -88,6 +89,10 @@ public class MapController : MonoBehaviour
 
             case 2:
                 Instantiate(moreSpeedGO, cellPosition, Quaternion.identity);
+                break;
+
+            case 3:
+                Instantiate(moreLifeGO, cellPosition, Quaternion.identity);
                 break;
         }
     }
