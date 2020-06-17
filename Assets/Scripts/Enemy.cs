@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Enemy : MonoBehaviour
 {
+    public List<Renderer> rendererList = new List<Renderer>();      // Objetos que se pintaran de rojo al recibir daño
     [Header("Enemy Settings")]
     public EnemyType type;
     public float life = 3;
@@ -28,7 +29,6 @@ public class Enemy : MonoBehaviour
     [HideInInspector]
     public Animator animator;
 
-    private Renderer rend;
     private Color normalColor;
     
 
@@ -41,8 +41,7 @@ public class Enemy : MonoBehaviour
 
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        rend = GetComponent<Renderer>();
-        normalColor = rend.material.color;
+        normalColor = rendererList[1].material.color;
     }
 
     private void FixedUpdate()
@@ -278,17 +277,22 @@ public class Enemy : MonoBehaviour
     {
         canTakeDamage = false;
 
-        rend.material.color = Color.red;
+        foreach (Renderer item in rendererList)
+            item.material.color = Color.red;
+
         yield return new WaitForSeconds(0.2f);
 
         normalColor.a = 0.5f;
-        rend.material.color = normalColor;
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
 
         yield return new WaitForSeconds(1.5f);
         
         canTakeDamage = true;
         normalColor.a = 1f;
-        rend.material.color = normalColor;
+
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
