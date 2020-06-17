@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public Animator animator;
 
+    private AudioSource source;
     private bool canBeDamaged = true;
     private Color normalColor;
 
@@ -46,6 +47,8 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
 
         normalColor = rendererList[1].material.color;
+
+        source = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(int damage)
@@ -72,6 +75,8 @@ public class Player : MonoBehaviour
 
         foreach (Renderer item in rendererList)
             item.material.color = Color.red;
+
+        source.Play();
 
         yield return new WaitForSeconds(0.3f);
 

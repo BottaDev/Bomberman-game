@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip mainMenuSong;
     public AudioClip gameSong;
+    public AudioClip winSound;
+    public AudioClip loseSound;
 
     private AudioSource source;
 
@@ -25,17 +27,29 @@ public class AudioManager : MonoBehaviour
         source.clip = mainMenuSong;
     }
 
-    public void SetGameMusic()
+    public void PlayWinLoseSound(bool isGameOver)
     {
         source.Stop();
-        source.clip = gameSong;
+        source.loop = false;
+
+        if (isGameOver)
+            source.clip = loseSound;
+        else
+            source.clip = winSound;
+
         source.Play();
     }
 
-    public void SetMainMenuSong()
+    public void SetMenuGameMusic(bool isMainMenu)
     {
         source.Stop();
-        source.clip = mainMenuSong;
+        source.loop = true;
+
+        if (isMainMenu)
+            source.clip = mainMenuSong;
+        else
+            source.clip = gameSong;
+
         source.Play();
     }
 }
