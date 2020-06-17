@@ -601,6 +601,8 @@ MonoBehaviour:
   - {fileID: 2154049711644666471}
   - {fileID: 2885265190001654669}
   - {fileID: 755597269069015299}
+  hitSound: {fileID: 8300000, guid: ac3387bb90c1dd549953562480e95ec6, type: 3}
+  powerUpSound: {fileID: 8300000, guid: b55202a6cff9b174abe235480b441275, type: 3}
   life: 3
   speed: 4
   bombCd: 3
