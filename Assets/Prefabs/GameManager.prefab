@@ -160,3 +160,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainMenuSong: {fileID: 8300000, guid: 4c57e1b99c089f8429d1d932858fd27c, type: 3}
   gameSong: {fileID: 8300000, guid: 0da9f2d560c5e0643bbd8991e47e1dd0, type: 3}
+  winSound: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+  loseSound: {fileID: 8300000, guid: af27795f4a6f94a4491e43f35667947d, type: 3}

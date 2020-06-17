@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
     public List<Renderer> rendererList = new List<Renderer>();      // Objetos que se pintaran de rojo al recibir daño
+    public AudioClip hitSound;
+    public AudioClip powerUpSound;
     [Header("Player Settings")]
     public int life = 3;
     [Range(min:4, max: 6)]
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public Animator animator;
 
+    private AudioSource source;
     private bool canBeDamaged = true;
     private Color normalColor;
 
@@ -46,6 +49,8 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
 
         normalColor = rendererList[1].material.color;
+
+        source = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(int damage)
@@ -72,6 +77,9 @@ public class Player : MonoBehaviour
 
         foreach (Renderer item in rendererList)
             item.material.color = Color.red;
+
+        source.clip = hitSound;
+        source.Play();
 
         yield return new WaitForSeconds(0.3f);
 
@@ -100,6 +108,9 @@ public class Player : MonoBehaviour
 
     public void ApplyRangePowerUp(int extraRange)
     {
+        source.clip = powerUpSound;
+        source.Play();
+
         bombRange += extraRange;
         if (bombRange > 5)
             bombRange = 5;
@@ -107,6 +118,9 @@ public class Player : MonoBehaviour
 
     public void ApplySpeedPowerUp(float extraSpeed)
     {
+        source.clip = powerUpSound;
+        source.Play();
+
         speed *= extraSpeed;
         if (speed > 6)
             speed = 6;
@@ -114,6 +128,9 @@ public class Player : MonoBehaviour
 
     public void ApplyLifePowerUp(int lifeSum)
     {
+        source.clip = powerUpSound;
+        source.Play();
+
         life += lifeSum;
 
         if (playerNum == PlayerNum.Player1)
