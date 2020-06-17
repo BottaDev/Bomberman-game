@@ -8,6 +8,7 @@ public class MapController : MonoBehaviour
     //public GameObject bombPlusGO;     Revisar mecanica de bombas limitadas para el final
     public GameObject moreRangeGO;
     public GameObject moreSpeedGO;
+    public GameObject invulnerability;
 
     private Tilemap blocksTilemap;
     private Tilemap groundTilemap;
@@ -64,11 +65,11 @@ public class MapController : MonoBehaviour
         {
             case 15:
             case 16:
-            case 17:
-            case 18:
                 //Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
                 //break;
 
+            case 17:
+            case 18:
             case 19:
             case 20:
                 PowerUpType(cellPosition);
@@ -78,16 +79,20 @@ public class MapController : MonoBehaviour
 
     private void PowerUpType(Vector3 cellPosition)
     {
-        int randomProbabilityPowerUp = Random.Range(1, 3);
+        int randomProbabilityPowerUp = Random.Range(1, 2);
 
         switch (randomProbabilityPowerUp)
         {
-            case 1:
+            /*case 1:
                 Instantiate(moreRangeGO, cellPosition, Quaternion.identity);
                 break;
 
             case 2:
                 Instantiate(moreSpeedGO, cellPosition, Quaternion.identity);
+                break;*/
+
+            case 1:
+                Instantiate(invulnerability, cellPosition, Quaternion.identity);
                 break;
         }
     }

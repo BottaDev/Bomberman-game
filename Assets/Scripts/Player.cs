@@ -112,6 +112,24 @@ public class Player : MonoBehaviour
             speed = 6;
     }
 
+    public IEnumerator ApplyInvulnerabilityPU(float timeInv)
+    {
+        canBeDamaged = false;
+
+        normalColor.a = 0.5f;
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
+
+        yield return new WaitForSeconds(8f);
+
+        normalColor.a = 1f;
+
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
+
+        canBeDamaged = true;
+    }
+
     private void KillPlayer()
     {
         animator.SetTrigger("Dead");
