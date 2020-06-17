@@ -1391,6 +1391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6835268407596578863, guid: a7031d42f8dbdc94098d9a10aa2843b5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7031d42f8dbdc94098d9a10aa2843b5, type: 3}
 --- !u!1 &454431455
@@ -3559,7 +3564,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
+  m_fontSize: 64.75
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1

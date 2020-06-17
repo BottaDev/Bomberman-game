@@ -10,6 +10,8 @@ public class SceneChanger : MonoBehaviour
     {
         GameManager.instance.SetPlayers(numberOfPlayers);
 
+        AudioManager.instance.SetMenuGameMusic(false);
+
         SceneManager.LoadScene(1);
     }
 
