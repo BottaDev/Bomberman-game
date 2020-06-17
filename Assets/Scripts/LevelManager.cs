@@ -93,7 +93,9 @@ public class LevelManager : MonoBehaviour
         UIManager.instance.ShowFinalGui(false);
 
         yield return new WaitForSeconds(2);
-        
+
+        AudioManager.instance.SetMainMenuSong();
+
         ChangeLevel(0);
     }
 
@@ -130,6 +132,8 @@ public class LevelManager : MonoBehaviour
         UIManager.instance.ShowFinalGui(true);
 
         yield return new WaitForSeconds(2);
+
+        AudioManager.instance.SetMainMenuSong();
 
         ChangeLevel(level + 1);
     }
