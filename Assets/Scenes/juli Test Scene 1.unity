@@ -346,6 +346,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7454209059493534776, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0015997589
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454209059493534776, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.3012045
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454209059493534776, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.003199622
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454209059493534776, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.30440405
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0, type: 3}
 --- !u!1001 &1005456026
@@ -31025,6 +31045,7 @@ MonoBehaviour:
     type: 3}
   moreSpeedGO: {fileID: 1567099483808209087, guid: 7be5222783db14df2806830d7c3d9ccd,
     type: 3}
+  moreLifeGO: {fileID: 0}
 --- !u!1 &2017540525
 GameObject:
   m_ObjectHideFlags: 0

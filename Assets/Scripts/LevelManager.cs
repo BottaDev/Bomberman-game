@@ -142,7 +142,7 @@ public class LevelManager : MonoBehaviour
 
     private void ChangeLevel(int levelIndex)
     {
-        if (levelIndex > 3)
+        if (levelIndex > 5)
         {
             AudioManager.instance.SetMenuGameMusic(true);
             GameManager.instance.DestroyGameManager();
