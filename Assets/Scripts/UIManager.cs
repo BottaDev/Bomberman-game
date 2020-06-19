@@ -20,7 +20,6 @@ public class UIManager : MonoBehaviour
     public GameObject youLoseScreen;
     public GameObject youWinScreen;
 
-
     private void Awake()
     {
         if (instance == null)
@@ -58,5 +57,14 @@ public class UIManager : MonoBehaviour
             youWinScreen.SetActive(true);
         else
             youLoseScreen.SetActive(true);
+    }
+
+    public void ShowWinGame()
+    {
+        GameObject winGame = youWinScreen.transform.GetChild(1).gameObject;
+        GameObject winLevel = youWinScreen.transform.GetChild(2).gameObject;
+
+        winLevel.SetActive(false);
+        winGame.SetActive(true);
     }
 }

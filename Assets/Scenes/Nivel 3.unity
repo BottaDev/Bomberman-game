@@ -63623,6 +63623,18 @@ PrefabInstance:
       objectReference: {fileID: 1132456634}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 083d09ff1697f474b87f200218118dfb, type: 3}
+--- !u!114 &2518859378906157465 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2518859376975785015, guid: 083d09ff1697f474b87f200218118dfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2518859378906157464}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f78d5ea24a2064dbf1e516acbd0be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7497580258039328518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63630,6 +63642,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 761620248493470040, guid: cc814b04bd572ea46840a32edcae77f2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2518859378906157465}
+    - target: {fileID: 761620248493470040, guid: cc814b04bd572ea46840a32edcae77f2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 761620248493470040, guid: cc814b04bd572ea46840a32edcae77f2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3000830571973703196, guid: cc814b04bd572ea46840a32edcae77f2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2518859378906157465}
+    - target: {fileID: 3000830571973703196, guid: cc814b04bd572ea46840a32edcae77f2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RetryLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3000830571973703196, guid: cc814b04bd572ea46840a32edcae77f2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7497580256674051268, guid: cc814b04bd572ea46840a32edcae77f2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
