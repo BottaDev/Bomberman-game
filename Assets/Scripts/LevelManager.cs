@@ -95,10 +95,6 @@ public class LevelManager : MonoBehaviour
         AudioManager.instance.PlayWinLoseSound(true);
 
         yield return new WaitForSeconds(2);
-
-        AudioManager.instance.SetMenuGameMusic(true);
-
-        ChangeLevel(0);
     }
 
     private void SpawnExit()
@@ -131,24 +127,33 @@ public class LevelManager : MonoBehaviour
 
     public IEnumerator WinLevel()
     {
-        UIManager.instance.ShowFinalGui(true);
-
         AudioManager.instance.PlayWinLoseSound(false);
 
-        yield return new WaitForSeconds(2);
+        UIManager.instance.ShowFinalGui(true);
 
-        ChangeLevel(level + 1);
+        if ((level + 1) > 5)
+            UIManager.instance.ShowWinGame();
+
+        yield return null;
     }
 
-    private void ChangeLevel(int levelIndex)
+    public void ChangeLevel()
     {
-        if (levelIndex > 5)
+        if ((level + 1) > 5)
         {
             AudioManager.instance.SetMenuGameMusic(true);
             GameManager.instance.DestroyGameManager();
-            SceneManager.LoadScene(0);
         }
         else
-            SceneManager.LoadScene(levelIndex);
+        {
+            AudioManager.instance.SetMenuGameMusic(false);
+            SceneManager.LoadScene(level + 1);
+        }
+    }
+
+    public void RetryLevel()
+    {
+        AudioManager.instance.SetMenuGameMusic(false);
+        SceneManager.LoadScene(level);
     }
 }

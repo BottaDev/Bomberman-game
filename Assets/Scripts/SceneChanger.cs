@@ -12,11 +12,21 @@ public class SceneChanger : MonoBehaviour
 
         AudioManager.instance.SetMenuGameMusic(false);
 
-        SceneManager.LoadScene(1);
+        ChangeScene(1);
     }
 
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void ChangeScene(int index)
+    {
+        SceneManager.LoadScene(index);
+    }
+
+    public void SetMenuAudio()
+    {
+        AudioManager.instance.SetMenuGameMusic(true);
     }
 }
