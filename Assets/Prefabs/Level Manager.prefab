@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2518859376975785000}
   - component: {fileID: 2518859376975785015}
   - component: {fileID: 204696364185213529}
+  - component: {fileID: 1295362062031698102}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -63,8 +64,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4474ade3dfe30c249a3e8f4807d0925f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1Area: {fileID: 0}
   hp: {fileID: 0}
-  bombs: {fileID: 0}
   player2Area: {fileID: 0}
   hp2: {fileID: 0}
-  bombs2: {fileID: 0}
+  youLoseScreen: {fileID: 0}
+  youWinScreen: {fileID: 0}
+--- !u!114 &1295362062031698102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2518859376975785014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25aa789a751f144e9fac61e7920334f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
