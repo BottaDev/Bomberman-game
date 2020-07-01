@@ -12,5 +12,17 @@ public class LevelExit : MonoBehaviour
             levelManager.StartCoroutine("WinLevel");
         else
             Debug.Log("Error. No se encontró un Level Manager");
+
+        StopPlayerMovement();
+    }
+
+    private void StopPlayerMovement()
+    {
+        GameObject[] inputs = GameObject.FindGameObjectsWithTag("Player");
+
+        foreach (GameObject item in inputs)
+        {
+            item.GetComponent<PlayerInput>().enabled = false;
+        }
     }
 }
