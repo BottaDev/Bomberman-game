@@ -207,6 +207,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 708065022}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &459236986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7497580258686379184, guid: dedd4589c498f44d49b061f0984b5b03,
+    type: 3}
+  m_PrefabInstance: {fileID: 708065022}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &583817415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 583817415, guid: dedd4589c498f44d49b061f0984b5b03,
@@ -224,18 +236,34 @@ PrefabInstance:
       propertyPath: m_fontSizeMin
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 238427824, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 583817417, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
       propertyPath: m_fontSizeMin
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 583817417, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 865627706, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
       propertyPath: m_fontSizeMin
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 865627706, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 900275521, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
       propertyPath: m_fontSizeMin
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 900275521, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 1965434363, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -252,14 +280,26 @@ PrefabInstance:
       propertyPath: m_firstOverflowCharacterIndex
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 1965434365, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 2110359724, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
       propertyPath: m_fontSizeMin
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2110359724, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 2115767083, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
       propertyPath: m_fontSizeMin
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2115767083, guid: dedd4589c498f44d49b061f0984b5b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
     - target: {fileID: 7292854616865799899, guid: dedd4589c498f44d49b061f0984b5b03,
         type: 3}
       propertyPath: m_IsActive
@@ -404,6 +444,8 @@ GameObject:
   m_Component:
   - component: {fileID: 961087308}
   - component: {fileID: 961087307}
+  - component: {fileID: 961087310}
+  - component: {fileID: 961087309}
   m_Layer: 0
   m_Name: TutorialManager
   m_TagString: Untagged
@@ -431,14 +473,14 @@ MonoBehaviour:
   - {fileID: 2115767081}
   - {fileID: 583817415}
   - {fileID: 900275519}
-  player: {fileID: 0}
   playerGO: {fileID: 11060102}
   enemyGO: {fileID: 1676554590}
   portal: {fileID: 5419215901633013303, guid: 044933acdf6b18348a36e2ae7cefa7b2, type: 3}
   spawnPortal: {fileID: 2098030692}
-  enemyDead: 0
   winScreen: {fileID: 378877258}
   loseScene: {fileID: 1202460155}
+  enemyDead: 0
+  hp: {fileID: 459236986}
 --- !u!4 &961087308
 Transform:
   m_ObjectHideFlags: 0
@@ -453,6 +495,118 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961087309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961087306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb1105da91f3a24db979e745dce239f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuSong: {fileID: 8300000, guid: 4c57e1b99c089f8429d1d932858fd27c, type: 3}
+  gameSong: {fileID: 8300000, guid: 0da9f2d560c5e0643bbd8991e47e1dd0, type: 3}
+  winSound: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+  loseSound: {fileID: 8300000, guid: af27795f4a6f94a4491e43f35667947d, type: 3}
+--- !u!82 &961087310
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961087306}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1202460155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9080781401236221388, guid: dedd4589c498f44d49b061f0984b5b03,

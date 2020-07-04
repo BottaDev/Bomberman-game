@@ -12,7 +12,7 @@ public class SceneChanger : MonoBehaviour
 
         AudioManager.instance.SetMenuGameMusic(false);
 
-        ChangeScene(1);
+        ChangeScene(2);
     }
 
     public void ExitGame()
