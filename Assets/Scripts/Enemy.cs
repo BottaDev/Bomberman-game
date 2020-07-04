@@ -315,6 +315,11 @@ public class Enemy : MonoBehaviour
             LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
             levelManager.AddEnemyDeath();
          }
+        else
+        {
+            TutorialManager tutorial = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
+            tutorial.SpawnPortal();
+        }
 
         Destroy(gameObject);
     }

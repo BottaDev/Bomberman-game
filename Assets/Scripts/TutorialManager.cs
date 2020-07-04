@@ -15,7 +15,7 @@ public class TutorialManager : MonoBehaviour
     public GameObject portal;
     public Transform spawnPortal;
     public int enemyDead;
-    public GameObject WinScreen;
+    public GameObject winScreen;
     public GameObject loseScene;
 
     private void Start()
@@ -104,15 +104,15 @@ public class TutorialManager : MonoBehaviour
 
     public void SpawnPortal()
     {
+        enemyDead++;
+
         Instantiate(portal, spawnPortal);
     }
 
     public IEnumerator WinTutorial()
     {
-        GameObject winTutorial = WinScreen.transform.GetChild(1).gameObject;
+        winScreen.SetActive(true);
 
-        winTutorial.SetActive(true);
-        bool sdasafsdfa = winTutorial.activeSelf;
         yield return null;
     }
 }
