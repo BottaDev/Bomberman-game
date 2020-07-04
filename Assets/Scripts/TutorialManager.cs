@@ -2,21 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class TutorialManager : MonoBehaviour
 {
     public GameObject[] popUps;
-    private int popUpIndex;
-    PlayerInput move;
-    DroppableBombController bomb;
-    public Player player;
+    
     public GameObject playerGO;
     public GameObject enemyGO;
     public GameObject portal;
     public Transform spawnPortal;
-    public int enemyDead;
     public GameObject winScreen;
     public GameObject loseScene;
+    [HideInInspector]
+    public bool enemyDead;
+    public TextMeshProUGUI hp;
+
+    private Player player;
+    private int popUpIndex;
+    private PlayerInput move;
+    private DroppableBombController bomb;
 
     private void Start()
     {
@@ -24,25 +29,25 @@ public class TutorialManager : MonoBehaviour
         bomb = playerGO.GetComponent<DroppableBombController>();
         bomb.enabled = false;
         player = playerGO.GetComponent<Player>();
+
+        if (player == null)
+            Debug.Log("No se encontro al player");
     }
 
     private void Update()
     {
         if (player != null)
         {
+            // Activa / desactiva popups
             for (int i = 0; i < popUps.Length; i++)
             {
                 if (i == popUpIndex)
-                {
                     popUps[i].SetActive(true);
-                }
                 else
-                {
                     popUps[i].SetActive(false);
-                }
             }
 
-            if (popUpIndex == 0)
+            if (popUpIndex == 0)    // Mueve arriba
             {
                 if (Input.GetAxis(move.inputAxisY) > 0)
                 {
@@ -50,7 +55,7 @@ public class TutorialManager : MonoBehaviour
                     popUpIndex++;
                 }
             }
-            else if (popUpIndex == 1)
+            else if (popUpIndex == 1)   // Mueve abajo
             {
                 if (Input.GetAxis(move.inputAxisY) < 0)
                 {
@@ -58,7 +63,7 @@ public class TutorialManager : MonoBehaviour
                     popUpIndex++;
                 }
             }
-            else if (popUpIndex == 2)
+            else if (popUpIndex == 2)   // Mueve derecha
             {
                 if (Input.GetAxis(move.inputAxisX) > 0)
                 {
@@ -66,7 +71,7 @@ public class TutorialManager : MonoBehaviour
                     popUpIndex++;
                 }
             }
-            else if (popUpIndex == 3)
+            else if (popUpIndex == 3)   // Mueve  izquierda
             {
                 if (Input.GetAxis(move.inputAxisX) < 0)
                 {
@@ -74,7 +79,7 @@ public class TutorialManager : MonoBehaviour
                     popUpIndex++;
                 }
             }
-            else if (popUpIndex == 4)
+            else if (popUpIndex == 4)   // Coloca bomba
             {
                 if (Input.GetAxis(bomb.inputBomb) > 0)
                 {
@@ -82,29 +87,22 @@ public class TutorialManager : MonoBehaviour
                     popUpIndex++;
                 }
             }
-            else if (popUpIndex == 5)
+            else if (popUpIndex == 5)   // Escapa por portal
             {
-                if (enemyDead >= 1)
-                {
+                if (enemyDead)
                     popUpIndex++;
-                }
-            }
-            else if (popUpIndex == 6)
-            {
-
             }
         }
-        else
-        {
-            print("No se encontro al player");
-            return;
-        }
+    }
 
+    public void SetUiHp(int hp)
+    {
+        this.hp.text = hp.ToString();
     }
 
     public void SpawnPortal()
     {
-        enemyDead++;
+        enemyDead = true;
 
         Instantiate(portal, spawnPortal);
     }

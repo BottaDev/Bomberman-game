@@ -13,12 +13,6 @@ public class Player : MonoBehaviour
     public int life = 3;
     [Range(min:4, max: 6)]
     public float speed = 4;
-    // public int bombStack = 3;       Revisar mecanica de bombas limitadas para el final
-
-    //[Header("Attack Settings")]       Revisar mecanica de ataque mele para el final
-    //public float damage = 0.5f;
-    //public float attackCd;
-    //public float attackRange = 0.2f;
 
     [Header("Bomb Settings")]
     [Range(min: 0.5f, max: 3f)]
@@ -30,28 +24,26 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public Animator animator;
 
+    private TutorialManager tutorialManager;
     private AudioSource source;
     private bool canBeDamaged = true;
     private Color normalColor;
 
     private void Start()
     {
+        // Si la escena no es tutorial...
         if (SceneManager.GetActiveScene().buildIndex != 1)
         {
             if (playerNum == PlayerNum.Player1)
-            {
-                //UIManager.instance.SetPlayer1Bombs(bombStack);
                 UIManager.instance.SetPlayer1HP(life);
-            }
             else
-            {
-                //UIManager.instance.SetPlayer2Bombs(bombStack);
                 UIManager.instance.SetPlayer2HP(life);
-            }
         }
         else
         {
+            tutorialManager = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
             life = 20;
+            tutorialManager.SetUiHp(life);
         }
 
         animator = GetComponent<Animator>();
@@ -67,12 +59,17 @@ public class Player : MonoBehaviour
         {
             life -= damage;
 
+            // Si la escena no es tutorial...
             if (SceneManager.GetActiveScene().buildIndex != 1)
             {
-                            if(playerNum == PlayerNum.Player1)
-                UIManager.instance.SetPlayer1HP(life);
+                if(playerNum == PlayerNum.Player1)
+                    UIManager.instance.SetPlayer1HP(life);
+                else
+                    UIManager.instance.SetPlayer2HP(life);
+            }
             else
-                UIManager.instance.SetPlayer2HP(life);
+            {
+                tutorialManager.SetUiHp(life);
             }
 
             if (life <= 0)
@@ -106,16 +103,6 @@ public class Player : MonoBehaviour
         foreach (Renderer item in rendererList)
             item.material.color = normalColor;
     }
-
-    //public void ApplyBombPowerUp(int extraBomb)
-    //{
-    //    bombStack += extraBomb;
-
-    //    if (playerNum == PlayerNum.Player1)
-    //        UIManager.instance.SetPlayer1Bombs(bombStack);
-    //    else
-    //        UIManager.instance.SetPlayer2Bombs(bombStack);
-    //}
 
     public void ApplyRangePowerUp(int extraRange)
     {

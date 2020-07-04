@@ -9,9 +9,6 @@ public class PlayerInput : MonoBehaviour
     public string inputAxisX;
     public string inputAxisY;
 
-    Player player;
-    Rigidbody2D rb;
-
     [HideInInspector]
     public bool moveUp;
     [HideInInspector]
@@ -23,17 +20,9 @@ public class PlayerInput : MonoBehaviour
 
     private float auxAxisX;
     private float auxAxisY;
-
-    [Header("Ataque Mele")]
-    public Tile destructibleTile;
-    public string inputMele;
-    public Transform attackPosition;
-    public LayerMask allLayers;
-    public Transform direction;
-
-    private float auxInputMele;
+    private Player player;
+    private Rigidbody2D rb;
     private MapController mapController;
-    private float auxAttackCd = 0;
 
     private void Start()
     {
@@ -48,27 +37,6 @@ public class PlayerInput : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        auxInputMele = Input.GetAxis(inputMele);
-
-        auxAttackCd -= Time.deltaTime;
-        if (auxAttackCd < 0)
-            auxAttackCd = 0;
-
-        //if (auxInputMele == 1 && auxAttackCd <= 0)
-        //    Attack();
-        
-        if (moveUp == true)
-            direction.localPosition = new Vector3(0, 0.1f, 0);
-        if (moveDown == true)
-            direction.localPosition = new Vector3(0, -0.1f, 0);
-        if (moveRight == true)
-            direction.localPosition = new Vector3(0.1f, 0, 0);
-        if (moveLeft == true)
-            direction.localPosition = new Vector3(0.1f, 0, 0);
-    }
-
     private void FixedUpdate()
     {
         auxAxisX = Input.GetAxis(inputAxisX);
@@ -79,15 +47,6 @@ public class PlayerInput : MonoBehaviour
 
     void ProcessInput()
     {
-        auxInputMele = Input.GetAxis(inputMele);
-
-        auxAttackCd -= Time.deltaTime;
-        if (auxAttackCd < 0)
-            auxAttackCd = 0;
-
-        //if (auxInputMele == 1 && auxAttackCd <= 0)
-        //    Attack();
-
         if (auxAxisY > 0)
         {
             rb.MovePosition(transform.position + new Vector3(0, 1, 0) * player.speed * Time.deltaTime);
@@ -146,53 +105,4 @@ public class PlayerInput : MonoBehaviour
             player.animator.SetFloat("MoveL", 0);
         }
     }
-
-    //private void ExcuteAttackAnimation()
-    //{
-    //    if (moveUp == true)
-    //        player.animator.SetTrigger("PunchU");
-    //    else if (moveDown == true)
-    //        player.animator.SetTrigger("PunchD");
-    //    else if (moveRight == true)
-    //        player.animator.SetTrigger("PunchR");
-    //    else if (moveLeft == true)
-    //        player.animator.SetTrigger("PunchL");
-    //}
-
-    // Revisar mecanica de ataque mele para el final
-
-    //void Attack()
-    //{
-
-    //    Collider2D hitSomething = Physics2D.OverlapCircle(attackPosition.position, player.attackRange, allLayers);
-
-    //    // Enemy
-    //    if (hitSomething != null && hitSomething.gameObject.layer == 11)
-    //    {
-    //        Enemy enemy = hitSomething.gameObject.GetComponent<Enemy>();
-    //        enemy.TakeDamage(player.damage);
-    //    }
-    //    // Wall
-    //    else if (hitSomething != null && hitSomething.gameObject.layer == 8)
-    //    {
-    //        Vector3Int cell = mapController.GetCell(attackPosition.position);
-    //        Tile tile = mapController.GetTile(cell);
-
-    //        if (tile == destructibleTile)
-    //        {
-    //            mapController.DestroyCell(cell);
-    //            mapController.DropPowerUp(cell);
-    //        }
-    //    }
-    //    ExcuteAttackAnimation();
-    //    auxAttackCd = player.attackCd;
-    //}
-
-    //private void OnDrawGizmosSelected()
-    //{
-    //    if (attackPosition == null)
-    //        return;
-
-    //    Gizmos.DrawWireSphere(attackPosition.position, player.attackRange);
-    //}
 }
