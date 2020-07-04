@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -35,15 +36,22 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        if (playerNum == PlayerNum.Player1)
+        if (SceneManager.GetActiveScene().buildIndex != 1)
         {
-            //UIManager.instance.SetPlayer1Bombs(bombStack);
-            UIManager.instance.SetPlayer1HP(life);
+            if (playerNum == PlayerNum.Player1)
+            {
+                //UIManager.instance.SetPlayer1Bombs(bombStack);
+                UIManager.instance.SetPlayer1HP(life);
+            }
+            else
+            {
+                //UIManager.instance.SetPlayer2Bombs(bombStack);
+                UIManager.instance.SetPlayer2HP(life);
+            }
         }
         else
         {
-            //UIManager.instance.SetPlayer2Bombs(bombStack);
-            UIManager.instance.SetPlayer2HP(life);
+            life = 20;
         }
 
         animator = GetComponent<Animator>();
@@ -59,10 +67,13 @@ public class Player : MonoBehaviour
         {
             life -= damage;
 
-            if(playerNum == PlayerNum.Player1)
+            if (SceneManager.GetActiveScene().buildIndex != 1)
+            {
+                            if(playerNum == PlayerNum.Player1)
                 UIManager.instance.SetPlayer1HP(life);
             else
                 UIManager.instance.SetPlayer2HP(life);
+            }
 
             if (life <= 0)
                 KillPlayer();
