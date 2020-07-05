@@ -2,16 +2,33 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MenuController : MonoBehaviour
 {
     public GameObject playMenu;
     public GameObject creditsMenu;
     public TextMeshProUGUI difficultyText;
+    public GameObject intro;
 
     private void Start()
     {
         SetDifficultyText(GameObject.Find("GameManager").GetComponent<GameManager>().GetDifficulty());
+
+        if (!GameManager.instance.firstLog)
+        {
+            GameManager.instance.firstLog = true;
+            intro.gameObject.SetActive(true);
+
+            StartCoroutine(FadeOutIntro());
+        }
+    }
+
+    private IEnumerator FadeOutIntro()
+    {
+        yield return new WaitForSeconds(2f);
+
+        intro.gameObject.SetActive(false);
     }
 
     public void SetDifficultyText(int diff)

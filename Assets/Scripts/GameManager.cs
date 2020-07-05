@@ -13,13 +13,15 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector]
     public bool[] playerIsDead = new bool[2];
+    [HideInInspector]
+    public bool firstLog = false;                       // Si sucedio el fadeout del logo
     public int numberOfPlayers = 0;
 
     private void Awake()
     {
         if (instance == null)
         {
-            instance = this;
+            instance = this;            
             DontDestroyOnLoad(this);
         }
         else if (instance != this)
