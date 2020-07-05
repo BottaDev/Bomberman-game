@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public class MapDestroyer : MonoBehaviour
 {
@@ -56,7 +57,10 @@ public class MapDestroyer : MonoBehaviour
 			{
 				mapController.DestroyCell(cell);
 				this.canExplode[direction] = false;
-				mapController.DropPowerUp(cell);
+                if (SceneManager.GetActiveScene().buildIndex != 1)
+                {
+					mapController.DropPowerUp(cell);
+				}
 			}
 
 			Vector3 position = mapController.GetCellToWorld(cell);

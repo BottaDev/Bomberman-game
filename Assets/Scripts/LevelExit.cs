@@ -1,17 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelExit : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
+        if(SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
 
-        if (levelManager != null)
-            levelManager.StartCoroutine("WinLevel");
+            if (levelManager != null)
+                levelManager.StartCoroutine("WinLevel");
+            else
+                Debug.Log("Error. No se encontró un Level Manager");
+        }
         else
-            Debug.Log("Error. No se encontró un Level Manager");
+        {
+            TutorialManager tutorial = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
+
+            if (tutorial != null)
+                tutorial.StartCoroutine("WinTutorial");
+            else
+                Debug.Log("Error. No se encontró un Tutorial Manager"); 
+        }
 
         StopPlayerMovement();
     }

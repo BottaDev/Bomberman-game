@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Enemy : MonoBehaviour
@@ -309,8 +310,16 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
-        LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
-        levelManager.AddEnemyDeath();
+        if (SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            LevelManager levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
+            levelManager.AddEnemyDeath();
+         }
+        else
+        {
+            TutorialManager tutorial = GameObject.Find("TutorialManager").GetComponent<TutorialManager>();
+            tutorial.SpawnPortal();
+        }
 
         Destroy(gameObject);
     }
