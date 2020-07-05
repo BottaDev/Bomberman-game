@@ -15,11 +15,11 @@ public class LevelManager : MonoBehaviour
     private int enemyDeathCount = 0;
     private int playerDeathCount = 0;
     private int numberOfPlayers;
-    private int level;
+    private int currentLevelIndex;
 
     private void Start()
     {
-        level = SceneManager.GetActiveScene().buildIndex;
+        currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
 
         totalEnemies = FindObjectsOfType<Enemy>().Length;
 
@@ -124,22 +124,72 @@ public class LevelManager : MonoBehaviour
         } while (canSpawn == false);
     }
 
+    // Llamado por el portal
     public IEnumerator WinLevel()
     {
         AudioManager.instance.PlayWinLoseSound(false);
 
         UIManager.instance.ShowFinalGui(true);
 
-        // REVISAR POR DIFICULTAD
-        if ((level + 1) > 5)
+        // Si es el nivel 5...
+        if (currentLevelIndex == 14 || currentLevelIndex == 15 || currentLevelIndex == 16)
             UIManager.instance.ShowWinGame();
 
         yield return null;
     }
 
-    public void ChangeLevel()
+    // Llamado por los botonos de siguiente nivel y por los shortcuts
+    public void ChangeLevel(int level)
     {
-        if ((level + 1) > 5)
+        AudioManager.instance.SetMenuGameMusic(false);
+
+        if (level == 1)
+        {
+            if (GameManager.instance.GetDifficulty() == 1)          // Easy
+                SceneManager.LoadScene(2);
+            else if (GameManager.instance.GetDifficulty() == 2)     // Medium
+                SceneManager.LoadScene(3);
+            else if (GameManager.instance.GetDifficulty() == 3)     // Hard
+                SceneManager.LoadScene(4);
+        }
+        else if (level == 2)
+        {
+            if (GameManager.instance.GetDifficulty() == 1)          // Easy
+                SceneManager.LoadScene(5);
+            else if (GameManager.instance.GetDifficulty() == 2)     // Medium
+                SceneManager.LoadScene(6);
+            else if (GameManager.instance.GetDifficulty() == 3)     // Hard
+                SceneManager.LoadScene(7);
+        }
+        else if (level == 3)
+        {
+            if (GameManager.instance.GetDifficulty() == 1)          // Easy
+                SceneManager.LoadScene(8);
+            else if (GameManager.instance.GetDifficulty() == 2)     // Medium
+                SceneManager.LoadScene(9);
+            else if (GameManager.instance.GetDifficulty() == 3)     // Hard
+                SceneManager.LoadScene(10);
+        }
+        else if (level == 4)
+        {
+            if (GameManager.instance.GetDifficulty() == 1)          // Easy
+                SceneManager.LoadScene(11);
+            else if (GameManager.instance.GetDifficulty() == 2)     // Medium
+                SceneManager.LoadScene(12);
+            else if (GameManager.instance.GetDifficulty() == 3)     // Hard
+                SceneManager.LoadScene(13);
+        }
+        else if (level == 5)
+        {
+            if (GameManager.instance.GetDifficulty() == 1)          // Easy
+                SceneManager.LoadScene(14);
+            else if (GameManager.instance.GetDifficulty() == 2)     // Medium
+                SceneManager.LoadScene(15);
+            else if (GameManager.instance.GetDifficulty() == 3)     // Hard
+                SceneManager.LoadScene(16);
+        }
+
+        /*if ((level + 1) > 5)
         {
             AudioManager.instance.SetMenuGameMusic(true);
             GameManager.instance.DestroyGameManager();
@@ -148,12 +198,12 @@ public class LevelManager : MonoBehaviour
         {
             AudioManager.instance.SetMenuGameMusic(false);
             SceneManager.LoadScene(level + 1);
-        }
+        }*/
     }
 
     public void RetryLevel()
     {
         AudioManager.instance.SetMenuGameMusic(false);
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene(currentLevelIndex);
     }
 }
