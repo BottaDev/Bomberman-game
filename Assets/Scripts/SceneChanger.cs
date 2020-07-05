@@ -30,6 +30,13 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(index);
     }
 
+    public void StartTutorial()
+    {
+        AudioManager.instance.SetMenuGameMusic(false);
+
+        SceneManager.LoadScene(1);
+    }
+
     public void SetMenuAudio()
     {
         AudioManager.instance.SetMenuGameMusic(true);
