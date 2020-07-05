@@ -12,7 +12,12 @@ public class SceneChanger : MonoBehaviour
 
         AudioManager.instance.SetMenuGameMusic(false);
 
-        ChangeScene(2);
+        if (GameManager.instance.GetDifficulty() == 1)      // Easy
+            ChangeScene(2);
+        else if (GameManager.instance.GetDifficulty() == 2)     // Medium
+            ChangeScene(3);
+        else if (GameManager.instance.GetDifficulty() == 3)     // Hard
+            ChangeScene(4);
     }
 
     public void ExitGame()

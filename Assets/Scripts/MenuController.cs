@@ -24,6 +24,11 @@ public class MenuController : MonoBehaviour
             difficultyText.text = GameManager.Difficulty.Hard.ToString();
     }
 
+    public void SetDifficulty(int diff)
+    {
+        GameManager.instance.SetDifficulty(diff);
+    }
+
     public void SetPlayMenu()
     {
         creditsMenu.SetActive(false);
