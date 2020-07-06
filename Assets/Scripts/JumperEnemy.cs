@@ -8,6 +8,7 @@ public class JumperEnemy : Enemy
     [Header("Jump Settings")]
     public float jumpSpeed = 1;
     public float jumpCd = 5;
+    public float jumpDelay;     // Tiempo previo antes de saltar
     public Tile groundTile;
 
     [SerializeField]
@@ -33,7 +34,7 @@ public class JumperEnemy : Enemy
             Vector3 cellToJump = GetCellToJump(cell);
 
             if (cellToJump.x != 9999)
-                Jump(cellToJump);
+                StartCoroutine(PrepareToJump(cellToJump));
             else
                 ChangeDirection();
         }
@@ -80,6 +81,19 @@ public class JumperEnemy : Enemy
 
         // No se puede realizar el salto
         return new Vector3(9999, 0, 0);    
+    }
+
+    private IEnumerator PrepareToJump(Vector3 cellToJump)
+    {
+        foreach (Renderer item in rendererList)
+            item.material.color = new Color(255, 134, 0);   // Amarillo
+
+        yield return new WaitForSeconds(jumpDelay);
+
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
+
+        Jump(cellToJump);
     }
 
     private void Jump(Vector3 cellToJump)

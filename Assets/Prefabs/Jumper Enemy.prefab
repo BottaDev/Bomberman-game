@@ -544,6 +544,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   jumpSpeed: 1
   jumpCd: 5
+  jumpDelay: 1
   groundTile: {fileID: 11400000, guid: ef0affb5eac89470ab97265f2cd82f06, type: 2}
   currentJumpCd: 0
 --- !u!50 &3014669288464146211
