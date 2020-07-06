@@ -50,8 +50,17 @@ public class BombEnemy : Enemy
         currentTimeToExplode = timeToExplode;
         animator.SetFloat("Attack", 0);
 
-        StartCoroutine("SetInvulnerable");
+        StartCoroutine("SetBombInvulnerable");
 
         GetComponent<MapDestroyer>().Explode(transform.position, explosionRange);
+    }
+
+    private IEnumerator SetBombInvulnerable()
+    {
+        canTakeDamage = false;
+
+        yield return new WaitForSeconds(0.7f);
+        
+        canTakeDamage = true;
     }
 }
