@@ -85,9 +85,13 @@ public class JumperEnemy : Enemy
 
     private IEnumerator PrepareToJump(Vector3 cellToJump)
     {
-        // ANIMAR SALTO ACA
+        foreach (Renderer item in rendererList)
+            item.material.color = new Color(255, 134, 0);   // Amarillo
 
         yield return new WaitForSeconds(jumpDelay);
+
+        foreach (Renderer item in rendererList)
+            item.material.color = normalColor;
 
         Jump(cellToJump);
     }

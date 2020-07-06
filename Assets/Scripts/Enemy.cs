@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
     [HideInInspector]
     public Animator animator;
 
-    private Color normalColor;
+    protected Color normalColor;
     
 
     private void Start()
