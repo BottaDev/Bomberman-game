@@ -571,12 +571,14 @@ MonoBehaviour:
   - {fileID: 755597269069015299}
   hitSound: {fileID: 8300000, guid: ac3387bb90c1dd549953562480e95ec6, type: 3}
   powerUpSound: {fileID: 8300000, guid: b55202a6cff9b174abe235480b441275, type: 3}
+  bombAction: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
   life: 3
   speed: 4
   bombCd: 3
   bombTimeToExplode: 1.75
   bombRange: 2
   animator: {fileID: 5547705668671180224}
+  audioSource: {fileID: 0}
 --- !u!114 &6156193743334003318
 MonoBehaviour:
   m_ObjectHideFlags: 0

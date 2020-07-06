@@ -28,23 +28,7 @@ public class DroppableBombController : MonoBehaviour
             currentBombCd = 0;
 
         if (auxInputBomb == 1 && currentBombCd <= 0)
-        {
             DropBomb();
-        }
-
-
-        // Revisar mecanica de bombas limitadas para el final
-
-        //if (auxInputBomb == 1 && currentBombCd <= 0 && player.bombStack > 0)
-        //{
-        //    DropBomb();
-        //    player.bombStack -= 1;
-
-        //    if (player.playerNum == Player.PlayerNum.Player1)
-        //        UIManager.instance.SetPlayer1Bombs(player.bombStack);
-        //    else
-        //        UIManager.instance.SetPlayer2Bombs(player.bombStack);
-        //}
     }
 
     private void DropBomb()
@@ -57,6 +41,9 @@ public class DroppableBombController : MonoBehaviour
         bombController.timeToExplode = player.bombTimeToExplode;
         bombController.explosionRange = player.bombRange;
         bombController.StartCoroutine("Explode", true);
+
+        player.audioSource.clip = player.bombAction;
+        player.audioSource.Play();
 
         currentBombCd = player.bombCd;
     }

@@ -7,8 +7,10 @@ public class Player : MonoBehaviour
 {
     public PlayerNum playerNum;
     public List<Renderer> rendererList = new List<Renderer>();      // Objetos que se pintaran de rojo al recibir daño
+    [Header("Audio")]
     public AudioClip hitSound;
     public AudioClip powerUpSound;
+    public AudioClip bombAction;
     [Header("Player Settings")]
     public int life = 3;
     [Range(min:4, max: 6)]
@@ -23,9 +25,10 @@ public class Player : MonoBehaviour
     public int bombRange = 2;   // Valor expresado en bloques del mapa
     [HideInInspector]
     public Animator animator;
+    [HideInInspector]
+    public AudioSource audioSource;
 
     private TutorialManager tutorialManager;
-    private AudioSource source;
     private bool canBeDamaged = true;
     private Color normalColor;
 
@@ -50,7 +53,7 @@ public class Player : MonoBehaviour
 
         normalColor = rendererList[1].material.color;
 
-        source = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(int damage)
@@ -86,8 +89,8 @@ public class Player : MonoBehaviour
         foreach (Renderer item in rendererList)
             item.material.color = Color.red;
 
-        source.clip = hitSound;
-        source.Play();
+        audioSource.clip = hitSound;
+        audioSource.Play();
 
         yield return new WaitForSeconds(0.3f);
 
@@ -106,8 +109,8 @@ public class Player : MonoBehaviour
 
     public void ApplyRangePowerUp(int extraRange)
     {
-        source.clip = powerUpSound;
-        source.Play();
+        audioSource.clip = powerUpSound;
+        audioSource.Play();
 
         bombRange += extraRange;
         if (bombRange > 5)
@@ -116,8 +119,8 @@ public class Player : MonoBehaviour
 
     public void ApplySpeedPowerUp(float extraSpeed)
     {
-        source.clip = powerUpSound;
-        source.Play();
+        audioSource.clip = powerUpSound;
+        audioSource.Play();
 
         speed *= extraSpeed;
         if (speed > 6)
@@ -126,8 +129,8 @@ public class Player : MonoBehaviour
 
     public void ApplyLifePowerUp(int lifeSum)
     {
-        source.clip = powerUpSound;
-        source.Play();
+        audioSource.clip = powerUpSound;
+        audioSource.Play();
 
         life += lifeSum;
 

@@ -701,12 +701,14 @@ MonoBehaviour:
   - {fileID: 1662558414300422529}
   hitSound: {fileID: 8300000, guid: ac3387bb90c1dd549953562480e95ec6, type: 3}
   powerUpSound: {fileID: 8300000, guid: b55202a6cff9b174abe235480b441275, type: 3}
+  bombAction: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
   life: 3
   speed: 4
   bombCd: 3
   bombTimeToExplode: 1.75
   bombRange: 1
   animator: {fileID: -5193326712999242991}
+  audioSource: {fileID: 0}
 --- !u!114 &6156193743334003318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,13 +741,6 @@ MonoBehaviour:
   moveDown: 0
   moveLeft: 0
   moveRight: 0
-  destructibleTile: {fileID: 11400000, guid: 9881b0dc18cb31147a651fbed21195dc, type: 2}
-  inputMele: MeleP2
-  attackPosition: {fileID: 1765279681243824766}
-  allLayers:
-    serializedVersion: 2
-    m_Bits: 2304
-  direction: {fileID: 2772025898036819098}
 --- !u!50 &3786846090507827629
 Rigidbody2D:
   serializedVersion: 4
