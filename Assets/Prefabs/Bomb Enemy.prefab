@@ -1083,6 +1083,8 @@ MonoBehaviour:
   destructibleTile: {fileID: 11400000, guid: 05c2613c02b5944f4b611227ef417532, type: 2}
   explosionGO: {fileID: 7280877167903766257, guid: 2cdb8e40f9d6a8c4a8f12ebd36af99d0,
     type: 3}
+  blockSound: {fileID: 4314908684527390658, guid: fd46079481f04fa43a7e21d53b88439d,
+    type: 3}
 --- !u!50 &5288953052312764280
 Rigidbody2D:
   serializedVersion: 4

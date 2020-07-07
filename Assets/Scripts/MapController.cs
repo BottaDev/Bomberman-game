@@ -62,10 +62,11 @@ public class MapController : MonoBehaviour
 
         switch (randomProbability)
         {
-            case 15:
-                //Instantiate(bombPlusGO, cellPosition, Quaternion.identity);
-                //break;
-
+            case 40:
+            case 41:
+            case 42:
+            case 43:
+            case 44:
             case 45:
             case 46:
             case 47:
