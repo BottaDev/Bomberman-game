@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a1005d6933cc47e7b542eeeb870d559
+guid: 4785ec98ebb50496e93f35a5b84415da
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -119,18 +119,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n_0"
       rect:
         serializedVersion: 2
-        x: 541
+        x: 537
         y: 2124
         width: 85
         height: 295
-      alignment: 9
-      pivot: {x: 0.7421193, y: 0.039559886}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b87c72e74a904e0d912a4019a066fb9
+      spriteID: 123862beb3f2642acb7aaec4a6a97399
       internalID: -3423376393533156273
       vertices: []
       indices: 
@@ -140,18 +140,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n_1"
       rect:
         serializedVersion: 2
-        x: 982
+        x: 1004
         y: 2039
-        width: 92
+        width: 70
         height: 247
-      alignment: 9
-      pivot: {x: 0.32104027, y: 0.033402786}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d762750f9b1d948e293b6e1eaf6ea79d
+      spriteID: 3c1cc5d4f3d684cbbb5a7d5c8cdba297
       internalID: -5992313942849982279
       vertices: []
       indices: 
@@ -161,18 +161,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n_2"
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1796
-        width: 161
-        height: 229
-      alignment: 9
-      pivot: {x: 0.85791695, y: 0.10457108}
+        x: 79
+        y: 1801
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 761e6aae9168a4a8dadb85ed12d67352
+      spriteID: 4db3ffb01a3ad4eca8eb9906a6324740
       internalID: -103312144244024060
       vertices: []
       indices: 
@@ -193,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dec9141880b14338a519addb6fb45e8
+      spriteID: cae17df16b2ce4dbbb49846c82057e01
       internalID: -3605633549163404977
       vertices: []
       indices: 
@@ -203,18 +203,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n_4"
       rect:
         serializedVersion: 2
-        x: 1337
-        y: 1823
+        x: 1335
+        y: 1825
         width: 236
         height: 177
-      alignment: 9
-      pivot: {x: 0.16862255, y: 0.15118098}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95325e408121543a0b8d433ff7019a0b
+      spriteID: ea5a252dca76a455799722477482d16b
       internalID: 2620076947090906568
       vertices: []
       indices: 
@@ -226,16 +226,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1429
-        width: 319
-        height: 120
-      alignment: 9
-      pivot: {x: 0.8999918, y: 0.4313975}
+        width: 312
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8b85f0ce169d4239a618a0bf0ec8ce3
+      spriteID: 7624fd8415e684d87ac1a5c34146ebf6
       internalID: -3562705119986538921
       vertices: []
       indices: 
@@ -246,17 +246,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1339
-        y: 1479
-        width: 234
-        height: 123
-      alignment: 9
-      pivot: {x: 0.095430814, y: 0.2322879}
+        y: 1486
+        width: 228
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e60097d439fc246ffb4b9410310a2cc0
+      spriteID: 7f6d0a593b76c4d82be1a12dcba5a203
       internalID: -7924080649800716933
       vertices: []
       indices: 
@@ -270,14 +270,14 @@ TextureImporter:
         y: 917
         width: 185
         height: 197
-      alignment: 9
-      pivot: {x: 0.9227285, y: 0.7925102}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe95e14a93204964b07ebf86401cbc0
+      spriteID: 2c44a88f31f7d4111bf85354520ebd6d
       internalID: -88723872604743509
       vertices: []
       indices: 
@@ -291,14 +291,14 @@ TextureImporter:
         y: 1068
         width: 205
         height: 82
-      alignment: 9
-      pivot: {x: 0.038199075, y: 0.9517599}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3dc7c500c67b45dfa3ec7ca428dc8f3
+      spriteID: 30d6e98e22195421bacc5c39cf37b9c0
       internalID: 7063204412139314540
       vertices: []
       indices: 
@@ -312,14 +312,14 @@ TextureImporter:
         y: 0
         width: 710
         height: 878
-      alignment: 9
-      pivot: {x: 0.4594191, y: 0.926606}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b44d1cd7de14643b6bb34f26b3afbc
+      spriteID: 0a952fbff46314a7db0eff01ea778ebe
       internalID: -8777882668896307766
       vertices: []
       indices: 

@@ -9,6 +9,7 @@ public class MapDestroyer : MonoBehaviour
 	public Tile[] indestructibleTile;
 	public Tile destructibleTile;
 	public GameObject explosionGO;
+	public GameObject blockSound;
 
 	private MapController mapController;
 	private bool[] canExplode = { true, true, true, true };   // 0 = Up ; 1 = Right ; 2 = Down ; 3 = Left
@@ -56,6 +57,7 @@ public class MapDestroyer : MonoBehaviour
 			if (tile == destructibleTile)
 			{
 				mapController.DestroyCell(cell);
+				Instantiate(blockSound, mapController.GetCellToWorld(cell), Quaternion.identity);
 				this.canExplode[direction] = false;
                 if (SceneManager.GetActiveScene().buildIndex != 1)
                 {
