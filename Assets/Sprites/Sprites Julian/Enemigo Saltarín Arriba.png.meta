@@ -123,14 +123,14 @@ TextureImporter:
         y: 2105
         width: 87
         height: 295
-      alignment: 9
-      pivot: {x: 0.9224552, y: 0.07086368}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc4cd3f4c77a45ce9169d443243c67b
+      spriteID: 34b44bc57f9dd4e0fa2fe09089b2508f
       internalID: -8703821988965650373
       vertices: []
       indices: 
@@ -140,18 +140,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n Arriba_1"
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 2016
-        width: 78
-        height: 240
-      alignment: 9
-      pivot: {x: 0.44764593, y: -0.027480062}
+        x: 1003
+        y: 2020
+        width: 72
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1efccd23f6ce403e81ca18ad6cae454
+      spriteID: d0f665b8c28504ad9825fc9a5f0d70f9
       internalID: -4591511465633828422
       vertices: []
       indices: 
@@ -161,18 +161,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n Arriba_2"
       rect:
         serializedVersion: 2
-        x: 86
-        y: 1766
-        width: 151
-        height: 241
-      alignment: 9
-      pivot: {x: 0.82453436, y: 0.12721246}
+        x: 82
+        y: 1784
+        width: 155
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 478e501a6052c4b6995f5545f91f3803
+      spriteID: ce000c7fd74694b47b381bae39f9c3f1
       internalID: 6545271300449453945
       vertices: []
       indices: 
@@ -193,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9610a9a2027cc4b0da285e58eb0645a4
+      spriteID: abeae85a5374c447899761c4c1bdcbd4
       internalID: 5752558694453919701
       vertices: []
       indices: 
@@ -207,14 +207,14 @@ TextureImporter:
         y: 1804
         width: 235
         height: 177
-      alignment: 9
-      pivot: {x: 0.10031738, y: 0.084706455}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a65804cc26645d89f2d3fcd91ec34e
+      spriteID: b821930070c68434bbb0a8df2abbed6a
       internalID: 940160318873336889
       vertices: []
       indices: 
@@ -226,16 +226,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1409
-        width: 319
-        height: 120
-      alignment: 9
-      pivot: {x: 0.949466, y: 0.21569052}
+        width: 318
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ea34156d790d41d89a3f3cbb40c2950
+      spriteID: 1802a216238df4ae39baacf0ea87e2ad
       internalID: 2926378307821074293
       vertices: []
       indices: 
@@ -245,18 +245,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n Arriba_6"
       rect:
         serializedVersion: 2
-        x: 1356
-        y: 1467
-        width: 217
-        height: 117
-      alignment: 9
-      pivot: {x: 0.029526953, y: 0.29057845}
+        x: 1334
+        y: 1472
+        width: 239
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bdd6ab68bc9340a09c1a6e3f0d8abb7
+      spriteID: 4626e2696b7024394bd7f041e6f1e3c6
       internalID: -241327649703139664
       vertices: []
       indices: 
@@ -270,14 +270,14 @@ TextureImporter:
         y: 898
         width: 186
         height: 197
-      alignment: 9
-      pivot: {x: 0.961065, y: 0.6865656}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de784470e1a0b4ffc85786f943c5aae1
+      spriteID: aefa93e8407fb472c8eebebd4aa46188
       internalID: -7595413867386687995
       vertices: []
       indices: 
@@ -291,14 +291,14 @@ TextureImporter:
         y: 1049
         width: 206
         height: 81
-      alignment: 9
-      pivot: {x: 0.044051975, y: 0.7520812}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9443cc483a3504ad38a061d2aaf1f438
+      spriteID: e4339ef892bec406781d61e9ad12a65b
       internalID: 2011675347138978057
       vertices: []
       indices: 
@@ -308,18 +308,18 @@ TextureImporter:
       name: "Enemigo Saltari\u0301n Arriba_9"
       rect:
         serializedVersion: 2
-        x: 560
+        x: 621
         y: 0
-        width: 767
+        width: 710
         height: 878
-      alignment: 9
-      pivot: {x: 0.5053245, y: 0.96046454}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97bbeee57fce44cc0a91e392bf50e779
+      spriteID: 8e09d3cf35e8f41f48db28563ea97d19
       internalID: 2230433109160141224
       vertices: []
       indices: 
